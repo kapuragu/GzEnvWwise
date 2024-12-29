@@ -50,13 +50,13 @@
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}">
+				<GameParameter Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}">
 					<Comment>2458116344</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}">
+				<GameParameter Name="wind_volume" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}">
 					<Comment>4244623852</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="25" />
@@ -67,6 +67,56 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1" />
 						<Property Name="Max" Type="Real64" Value="1" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ambient_volume" ID="{4DC75A30-2174-4AD4-A44B-D573E2162670}">
+					<Comment>2364768092</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1" />
+						<Property Name="Max" Type="Real64" Value="1" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="in_out" ID="{A7E70614-2474-4D94-A4E7-116253D395E6}">
+					<Comment>4020189945</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="25" />
+						<Property Name="Max" Type="Real64" Value="25" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="alym6ux" ID="{EFA26780-6B60-4EBE-9195-F6D7F6A1884D}">
+					<Comment>2433248097</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10" />
+						<Property Name="Max" Type="Real64" Value="10" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="a2g_qcx" ID="{38D6E1E2-6EFC-4435-B6E2-7D09BB596BA6}">
+					<Comment>434916426</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5" />
+						<Property Name="Max" Type="Real64" Value="1" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BG_afgh_24hours" ID="{93B85CE1-6CC9-4C20-A8D1-0ECE73670B6C}">
+					<Comment>3032385033</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2" />
+						<Property Name="Max" Type="Real64" Value="4" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="wind_direction" ID="{FE3B82AC-B337-4B4D-8A04-6CF1A270E944}">
+					<Comment>863610701</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0" />
+						<Property Name="Max" Type="Real64" Value="300" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="height" ID="{C9EA1A7D-6BE0-415C-BF16-3B18BD5D8C35}">
+					<Comment>1279776192</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10" />
+						<Property Name="Max" Type="Real64" Value="1000" />
+						<Property Name="Min" Type="Real64" Value="-1000" />
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
