@@ -4,29 +4,34 @@
 		<WorkUnit Name="Default Work Unit" ID="{FCD41D50-238E-4F40-83AB-39B418C39417}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="a2jo9p0" ID="{04D3FDA1-E04A-4F8C-8848-752F0574D093}">
+					<Comment>2019519634</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 						<Property Name="Max" Type="Real64" Value="2" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="a6lm6oo" ID="{52DD9590-960C-4E35-82A4-E55FC11C2A7F}">
+					<Comment>682029587</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1" />
 						<Property Name="Max" Type="Real64" Value="1" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}">
+					<Comment>615015881</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="cx6qf3x" ID="{5027B484-539F-4A4D-841D-8EC7CC911294}">
+					<Comment>2779368390</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1" />
 						<Property Name="Max" Type="Real64" Value="1" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}">
+					<Comment>103624211</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 						<Property Name="Max" Type="Real64" Value="200" />
@@ -34,26 +39,31 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}">
+					<Comment>2091825170</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}">
+					<Comment>1114599152</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}">
+					<Comment>2458116344</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}">
+					<Comment>4244623852</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="25" />
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="m4_0cb" ID="{05129052-B866-4C5F-91B7-C8218E29FE00}">
+					<Comment>3501347796</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1" />
 						<Property Name="Max" Type="Real64" Value="1" />

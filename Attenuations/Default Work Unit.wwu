@@ -88,7 +88,7 @@
 										</Point>
 										<Point>
 											<XPos>5.553</XPos>
-											<YPos>-4.698</YPos>
+											<YPos>-4.697</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -103,7 +103,7 @@
 										</Point>
 										<Point>
 											<XPos>17.413</XPos>
-											<YPos>-9.253</YPos>
+											<YPos>-9.252</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -143,13 +143,13 @@
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>2.9</XPos>
+											<XPos>2.813</XPos>
 											<YPos>-3</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>5.553</XPos>
-											<YPos>-4.698</YPos>
+											<YPos>-4.697</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -457,7 +457,7 @@
 										</Point>
 										<Point>
 											<XPos>75</XPos>
-											<YPos>-4.5</YPos>
+											<YPos>-4</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>
@@ -496,7 +496,7 @@
 										</Point>
 										<Point>
 											<XPos>75</XPos>
-											<YPos>-4.5</YPos>
+											<YPos>-4</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>
@@ -586,18 +586,18 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-1.75</YPos>
+											<YPos>-2</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Constant</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>8</XPos>
-											<YPos>-1.75</YPos>
+											<YPos>-2</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>25</XPos>
-											<YPos>-15</YPos>
+											<YPos>-14</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -970,12 +970,12 @@
 										</Point>
 										<Point>
 											<XPos>19.335</XPos>
-											<YPos>-0.823</YPos>
+											<YPos>-0.822</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>20.4</XPos>
-											<YPos>-6.465</YPos>
+											<YPos>-6.466</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -1497,7 +1497,7 @@
 										</Point>
 										<Point>
 											<XPos>18</XPos>
-											<YPos>-1.75</YPos>
+											<YPos>-2</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>
@@ -1807,7 +1807,7 @@
 										</Point>
 										<Point>
 											<XPos>50</XPos>
-											<YPos>-1.75</YPos>
+											<YPos>-2</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2063,7 +2063,7 @@
 										</Point>
 										<Point>
 											<XPos>3.851</XPos>
-											<YPos>-4.698</YPos>
+											<YPos>-4.697</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2078,12 +2078,12 @@
 										</Point>
 										<Point>
 											<XPos>7.804</XPos>
-											<YPos>-9.253</YPos>
+											<YPos>-9.252</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>9.548</XPos>
-											<YPos>-12.219</YPos>
+											<YPos>-12.22</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2131,12 +2131,12 @@
 										</Point>
 										<Point>
 											<XPos>3.851</XPos>
-											<YPos>-4.698</YPos>
+											<YPos>-4.697</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>4.776</XPos>
-											<YPos>-5.799</YPos>
+											<YPos>-5.8</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2146,12 +2146,12 @@
 										</Point>
 										<Point>
 											<XPos>7.804</XPos>
-											<YPos>-9.253</YPos>
+											<YPos>-9.252</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>9.548</XPos>
-											<YPos>-12.219</YPos>
+											<YPos>-12.22</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2327,7 +2327,7 @@
 										</Point>
 										<Point>
 											<XPos>6.018</XPos>
-											<YPos>-3.32</YPos>
+											<YPos>-3.319</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -2439,6 +2439,120 @@
 										</Point>
 										<Point>
 											<XPos>12</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</SpreadUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="_215738996" ID="{A52DDF53-91E3-4684-BDBB-5B941AEEEF57}" ShortID="238932122">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="30" />
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{2DC9E331-3F40-4642-AB77-33AE7A31EF46}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Constant</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>5</XPos>
+											<YPos>-0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>10</XPos>
+											<YPos>-3</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>24.732</XPos>
+											<YPos>-7.003</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>30</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None" />
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None" />
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{8BA07561-01E8-481C-A92A-C8BC19A12193}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Constant</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>4.955</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>14.911</XPos>
+											<YPos>54</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>30</XPos>
+											<YPos>60</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{25CF6D0D-6439-46F0-A9F0-6B5A95477553}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1" />
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>50</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>3.509</XPos>
+											<YPos>11.01</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>10</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Constant</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>30</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

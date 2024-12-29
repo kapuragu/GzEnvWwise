@@ -1585,6 +1585,9 @@ Embedded SFX, id: 580386427.wem</Comment>
 							</ReferenceList>
 							<ChildrenList>
 								<Folder Name="flag" ID="{053C400F-578B-4211-B031-AC40A2FBFE62}" ShortID="833979867">
+									<ExcludedPlatformList>
+										<Platform>Windows</Platform>
+									</ExcludedPlatformList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="_5083505" ID="{13F6162D-C128-4092-9D8E-7ACF5D76C812}" ShortID="872969224">
 											<PropertyList>
@@ -8817,6 +8820,1917 @@ Embedded SFX, id: 388201622.wem</Comment>
 												</BlendContainer>
 											</ChildrenList>
 										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="tent" ID="{6993B854-8434-44AC-A5F8-F38296DF1C14}" ShortID="44797708">
+									<ChildrenList>
+										<Folder Name="tent1" ID="{7E394E6B-A0D0-4F24-9F0C-899A79D9955C}" ShortID="267782616">
+											<ChildrenList>
+												<RandomSequenceContainer Name="_16051781" ID="{48ED3737-4400-4E23-AA12-96D16ED92360}" ShortID="798240593">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-200</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8F923C33-69CC-43F5-A960-D1D5C179DD75}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-900" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C5A1B14C-E149-4D11-A6DC-CF4F95910AB1}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Max" Type="Real64" Value="0.15" />
+																			<Property Name="Min" Type="Real64" Value="-0.15" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+														<Property Name="PriorityDistanceOffset" Type="int16">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{29047C79-D6C5-47BA-B2F0-BEBAB925EEED}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-6" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{4014572E-2D5C-4FBA-A54A-B01F5679F426}" ShortID="49510804">
+																	<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+																	<Curve Name="" ID="{B3691128-D8B8-41F1-AC60-398356E1A3A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>-5</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>200</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{5AA882BA-7CF7-4DCF-ACB1-D0137D573424}" ShortID="208585168">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{6012D7D8-2CA6-4D1A-94DC-2C37F2FEFCF0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1.899</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2.1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.5</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{ACE352FA-0CF7-48C5-BEA7-FF69F841C0E9}" ShortID="1053305094">
+																	<GameParameterRef Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																	<Curve Name="" ID="{DFF1ABD8-72E9-4A84-A6BD-3E6070014612}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>-2</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="_37048260" ID="{275DF137-F6E7-4D19-AA8B-8797788E6CBD}" ShortID="823479484" Type="SoundFX">
+															<Comment>Embedded SFX, id: 66693680.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="66693680_wem" ID="{2150AB56-6F23-4FA6-B060-C906BE05C2DD}" ShortID="358942255">
+																	<Language>SFX</Language>
+																	<AudioFile>66693680.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="66693680_wem" ID="{2150AB56-6F23-4FA6-B060-C906BE05C2DD}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_60105904" ID="{CCCF0732-C622-4A73-AA49-D215EB947C4F}" ShortID="462794005" Type="SoundFX">
+															<Comment>Embedded SFX, id: 34755697.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="34755697_wem" ID="{996841E3-5AED-47FC-BEFA-A20C9E44BBA3}" ShortID="29705962">
+																	<Language>SFX</Language>
+																	<AudioFile>34755697.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="34755697_wem" ID="{996841E3-5AED-47FC-BEFA-A20C9E44BBA3}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_94421787" ID="{B0C112A4-997A-489A-BCFA-312ED85B7AC3}" ShortID="429273510" Type="SoundFX">
+															<Comment>Embedded SFX, id: 49165955.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="49165955_wem" ID="{8B4A2C73-BE04-4AB8-9361-2090052E1C37}" ShortID="211749059">
+																	<Language>SFX</Language>
+																	<AudioFile>49165955.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="49165955_wem" ID="{8B4A2C73-BE04-4AB8-9361-2090052E1C37}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_212660233" ID="{C03FAA57-C989-4D67-B5E6-889F318C6EFE}" ShortID="651580411" Type="SoundFX">
+															<Comment>Embedded SFX, id: 15366553.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="15366553_wem" ID="{5FB8F61F-9179-45FC-8569-97CA5C91E4B1}" ShortID="203562825">
+																	<Language>SFX</Language>
+																	<AudioFile>15366553.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="15366553_wem" ID="{5FB8F61F-9179-45FC-8569-97CA5C91E4B1}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_298729860" ID="{04ED6CA1-B022-4336-A8F0-1D8770D46481}" ShortID="740534770" Type="SoundFX">
+															<Comment>Embedded SFX, id: 9594691.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="9594691_wem" ID="{1CF7B76D-D845-4334-B034-3BBD8692F34B}" ShortID="607283754">
+																	<Language>SFX</Language>
+																	<AudioFile>9594691.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="9594691_wem" ID="{1CF7B76D-D845-4334-B034-3BBD8692F34B}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_424111212" ID="{FBDC5D2A-35A0-4A66-A824-C322A05B797C}" ShortID="235264035" Type="SoundFX">
+															<Comment>Embedded SFX, id: 67479298.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="67479298_wem" ID="{AE0A9140-71F3-4758-94A3-2117F9E7A309}" ShortID="614907519">
+																	<Language>SFX</Language>
+																	<AudioFile>67479298.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="67479298_wem" ID="{AE0A9140-71F3-4758-94A3-2117F9E7A309}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_554959561" ID="{CE063DBA-1D6B-48FE-8611-C544A7B18005}" ShortID="625134526" Type="SoundFX">
+															<Comment>Embedded SFX, id: 11468836.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="11468836_wem" ID="{9E36D1DB-6679-4E87-B018-1798B7DFEC85}" ShortID="291843642">
+																	<Language>SFX</Language>
+																	<AudioFile>11468836.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="11468836_wem" ID="{9E36D1DB-6679-4E87-B018-1798B7DFEC85}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_687501011" ID="{C73786D3-2D6A-43D5-9702-CEAE4E6E2503}" ShortID="344712020" Type="SoundFX">
+															<Comment>Embedded SFX, id: 262309353.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="262309353_wem" ID="{3D6B2C97-7937-4425-AC0C-143B1FE2635C}" ShortID="316846967">
+																	<Language>SFX</Language>
+																	<AudioFile>262309353.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="262309353_wem" ID="{3D6B2C97-7937-4425-AC0C-143B1FE2635C}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_809206065" ID="{C1F2068F-650B-46DE-A1A8-4F46E214545F}" ShortID="1022622634" Type="SoundFX">
+															<Comment>Embedded SFX, id: 77352352.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="77352352_wem" ID="{2A1B642D-E3A1-4DE5-B17B-50166A5158DB}" ShortID="457655752">
+																	<Language>SFX</Language>
+																	<AudioFile>77352352.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="77352352_wem" ID="{2A1B642D-E3A1-4DE5-B17B-50166A5158DB}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_976586838" ID="{DA2D2871-ABA3-4DEE-AF43-6ABBAC0922E6}" ShortID="714290487" Type="SoundFX">
+															<Comment>Embedded SFX, id: 79957167.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="79957167_wem" ID="{9B6BD19C-59A5-4CB3-B57E-2FD936380711}" ShortID="1004340255">
+																	<Language>SFX</Language>
+																	<AudioFile>79957167.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="79957167_wem" ID="{9B6BD19C-59A5-4CB3-B57E-2FD936380711}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_215738996" ID="{A52DDF53-91E3-4684-BDBB-5B941AEEEF57}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="tent2" ID="{E59E257C-3088-43F5-8A13-1391E3B254BD}" ShortID="451245044">
+											<ChildrenList>
+												<RandomSequenceContainer Name="_438803392" ID="{F0B1D319-41B3-40F6-A565-DAD476A9C2D4}" ShortID="885166885">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-300</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{5EB68FE5-BC63-4EAA-8663-DF79FEB56372}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-600" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A4E9C059-2D6A-4E59-9463-1615FE2B2903}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Max" Type="Real64" Value="0.2" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+														<Property Name="PriorityDistanceOffset" Type="int16">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7EE73FFD-5092-494C-9824-9F26ED0C51D5}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-6" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{A30C2B00-DF18-4521-8F03-F4F18BA5862B}" ShortID="704308378">
+																	<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+																	<Curve Name="" ID="{6D8C179A-3FE9-4E0D-B0B6-93313DD12F5C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>-5</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>200</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{8DE8F62E-9752-456E-A7B2-83FF9698BBB0}" ShortID="533961194">
+																	<GameParameterRef Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																	<Curve Name="" ID="{7E1BF15A-8D45-4097-BA53-EF02F1187DB6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>-2</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{FB10F7AF-A0F7-4B8F-B85F-74D22A3A64D3}" ShortID="750978318">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{76915725-C142-43BD-AC1F-8F8DD7F9D406}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1.9</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2.1</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10.5</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="_123465499" ID="{AC00F0E1-BB70-4C04-8A05-A45F3F0175A5}" ShortID="981899209" Type="SoundFX">
+															<Comment>Embedded SFX, id: 34755697.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="34755697_wem" ID="{7203D8F4-3691-4CA1-8230-D4991526EAA0}" ShortID="804922272">
+																	<Language>SFX</Language>
+																	<AudioFile>34755697.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="34755697_wem" ID="{7203D8F4-3691-4CA1-8230-D4991526EAA0}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_221676544" ID="{C7A26286-7723-441B-9FAE-426A3F6D31D4}" ShortID="452035612" Type="SoundFX">
+															<Comment>Embedded SFX, id: 49165955.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="49165955_wem" ID="{57630E5A-C4C0-466F-9E30-422BA14AA3A9}" ShortID="512798311">
+																	<Language>SFX</Language>
+																	<AudioFile>49165955.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="49165955_wem" ID="{57630E5A-C4C0-466F-9E30-422BA14AA3A9}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_434080237" ID="{BAF86CB1-D2A3-4E78-8AAC-E207FA89E911}" ShortID="839663801" Type="SoundFX">
+															<Comment>Embedded SFX, id: 77352352.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="77352352_wem" ID="{24C18CAB-F294-4A3E-86AD-3EE3FDBE4E6D}" ShortID="175124418">
+																	<Language>SFX</Language>
+																	<AudioFile>77352352.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="77352352_wem" ID="{24C18CAB-F294-4A3E-86AD-3EE3FDBE4E6D}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_440542010" ID="{87A9E417-C752-4903-9F1C-F7BD562D9124}" ShortID="218276858" Type="SoundFX">
+															<Comment>Embedded SFX, id: 66693680.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="66693680_wem" ID="{D3EED0F6-6486-4775-A903-9D38BB3DD0A5}" ShortID="631661059">
+																	<Language>SFX</Language>
+																	<AudioFile>66693680.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="66693680_wem" ID="{D3EED0F6-6486-4775-A903-9D38BB3DD0A5}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_535080763" ID="{B1090C7E-A3B1-436B-BC61-764CD3D0B1CE}" ShortID="933083074" Type="SoundFX">
+															<Comment>Embedded SFX, id: 11468836.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="11468836_wem" ID="{FBA3DD12-05D2-4132-BA55-8E1A2B36CDC3}" ShortID="922085454">
+																	<Language>SFX</Language>
+																	<AudioFile>11468836.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="11468836_wem" ID="{FBA3DD12-05D2-4132-BA55-8E1A2B36CDC3}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_648944698" ID="{5ED00F47-A5C8-48C9-B90C-71CC57739DB2}" ShortID="618274887" Type="SoundFX">
+															<Comment>Embedded SFX, id: 67479298.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="67479298_wem" ID="{938C3DB2-0CC3-4316-A4FC-913D4DAB09B7}" ShortID="245522714">
+																	<Language>SFX</Language>
+																	<AudioFile>67479298.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="67479298_wem" ID="{938C3DB2-0CC3-4316-A4FC-913D4DAB09B7}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_677366152" ID="{761DC9DD-15A2-455D-9EBA-BB0BD631DA55}" ShortID="702313997" Type="SoundFX">
+															<Comment>Embedded SFX, id: 15366553.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="15366553_wem" ID="{57FE3E2A-2198-4E36-B178-84419E4A180C}" ShortID="866380051">
+																	<Language>SFX</Language>
+																	<AudioFile>15366553.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="15366553_wem" ID="{57FE3E2A-2198-4E36-B178-84419E4A180C}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_722290062" ID="{3A8F264F-03C3-4B18-8C5F-E4CDE2D97C4A}" ShortID="628621885" Type="SoundFX">
+															<Comment>Embedded SFX, id: 9594691.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="9594691_wem" ID="{5E82FFA3-EFC7-426F-8A96-33D90910F72D}" ShortID="94546549">
+																	<Language>SFX</Language>
+																	<AudioFile>9594691.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="9594691_wem" ID="{5E82FFA3-EFC7-426F-8A96-33D90910F72D}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_771658329" ID="{5890BA80-032D-4686-B402-265835BF8006}" ShortID="540962982" Type="SoundFX">
+															<Comment>Embedded SFX, id: 262309353.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="262309353_wem" ID="{1770993D-4C9E-409B-B8F1-F451280E0FD2}" ShortID="962437751">
+																	<Language>SFX</Language>
+																	<AudioFile>262309353.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="262309353_wem" ID="{1770993D-4C9E-409B-B8F1-F451280E0FD2}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_849532003" ID="{F47C1BC7-E9A5-40F7-B878-05C4FBFDBC86}" ShortID="881419779" Type="SoundFX">
+															<Comment>Embedded SFX, id: 79957167.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="79957167_wem" ID="{F7346250-D44B-43DD-9909-F97DA8F8FB9E}" ShortID="211948854">
+																	<Language>SFX</Language>
+																	<AudioFile>79957167.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="79957167_wem" ID="{F7346250-D44B-43DD-9909-F97DA8F8FB9E}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_215738996" ID="{A52DDF53-91E3-4684-BDBB-5B941AEEEF57}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="tent3" ID="{675B58BD-F449-4CC9-832F-81E0D8CA20F7}" ShortID="514306161">
+											<ChildrenList>
+												<RandomSequenceContainer Name="_537251164" ID="{C698BB02-611E-4B4C-84C3-FA6174CF59BA}" ShortID="851789692">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-600</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{6AA9CC73-574A-40E5-B911-5BB633D60BC2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-600" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1F8EB727-6FE3-4BC5-BD85-D40D7018C76C}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Max" Type="Real64" Value="0.25" />
+																			<Property Name="Min" Type="Real64" Value="-0.1" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+														<Property Name="PriorityDistanceOffset" Type="int16">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3F19CBA2-4987-4A41-A0D6-376C3122614F}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-6" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{627E3C18-2770-42B0-A225-AAD6444B14A1}" ShortID="934726063">
+																	<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+																	<Curve Name="" ID="{E2AB2268-900D-4DDC-A399-B45A1C39650C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>-5</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>200</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{DCBD6655-6A9C-4E1F-8110-F919F4806FC0}" ShortID="204331489">
+																	<GameParameterRef Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																	<Curve Name="" ID="{A3C08BAE-2AE1-45E1-8796-74EA54E101FC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>-2</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{C6D420E6-1FAA-4D73-96F2-82158E987643}" ShortID="944216456">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{9DD4B2E2-8ECC-41AD-9FDD-2566E4BB5267}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1.9</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2.1</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>9.5</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10.5</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>37</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="_97294164" ID="{2C326B17-AFF1-4395-A633-00FFFBD0B6F7}" ShortID="975859788" Type="SoundFX">
+															<Comment>Embedded SFX, id: 15366553.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="15366553_wem" ID="{AEF37C93-6E89-426F-B7A5-7AA195091B29}" ShortID="342884162">
+																	<Language>SFX</Language>
+																	<AudioFile>15366553.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="15366553_wem" ID="{AEF37C93-6E89-426F-B7A5-7AA195091B29}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_235906421" ID="{147F2D90-5554-4157-B865-213B73080F50}" ShortID="130844731" Type="SoundFX">
+															<Comment>Embedded SFX, id: 9594691.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="9594691_wem" ID="{1DA89061-64C0-47A6-8DC8-220350D29DD1}" ShortID="718761187">
+																	<Language>SFX</Language>
+																	<AudioFile>9594691.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="9594691_wem" ID="{1DA89061-64C0-47A6-8DC8-220350D29DD1}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_343707899" ID="{B55E4883-39FC-4C34-82AA-79D94B9D77B9}" ShortID="1036038046" Type="SoundFX">
+															<Comment>Embedded SFX, id: 11468836.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="11468836_wem" ID="{01A58032-9D92-4FD3-9F58-406A942A38E9}" ShortID="715218199">
+																	<Language>SFX</Language>
+																	<AudioFile>11468836.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="11468836_wem" ID="{01A58032-9D92-4FD3-9F58-406A942A38E9}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_375015864" ID="{FC3E009C-55E0-41C5-A27A-6B4C3D8A5169}" ShortID="923855509" Type="SoundFX">
+															<Comment>Embedded SFX, id: 66693680.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="66693680_wem" ID="{04F5D489-BEF3-45B8-8814-5DD5CBC6D519}" ShortID="762298866">
+																	<Language>SFX</Language>
+																	<AudioFile>66693680.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="66693680_wem" ID="{04F5D489-BEF3-45B8-8814-5DD5CBC6D519}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_489580872" ID="{6ADA7BA8-A4C4-4F05-8F3E-BD0CA27ECD78}" ShortID="596982831" Type="SoundFX">
+															<Comment>Embedded SFX, id: 77352352.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="77352352_wem" ID="{E2653EB9-462E-4101-B8B3-EEE75A8AAA20}" ShortID="737211403">
+																	<Language>SFX</Language>
+																	<AudioFile>77352352.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="77352352_wem" ID="{E2653EB9-462E-4101-B8B3-EEE75A8AAA20}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_591901408" ID="{FCFBC828-D4B4-46B7-AEAF-8847942D36EC}" ShortID="445079609" Type="SoundFX">
+															<Comment>Embedded SFX, id: 79957167.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="79957167_wem" ID="{98678690-EBE3-430A-B7C3-88DC8C96987F}" ShortID="92698159">
+																	<Language>SFX</Language>
+																	<AudioFile>79957167.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="79957167_wem" ID="{98678690-EBE3-430A-B7C3-88DC8C96987F}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_592994850" ID="{F3BD0A7B-7CA1-4E64-B1EA-3ECB1AEC66CB}" ShortID="1070217101" Type="SoundFX">
+															<Comment>Embedded SFX, id: 49165955.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="49165955_wem" ID="{DEE87D85-1C3C-47C5-A240-88CDCF9AAF7E}" ShortID="718902749">
+																	<Language>SFX</Language>
+																	<AudioFile>49165955.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="49165955_wem" ID="{DEE87D85-1C3C-47C5-A240-88CDCF9AAF7E}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_705076998" ID="{D9E84EBB-5C21-480F-9BDC-68E577C664D1}" ShortID="271916404" Type="SoundFX">
+															<Comment>Embedded SFX, id: 34755697.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="34755697_wem" ID="{FD9D9210-C551-4CB3-B1C8-7D35990EA12C}" ShortID="94196001">
+																	<Language>SFX</Language>
+																	<AudioFile>34755697.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="34755697_wem" ID="{FD9D9210-C551-4CB3-B1C8-7D35990EA12C}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_706860978" ID="{F32BF248-D923-4D1F-8CE8-D1BB64ACB9DF}" ShortID="714278849" Type="SoundFX">
+															<Comment>Embedded SFX, id: 67479298.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="67479298_wem" ID="{7F8F151F-5545-4BD2-B602-73DFEC5D57D0}" ShortID="654211088">
+																	<Language>SFX</Language>
+																	<AudioFile>67479298.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="67479298_wem" ID="{7F8F151F-5545-4BD2-B602-73DFEC5D57D0}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_882330117" ID="{6291F58B-03C2-410D-80B5-CE1FE02A93C3}" ShortID="74264155" Type="SoundFX">
+															<Comment>Embedded SFX, id: 262309353.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="262309353_wem" ID="{09C58923-D311-4653-B8E2-8AC62B2AF2CD}" ShortID="921735468">
+																	<Language>SFX</Language>
+																	<AudioFile>262309353.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="262309353_wem" ID="{09C58923-D311-4653-B8E2-8AC62B2AF2CD}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_215738996" ID="{A52DDF53-91E3-4684-BDBB-5B941AEEEF57}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="tent4" ID="{316A029D-E0DD-42D2-ACB0-EF7644169861}" ShortID="37994255">
+											<ChildrenList>
+												<RandomSequenceContainer Name="_847960336" ID="{DBD7E0E8-98B6-4205-91C0-13048E6E762A}" ShortID="622884745">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-900</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C3C44C8D-5898-4498-84FD-968E951BC83E}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-600" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{6C48EB4D-3624-4A56-9291-742B42065942}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Max" Type="Real64" Value="0.3" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+														<Property Name="PriorityDistanceOffset" Type="int16">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B881EAB8-829D-4305-89A8-5096429EBF09}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Min" Type="Real64" Value="-6" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{29CAF139-2F40-4FB6-B89B-A3BB6F133C8C}" ShortID="765952495">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{56F61EF9-53E9-404E-811A-FADE88A2A6A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.9</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2.1</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>9.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>37</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39</XPos>
+																				<YPos>-1</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{9B84CCD0-D1B4-4E3C-A4FA-387B468F6335}" ShortID="816518046">
+																	<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+																	<Curve Name="" ID="{58D1992F-6C58-420B-BD49-F8B618FD8CD4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>-5</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>200</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{33DF24EC-6A9A-42B2-8F38-29C981D50C95}" ShortID="285907707">
+																	<GameParameterRef Name="yyscyj" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																	<Curve Name="" ID="{78472E41-C5EE-4B71-A622-18FDAD3D8FE1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>-2</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="_46220558" ID="{9E19ADA8-9C9C-4690-8B72-8E6BC7E2B639}" ShortID="145074856" Type="SoundFX">
+															<Comment>Embedded SFX, id: 15366553.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="15366553_wem" ID="{0F0F4539-9D6C-4604-8222-E11191E1A1F9}" ShortID="121776806">
+																	<Language>SFX</Language>
+																	<AudioFile>15366553.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="15366553_wem" ID="{0F0F4539-9D6C-4604-8222-E11191E1A1F9}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_140177658" ID="{8BD8DA1C-55B5-4DCA-8DDD-875E58064F64}" ShortID="923863928" Type="SoundFX">
+															<Comment>Embedded SFX, id: 49165955.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="49165955_wem" ID="{A265F645-07BE-459E-9EEA-FDCBB4AC26DE}" ShortID="72082931">
+																	<Language>SFX</Language>
+																	<AudioFile>49165955.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="49165955_wem" ID="{A265F645-07BE-459E-9EEA-FDCBB4AC26DE}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_149887389" ID="{4D3B021F-9F4B-4685-9B76-57BBCF99D182}" ShortID="914303970" Type="SoundFX">
+															<Comment>Embedded SFX, id: 79957167.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="79957167_wem" ID="{47ABA3E2-C540-4EB5-A023-0E6D67BCC0AE}" ShortID="792524615">
+																	<Language>SFX</Language>
+																	<AudioFile>79957167.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="79957167_wem" ID="{47ABA3E2-C540-4EB5-A023-0E6D67BCC0AE}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_228858857" ID="{A657BD3E-100E-4086-9D61-B880493230F0}" ShortID="55011683" Type="SoundFX">
+															<Comment>Embedded SFX, id: 9594691.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="9594691_wem" ID="{F2470702-CAA4-4131-B671-6C1800E71E4F}" ShortID="479438944">
+																	<Language>SFX</Language>
+																	<AudioFile>9594691.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="9594691_wem" ID="{F2470702-CAA4-4131-B671-6C1800E71E4F}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_260925429" ID="{55508F1D-A168-47C2-B303-5718BBD0624B}" ShortID="274965472" Type="SoundFX">
+															<Comment>Embedded SFX, id: 34755697.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="34755697_wem" ID="{39611287-9E33-4789-9A83-DA5FD351B80C}" ShortID="135627765">
+																	<Language>SFX</Language>
+																	<AudioFile>34755697.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="34755697_wem" ID="{39611287-9E33-4789-9A83-DA5FD351B80C}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_271880881" ID="{347A0709-3CA2-4A7C-810B-BD7584CFC2FD}" ShortID="390696336" Type="SoundFX">
+															<Comment>Embedded SFX, id: 67479298.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="67479298_wem" ID="{09E42349-2DBE-40C5-B916-2EC40585E3F7}" ShortID="150862174">
+																	<Language>SFX</Language>
+																	<AudioFile>67479298.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="67479298_wem" ID="{09E42349-2DBE-40C5-B916-2EC40585E3F7}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_324407136" ID="{45FE1D34-5D11-415C-901F-4DF6D7944023}" ShortID="568899905" Type="SoundFX">
+															<Comment>Embedded SFX, id: 11468836.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="11468836_wem" ID="{B4A4A19E-AD5A-49B0-9DB1-DF0D4A441128}" ShortID="88634074">
+																	<Language>SFX</Language>
+																	<AudioFile>11468836.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="11468836_wem" ID="{B4A4A19E-AD5A-49B0-9DB1-DF0D4A441128}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_389542053" ID="{C5BF2961-7651-4767-8CE9-7258929FCC95}" ShortID="704360940" Type="SoundFX">
+															<Comment>Embedded SFX, id: 77352352.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="77352352_wem" ID="{F4180E07-FD40-4C40-BCCD-87B8557A23EE}" ShortID="1814620">
+																	<Language>SFX</Language>
+																	<AudioFile>77352352.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="77352352_wem" ID="{F4180E07-FD40-4C40-BCCD-87B8557A23EE}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_520517600" ID="{20A82F60-1805-4A9E-A3B6-9FB7D5E1D1C2}" ShortID="602431879" Type="SoundFX">
+															<Comment>Embedded SFX, id: 66693680.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="66693680_wem" ID="{9E93BEF3-A405-4DB3-9055-21DBFA19E814}" ShortID="921766223">
+																	<Language>SFX</Language>
+																	<AudioFile>66693680.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="66693680_wem" ID="{9E93BEF3-A405-4DB3-9055-21DBFA19E814}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="_1012569314" ID="{E3EF305E-2962-4AEE-BE8E-083D9FF716A2}" ShortID="509641859" Type="SoundFX">
+															<Comment>Embedded SFX, id: 262309353.wem</Comment>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="262309353_wem" ID="{4201CC21-19D4-4F7B-807A-C2A7544DA563}" ShortID="1022780422">
+																	<Language>SFX</Language>
+																	<AudioFile>262309353.wem.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ConversionInfo>
+																<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+															</ConversionInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="262309353_wem" ID="{4201CC21-19D4-4F7B-807A-C2A7544DA563}" Platform="Linked" />
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_215738996" ID="{A52DDF53-91E3-4684-BDBB-5B941AEEEF57}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="tree" ID="{E487D598-272B-4708-90D4-7E086FB0D08F}" ShortID="965912033">
+									<ChildrenList>
+										<RandomSequenceContainer Name="_291491621" ID="{659EC905-FFBF-426D-95AD-25A84940FF83}" ShortID="992575622">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{A8214E87-E8CA-4815-9157-9E72B4137A24}" ShortID="240607619">
+															<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+															<Curve Name="" ID="{442D3929-87A6-4817-9E8A-587EDDA22A4D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>30</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{03E4C213-776A-4446-97ED-FA079BE5A5D0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True" />
+																	<Property Name="Min" Type="Real64" Value="-200" />
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B9D91133-10E6-4DD0-B0FA-5CDCB8201552}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True" />
+																	<Property Name="Max" Type="Real64" Value="3" />
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="_88346779" ID="{A61D8363-D5D8-4FC8-A219-C0CD4702F085}" ShortID="176029178" Type="SoundFX">
+													<Comment>368250604</Comment>
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+														<Property Name="IsLoopingInfinite" Type="bool" Value="False" />
+														<Property Name="LoopCount" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E02620A0-0A08-4DD7-B060-BC823AB4501D}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True" />
+																			<Property Name="Max" Type="Real64" Value="2" />
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<RTPCList>
+																<RTPC Name="" ID="{371D56E8-B7B5-4362-B165-D78B8AB352B8}" ShortID="536087443">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{8F86CA57-231C-4088-A93B-50AB33C2336C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-300</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>39</XPos>
+																				<YPos>-300</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>42</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{6FD7FACD-70B9-41E4-8282-1544C507EDAC}" ShortID="727106755">
+																	<GameParameterRef Name="a0hz2tr8" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
+																	<Curve Name="" ID="{327C65E0-7BEB-4979-878E-B97745B2A5AC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1.9</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>InvertedSCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>2.1</XPos>
+																				<YPos>-79.999</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.5</XPos>
+																				<YPos>-5</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>InvertedSCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>10.5</XPos>
+																				<YPos>-11</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>InvertedSCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>41</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="368250604_wem" ID="{27EBCD4D-5AFD-4468-941B-D0F01980A409}" ShortID="139607903">
+															<Language>SFX</Language>
+															<AudioFile>368250604.wem.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="368250604_wem" ID="{27EBCD4D-5AFD-4468-941B-D0F01980A409}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
