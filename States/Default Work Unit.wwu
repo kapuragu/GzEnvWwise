@@ -70,6 +70,15 @@ ADDED IN TPP</Comment>
 							<Comment>1142261811
 ADDED IN TPP</Comment>
 						</State>
+						<State Name="bgm_phase_nt" ID="{63105FBF-72D7-41B6-A210-34B72A52D085}">
+							<Comment>3644652494</Comment>
+						</State>
+						<State Name="bgm_phase_neutral" ID="{4E763236-C07A-40BE-B620-F18C93F308A7}">
+							<Comment>261399653</Comment>
+						</State>
+						<State Name="gmo9zn" ID="{A87E4690-4B4A-4512-85C2-3028EE3C6FC6}">
+							<Comment>2657534093</Comment>
+						</State>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="a9trcud" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}">
@@ -102,10 +111,12 @@ OLD: 3096969374</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{F20D384F-9B53-408A-AE1A-646ABB10B410}" />
 						<State Name="dying" ID="{CEBB3A5B-5696-4DD2-B8C6-05EAE170363D}">
-							<Comment>3328495488</Comment>
+							<Comment>3328495488
+OLD: 1007152837</Comment>
 						</State>
 						<State Name="injured" ID="{A67554FE-81F7-469D-8DDD-2B08D96D7B7F}">
-							<Comment>2860195132</Comment>
+							<Comment>2860195132
+OLD: 575965534</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>
