@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C3B63F2-985A-4394-8BDF-937BFFE9080D}" SchemaVersion="62">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4C3B63F2-985A-4394-8BDF-937BFFE9080D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="bgm_gntn_phase" ID="{542577B5-7AE0-4BB7-99AB-B62A3E25B8F5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Set_State_bgm_phase_neutral" ID="{64CD1A0E-BEF7-44C6-9B90-B7D7577F82BC}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_al_es" ID="{350F8A18-0D8B-4E12-8211-C46819595C24}" WorkUnitID="{DDA26DAA-11E6-400F-8FBE-4E2F36759FBF}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="MusicPlaylistContainer_bgm_gntn_phase" ID="{7C09D256-BFDE-4CAB-B5FD-1148C4BA63F1}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_ct" ID="{66786B58-F4CF-4A13-BAC8-04B285EFCD99}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_ct_nt" ID="{5B811778-56AC-4DD6-A9D4-EBB98FD15542}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="MusicSwitch_bgm_gntn_phase" ID="{54061F80-FCA2-46A7-849A-1E2FFB518E33}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_nt" ID="{1289D683-AE52-46C0-A5A2-B958F4365385}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_Switch_bgm_phase_time_day" ID="{CFE55585-E879-4308-A516-16EFED088060}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_al_ct" ID="{5E155B8A-B08B-430E-9B1C-FDA7D0404ECC}" WorkUnitID="{DDA26DAA-11E6-400F-8FBE-4E2F36759FBF}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_ev" ID="{37FC06AC-18B7-41E8-8D85-A8767D17447F}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_sn" ID="{0214AACB-26E0-4147-9D56-14EE84CAE949}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Stop_bgm_gntn_phase" ID="{20480AE1-0E49-4B03-9DE5-CA23CA7B6B9C}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_Switch_bgm_phase_time_night" ID="{4F43EDE6-578C-4CE3-B5AD-004E554AFAB4}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Play_bgm_gntn_phase" ID="{3534F7EF-138B-4C3D-A40F-6AD585B403CD}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="Set_State_bgm_phase_lost" ID="{104C8BFC-4CFA-4160-A4E5-8B54F1375CCD}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="vox_player_gz" ID="{CBDA68A1-5040-42E7-B620-4B25D216A444}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AM_Player_GZ" ID="{71D9A5BB-9BD3-433D-B8E1-B8025A596C9E}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="DD_Player_GZ" ID="{9492EBF9-EBC3-4842-AF21-F84CB2303A6F}" WorkUnitID="{1C8DEB4E-0FF1-4DA9-B333-29FCAF173AF9}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="vox_f30040" ID="{19D44A94-3611-4CB4-975C-540A2A3A1289}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DD_vox_ene_conversation_GZ" ID="{0E4DBA33-2A7D-4DDB-ADCE-0ABC7C270FF2}" WorkUnitID="{1C8DEB4E-0FF1-4DA9-B333-29FCAF173AF9}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="AM_vox_ene_conversation_GZ" ID="{26B6FF33-400B-4BEC-BD4B-BE2F07555520}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

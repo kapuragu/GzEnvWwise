@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" SchemaVersion="62">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="music_main_bus" ID="{E02C969B-81E1-491B-8B19-A001CE6FD5A6}" />
+						<Bus Name="music_system_bus" ID="{D02AFC2A-E326-45B7-A5A9-989D7B47E0A5}" />
+						<Bus Name="alternative google bed bus" ID="{A23B6317-D3AE-4978-A569-B9B491047857}" />
+						<Bus Name="b7xtxyr" ID="{DE819923-A650-4D27-8A43-DC08F63A6E68}">
+							<ChildrenList>
+								<Bus Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+										<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="lc4j1b" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}">
+									<Comment>3599197813</Comment>
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="ary85z1" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="asqly68" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="cjlhqc_" ID="{1FB3C554-5A4A-4288-A672-5A1EF54C3E90}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="btla2h" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}" />
+										<AuxBus Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" />
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}" />
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}" />
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E64769B-4689-4126-92A0-7300A0165C9B}" SchemaVersion="62">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{8E64769B-4689-4126-92A0-7300A0165C9B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="chara" ID="{D037CF90-F975-4529-B182-DB5590A07677}">
+					<ChildrenList>
+						<State Name="None" ID="{64EB8E45-528D-46EB-8957-20AB68D6BE53}" />
+						<State Name="snak" ID="{251E4249-5466-4F25-9888-225DA909896D}" />
+						<State Name="ene_a" ID="{2FC67966-6EE0-4E93-ACBD-4EC770349153}" />
+						<State Name="ene_b" ID="{1C2D3D25-BCB9-4A9D-AEF1-BE32323B7AE6}" />
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="condition" ID="{395753E6-145D-499E-B0FA-12ACA2E8A804}">
+					<ChildrenList>
+						<State Name="None" ID="{85945B97-C617-4B5E-A76C-20BED69665CA}" />
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="bgm_phase_state" ID="{CA8ACFB1-A05C-4404-969A-75D20103654B}">
+					<ChildrenList>
+						<State Name="None" ID="{63C0D961-55AE-4F12-90AA-E502689343A6}" />
+						<State Name="bgm_phase_al_es" ID="{C3F6D645-FF7C-4E00-8B7C-730D3A24DB58}">
+							<Comment>ADDED IN TPP</Comment>
+						</State>
+						<State Name="bgm_phase_ev" ID="{0486F56D-C120-4407-B773-0E99D4939AE8}" />
+						<State Name="bgm_phase_ct_nt" ID="{5A20CC75-9654-44D5-B352-68D62F29298F}" />
+						<State Name="bgm_phase_ct" ID="{07535467-A940-422E-A7D5-F7CD87774510}" />
+						<State Name="bgm_phase_al_ct" ID="{C31652FF-EFC1-49A0-A864-62D6EADECBD9}">
+							<Comment>ADDED IN TPP</Comment>
+						</State>
+						<State Name="bgm_phase_lost_hd" ID="{83CA956C-2D84-428E-9A51-22D9474159AF}" />
+						<State Name="bgm_phase_lost" ID="{E2B75498-77B7-4D32-A19C-DF8CC8F5FC60}" />
+						<State Name="bgm_phase_ev_btt" ID="{14AA44BF-E2F6-427D-98DA-5D37D0F4CA3C}" />
+						<State Name="bgm_phase_ev_hd" ID="{9A7EC450-F091-413A-943E-643F590EF9B5}" />
+						<State Name="bgm_phase_ev_str" ID="{7836670E-68BA-457E-9D89-3F802BBA13C1}" />
+						<State Name="bgm_phase_lost_btt" ID="{0B33093F-8C22-49A5-89D2-4B9E48DA4A0F}" />
+						<State Name="bgm_phase_lost_str" ID="{EDD2FF03-41D1-49CE-883A-E3EB5F65FB1D}" />
+						<State Name="bgm_phase_al_btt" ID="{FBB9892F-B8DF-414E-9ACF-8E4347401AC7}">
+							<Comment>ADDED IN TPP</Comment>
+						</State>
+						<State Name="bgm_phase_al_hd" ID="{B12235CD-7D22-46D4-BD1F-70799DEFF0B5}">
+							<Comment>ADDED IN TPP</Comment>
+						</State>
+						<State Name="bgm_phase_al_str" ID="{303D49D7-13C1-4F02-A73F-C609DCA17788}">
+							<Comment>ADDED IN TPP</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="a9trcud" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}">
+					<ChildrenList>
+						<State Name="None" ID="{CC1A5D26-ACA5-40C7-9625-C917C68EBEE5}" />
+						<State Name="music" ID="{448438BE-6B2B-4B07-BF9B-BA6CDD4E0724}" />
+						<State Name="talk" ID="{A8B5837D-E13E-4BB9-89A6-0449E600EDC6}" />
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="a9q_5_m" ID="{820BF039-4EE9-499B-A880-D4C415E4B5D9}">
+					<ChildrenList>
+						<State Name="None" ID="{7997EB3D-E296-41E5-8EC9-14EDE2EE7B55}" />
+						<State Name="fps" ID="{C716BFBC-491F-4A53-B4F7-3D0EC4EA0357}" />
+						<State Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="c10200l" ID="{33489D0A-015E-4621-A07A-5EDA7A500618}">
+					<ChildrenList>
+						<State Name="None" ID="{F20D384F-9B53-408A-AE1A-646ABB10B410}" />
+						<State Name="dying" ID="{CEBB3A5B-5696-4DD2-B8C6-05EAE170363D}" />
+						<State Name="injured" ID="{A67554FE-81F7-469D-8DDD-2B08D96D7B7F}" />
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="m0p0zn" ID="{9F2C01F3-9108-44A7-B8D2-39160E0FAF1A}">
+					<ChildrenList>
+						<State Name="None" ID="{31C67F83-1D17-498C-A712-C7035B374CD1}" />
+						<State Name="bnmqzku" ID="{F2FC3D74-6EE7-4759-94A2-F09347570A87}" />
+						<State Name="bnmqzkv" ID="{CBCFA7EC-49F6-4CEF-9EAA-C6401BD7DD3C}" />
+						<State Name="bnmqzkw" ID="{03649F22-23E4-4B1C-9A2A-B76F8C3080CF}" />
+						<State Name="bnmqzkp" ID="{690F1681-4821-40A3-A392-2547E7C4019B}" />
+						<State Name="bnmqzkq" ID="{6CB73FBF-3AA0-45B1-A391-A390D69F27D0}" />
+						<State Name="bnmqzkr" ID="{9B04C432-17E1-4D48-8D22-75663DC64C11}" />
+						<State Name="bnmqzks" ID="{418A4DA2-0F91-4EEF-98F0-A97DCDABEA66}" />
+						<State Name="abise07" ID="{CD4F3082-8270-48AD-BAAD-2BCAF4063814}" />
+						<State Name="abise06" ID="{89365504-E2DF-4B84-856E-DD3188B01EDC}" />
+						<State Name="kyg_n4" ID="{9CEB9256-DB6D-4546-995F-18C827401D55}" />
+						<State Name="kyg_n5" ID="{8C057A1C-5254-4854-9E23-31D9727640BE}" />
+						<State Name="a3si4wk" ID="{7C1C9C14-801A-453C-B0F1-8365796CF588}" />
+						<State Name="a3si4wh" ID="{65E6D63F-4A18-43A2-8CD2-2441F794B68F}" />
+						<State Name="a3si4wi" ID="{0B1EAE43-C041-4DD5-BA62-26C117B17103}" />
+						<State Name="a3si4wn" ID="{89313FCA-323A-48E8-A95F-BEF58B1073C4}" />
+						<State Name="a3si4wo" ID="{078B167F-FFDA-401F-B89B-01C63AB1F01D}" />
+						<State Name="a3si4wl" ID="{53257F31-526E-493B-A9DD-C6D12248D58B}" />
+						<State Name="a3si4wm" ID="{66516B1D-A039-4584-8139-023EE33CBDB6}" />
+						<State Name="a3si4wb" ID="{BD7D618C-2D17-4673-8B17-B0F13ACAEB8B}" />
+						<State Name="a3si4wc" ID="{3084AB70-CE5A-4A07-981F-7A8FF8212EC0}" />
+						<State Name="am9b6cr" ID="{D0873437-503B-4F19-970B-0333A9F89961}" />
+						<State Name="am9b6cs" ID="{86A66199-4BE3-4C52-AD17-109F9313E0C6}" />
+						<State Name="akz2pii" ID="{A4D16475-348A-4477-99BA-AD55A7E6608D}" />
+						<State Name="j9b70w" ID="{14961B73-DA31-4741-BD68-F5FD8A3357C5}" />
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
