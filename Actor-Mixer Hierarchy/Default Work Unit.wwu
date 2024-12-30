@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="env_gntn_common" ID="{DD83AD31-4D5B-46FF-B218-940C12643AA8}" ShortID="670816330">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ChildrenList>
 						<ActorMixer Name="_273097789" ID="{B95DA2C7-2274-4D7C-BB45-8EA0BDDE92CD}" ShortID="295187797">
 							<PropertyList>
@@ -182,7 +185,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -449,7 +452,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="asqly68" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="less_keywords_stuff_bus" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -789,7 +792,7 @@ Embedded SFX, id: 1054270119</Comment>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="asqly68" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="less_keywords_stuff_bus" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -924,7 +927,7 @@ Embedded SFX, id: 1054270119</Comment>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="asqly68" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="less_keywords_stuff_bus" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1252,7 +1255,7 @@ Embedded SFX, id: 1054270119</Comment>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="asqly68" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="less_keywords_stuff_bus" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 														<Reference Name="UserAuxSend0">
 															<ObjectRef Name="btla2h" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
@@ -1474,6 +1477,40 @@ Embedded SFX, id: 580386427.wem</Comment>
 													<ValueList>
 														<Value>-7</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{FEB2CD57-03B5-4DD3-911C-459594FC10F7}" ShortID="365081493">
+															<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+															<Curve Name="" ID="{B0BB5592-3E07-41F4-8605-AFA7A460ED61}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>39.581</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -1524,7 +1561,7 @@ Embedded SFX, id: 580386427.wem</Comment>
 										</State>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+										<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 										<State Name="Custom State" ID="{613BED4C-092F-4EFC-944A-3E43413DEEA8}" ShortID="730172299">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-3" />
@@ -1718,7 +1755,7 @@ Embedded SFX, id: 580386427.wem</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="lc4j1b" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1772,7 +1809,7 @@ Embedded SFX, id: 711060834</Comment>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+													<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1948,7 +1985,7 @@ Embedded SFX, id: 711060834</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="ary85z1" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2143,7 +2180,7 @@ Embedded SFX, id: 711060834</Comment>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="lc4j1b" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+													<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2363,7 +2400,7 @@ Embedded SFX, id: 692274938</Comment>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="lc4j1b" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -2778,7 +2815,7 @@ Embedded SFX, id: 619035268</Comment>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="lc4j1b" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+															<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -3030,7 +3067,7 @@ Embedded SFX, id: 619035268</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3120,7 +3157,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 										<StateGroupRef Name="camera_fps" ID="{820BF039-4EE9-499B-A880-D4C415E4B5D9}" />
 									</StateGroupInfo>
 									<StateGroupInfo>
-										<StateGroupRef Name="a9trcud" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}" />
+										<StateGroupRef Name="tape_state" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}" />
 									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
@@ -3141,7 +3178,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 										</State>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+										<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 										<State Name="Custom State" ID="{4F39070A-2D1B-46FD-852D-8B4EF6AD854C}" ShortID="733119696">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-3" />
@@ -3335,7 +3372,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3680,7 +3717,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 													</Point>
 													<Point>
 														<XPos>0.9</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Constant</SegmentShape>
 													</Point>
@@ -3697,7 +3734,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3906,6 +3943,31 @@ Embedded SFX, id: 3111064.wem</Comment>
 																				</PointList>
 																			</Curve>
 																		</RTPC>
+																		<RTPC Name="" ID="{6B2F1BDF-FDA9-4921-88B4-EE6B48AA0A20}" ShortID="815699278">
+																			<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																			<Curve Name="" ID="{62829A43-CAA6-43AD-B4F5-C5B9A5E99112}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3" />
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50</XPos>
+																						<YPos>-8</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
 																	</RTPCList>
 																</Property>
 															</PropertyList>
@@ -3967,6 +4029,33 @@ Embedded SFX, id: 3111064.wem</Comment>
 																	<ValueList>
 																		<Value>-18</Value>
 																	</ValueList>
+																	<RTPCList>
+																		<RTPC Name="" ID="{1CF960BB-1F38-4181-8618-BD2C77911DCB}" ShortID="261428699">
+																			<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																			<Curve Name="" ID="{B53970F4-AACD-4BFA-B609-128F396EA6F2}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3" />
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50</XPos>
+																						<YPos>-8</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
 																</Property>
 															</PropertyList>
 															<ReferenceList>
@@ -4174,6 +4263,31 @@ Embedded SFX, id: 3111064.wem</Comment>
 																				</PointList>
 																			</Curve>
 																		</RTPC>
+																		<RTPC Name="" ID="{C9BF5BF4-E4AC-4FEC-AF83-CDD82690703F}" ShortID="897170207">
+																			<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																			<Curve Name="" ID="{F8B3CBB3-9E05-478A-B184-3D3327068E58}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3" />
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50</XPos>
+																						<YPos>-8</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
 																	</RTPCList>
 																</Property>
 															</PropertyList>
@@ -4364,6 +4478,31 @@ Embedded SFX, id: 3111064.wem</Comment>
 																		<Value>-6</Value>
 																	</ValueList>
 																	<RTPCList>
+																		<RTPC Name="" ID="{DC6F6A53-77AC-4DB1-A313-87E2BACF0548}" ShortID="395878130">
+																			<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																			<Curve Name="" ID="{603CA750-5524-422B-B3FF-45595E852F51}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3" />
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50</XPos>
+																						<YPos>-8</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
 																		<RTPC Name="" ID="{C7384BB6-D388-4EFA-8174-747E0CB07CAD}" ShortID="401978468">
 																			<GameParameterRef Name="wind_volume" ID="{712EC81A-8B5F-4264-8E81-00C6A319510D}" />
 																			<Curve Name="" ID="{FF0BBF30-5E52-42A3-A2FD-0C06301040D3}">
@@ -4394,7 +4533,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 																					</Point>
 																					<Point>
 																						<XPos>10.5</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																						<SegmentShape>Constant</SegmentShape>
 																					</Point>
@@ -4454,7 +4593,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 														</State>
 													</CustomState>
 													<CustomState>
-														<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+														<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 														<State Name="Custom State" ID="{11D07649-B1C4-4E6B-A447-493D6E9DDA34}" ShortID="482353699">
 															<PropertyList>
 																<Property Name="Volume" Type="Real64" Value="-3" />
@@ -4525,6 +4664,33 @@ Embedded SFX, id: 3111064.wem</Comment>
 																	<ValueList>
 																		<Value>-8</Value>
 																	</ValueList>
+																	<RTPCList>
+																		<RTPC Name="" ID="{F3CF279F-5EF8-4826-940B-6D0277134EC6}" ShortID="918554738">
+																			<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+																			<Curve Name="" ID="{B2E80450-D69D-4AE8-8A88-E97F867A6AB7}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3" />
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>50</XPos>
+																						<YPos>-8</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
 																</Property>
 															</PropertyList>
 															<ReferenceList>
@@ -4711,6 +4877,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 									</ConversionInfo>
 								</ActorMixer>
 								<ActorMixer Name="_498876824" ID="{394C0F66-D3E7-41C4-BCFF-16D617B7A202}" ShortID="213251795">
+									<Comment>498876824</Comment>
 									<PropertyList>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
@@ -4788,254 +4955,289 @@ Embedded SFX, id: 3111064.wem</Comment>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="_824706010" ID="{E3135335-C54A-4986-9950-95C104939690}" ShortID="9651918" Type="SoundFX">
-											<Comment>408206702</Comment>
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
-												<Property Name="Lowpass" Type="int16">
-													<RTPCList>
-														<RTPC Name="" ID="{94E82C60-52D6-4638-93A4-DF29CDC41332}" ShortID="684817403">
-															<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
-															<Curve Name="" ID="{021BFF91-B817-44D7-B1D7-7E464F961887}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>50</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>40</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="OverridePriority" Type="bool" Value="True" />
-												<Property Name="Pitch" Type="int32">
-													<RTPCList>
-														<RTPC Name="" ID="{FF47D108-3BF7-4140-9292-0A2B63032776}" ShortID="232355048">
-															<GameParameterRef Name="alym6ux" ID="{EFA26780-6B60-4EBE-9195-F6D7F6A1884D}" />
-															<Curve Name="" ID="{F7FADD58-BC1B-48E4-965D-83C4FAA31CF8}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-150</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>1.5</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>10</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="Priority" Type="int16">
-													<ValueList>
-														<Value>90</Value>
-													</ValueList>
-													<RTPCList>
-														<RTPC Name="" ID="{2E1D56D0-FD43-4C74-B536-8C72069168FD}" ShortID="542962506">
-															<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
-															<Curve Name="" ID="{1F2C676F-445E-4DFF-9327-F738201E7A6C}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>20</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>50</XPos>
-																		<YPos>89</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>20</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{D6E9621B-3BB8-4165-9CE7-056ACD9E274E}" ShortID="784829091">
-															<GameParameterRef Name="alym6ux" ID="{EFA26780-6B60-4EBE-9195-F6D7F6A1884D}" />
-															<Curve Name="" ID="{74973426-CF62-4D86-9020-E13DA61BD6A1}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-3</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>1.5</XPos>
-																		<YPos>-0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>10</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-														<RTPC Name="" ID="{82E3AD54-E642-49FA-992C-C943952D901F}" ShortID="779995867">
-															<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
-															<Curve Name="" ID="{9919D6EB-4DEB-4364-BD65-6B7BCC696036}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>5</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>22</XPos>
-																		<YPos>-2.3</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>50</XPos>
-																		<YPos>-0</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>78</XPos>
-																		<YPos>-2.3</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-												</Reference>
-											</ReferenceList>
+										<Folder Name="calm" ID="{ABE1071A-08BA-4E46-8CE4-1268388FA875}" ShortID="786513021">
 											<ChildrenList>
-												<AudioFileSource Name="408206702_wem" ID="{8F750BF5-0577-44D8-9092-C6E518D0C2FA}" ShortID="1032077745">
-													<Language>SFX</Language>
-													<AudioFile>408206702.wem.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="_524655325" ID="{5EBE4D0F-3377-46E8-ADCF-0B724D0B1C27}" ShortID="694095403" Type="SoundFX">
+													<Comment>703041382</Comment>
+													<PropertyList>
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+														<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>90</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{BEA4FE36-50E5-4290-AC36-EAD4C0BA3D94}" ShortID="174226512">
+																	<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+																	<Curve Name="" ID="{7CFED434-EF7B-4B26-9C40-4848BCBE1C64}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>72.952</XPos>
+																				<YPos>-3.607</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="703041382_wem" ID="{7326A0CA-6A2A-4669-B2B2-A243D0F49160}" ShortID="95854127">
+															<Language>SFX</Language>
+															<AudioFile>703041382.wem.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="703041382_wem" ID="{7326A0CA-6A2A-4669-B2B2-A243D0F49160}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="_824706010" ID="{E3135335-C54A-4986-9950-95C104939690}" ShortID="9651918" Type="SoundFX">
+													<Comment>408206702</Comment>
+													<PropertyList>
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+														<Property Name="Lowpass" Type="int16">
+															<RTPCList>
+																<RTPC Name="" ID="{94E82C60-52D6-4638-93A4-DF29CDC41332}" ShortID="684817403">
+																	<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+																	<Curve Name="" ID="{021BFF91-B817-44D7-B1D7-7E464F961887}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>40</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<RTPCList>
+																<RTPC Name="" ID="{FF47D108-3BF7-4140-9292-0A2B63032776}" ShortID="232355048">
+																	<GameParameterRef Name="alym6ux" ID="{EFA26780-6B60-4EBE-9195-F6D7F6A1884D}" />
+																	<Curve Name="" ID="{F7FADD58-BC1B-48E4-965D-83C4FAA31CF8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-150</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>90</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{2E1D56D0-FD43-4C74-B536-8C72069168FD}" ShortID="542962506">
+																	<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+																	<Curve Name="" ID="{1F2C676F-445E-4DFF-9327-F738201E7A6C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>20</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>89</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>20</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{D6E9621B-3BB8-4165-9CE7-056ACD9E274E}" ShortID="784829091">
+																	<GameParameterRef Name="alym6ux" ID="{EFA26780-6B60-4EBE-9195-F6D7F6A1884D}" />
+																	<Curve Name="" ID="{74973426-CF62-4D86-9020-E13DA61BD6A1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-3</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+																<RTPC Name="" ID="{82E3AD54-E642-49FA-992C-C943952D901F}" ShortID="779995867">
+																	<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+																	<Curve Name="" ID="{9919D6EB-4DEB-4364-BD65-6B7BCC696036}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>5</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>22</XPos>
+																				<YPos>-2.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>78</XPos>
+																				<YPos>-2.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="408206702_wem" ID="{8F750BF5-0577-44D8-9092-C6E518D0C2FA}" ShortID="1032077745">
+															<Language>SFX</Language>
+															<AudioFile>408206702.wem.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="408206702_wem" ID="{8F750BF5-0577-44D8-9092-C6E518D0C2FA}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ConversionInfo>
-												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-											</ConversionInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="408206702_wem" ID="{8F750BF5-0577-44D8-9092-C6E518D0C2FA}" Platform="Linked" />
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="_524655325" ID="{5EBE4D0F-3377-46E8-ADCF-0B724D0B1C27}" ShortID="694095403" Type="SoundFX">
-											<Comment>703041382</Comment>
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-													<RTPCList>
-														<RTPC Name="" ID="{BEA4FE36-50E5-4290-AC36-EAD4C0BA3D94}" ShortID="174226512">
-															<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
-															<Curve Name="" ID="{7CFED434-EF7B-4B26-9C40-4848BCBE1C64}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>50</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>72.952</XPos>
-																		<YPos>-3.607</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="703041382_wem" ID="{7326A0CA-6A2A-4669-B2B2-A243D0F49160}" ShortID="95854127">
-													<Language>SFX</Language>
-													<AudioFile>703041382.wem.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ConversionInfo>
-												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-											</ConversionInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="703041382_wem" ID="{7326A0CA-6A2A-4669-B2B2-A243D0F49160}" Platform="Linked" />
-											</ActiveSourceList>
-										</Sound>
+										</Folder>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
@@ -5045,7 +5247,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+												<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 												<State Name="Custom State" ID="{81C49AB6-2292-4E8D-B628-7EA43864C418}" ShortID="1023237550">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-5" />
@@ -5176,7 +5378,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="ary85z1" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5284,7 +5486,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 										</State>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+										<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 										<State Name="Custom State" ID="{F11765B7-DCD5-456C-B510-6705FD5BAC79}" ShortID="27362208">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-5" />
@@ -5415,7 +5617,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 														<SegmentShape>Constant</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>-0</XPos>
+														<XPos>0</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -5501,7 +5703,7 @@ Embedded SFX, id: 3111064.wem</Comment>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5519,6 +5721,31 @@ what is additional parameter 33=3</Comment>
 														<Value>-1</Value>
 													</ValueList>
 													<RTPCList>
+														<RTPC Name="" ID="{EBEB841F-C4F0-4223-A55A-0ECDB20FA803}" ShortID="954982956">
+															<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+															<Curve Name="" ID="{930C6496-B55A-49CA-9250-53484BE8AEC3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>-8</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 														<RTPC Name="" ID="{F528335A-00CF-447B-9790-3309D8C6E4EF}" ShortID="698816041">
 															<GameParameterRef Name="cx6qf3x" ID="{5027B484-539F-4A4D-841D-8EC7CC911294}" />
 															<Curve Name="" ID="{016C540A-E5DE-4613-9E58-5ABEF113FA5F}">
@@ -5588,7 +5815,7 @@ what is additional parameter 33=3</Comment>
 										</State>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+										<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 										<State Name="Custom State" ID="{95B9CDBE-1CB3-488C-B0AA-618861F7315B}" ShortID="129284640">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-3" />
@@ -5618,6 +5845,811 @@ what is additional parameter 33=3</Comment>
 								<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 							</ConversionInfo>
 						</ActorMixer>
+						<RandomSequenceContainer Name="_55731139" ID="{0AB9043A-6B6F-41F9-B3B8-9E0B6242F3FD}" ShortID="168047430">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0" />
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+								<Property Name="FollowListenerOrientation" Type="bool" Value="False" />
+								<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{56E65F4A-42A3-43B4-A5A2-AC67BD6333AD}" ShortID="220995695">
+											<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+											<Curve Name="" ID="{71E14310-8DB4-4B24-B7D0-C857EB533FEC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>12</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>50</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{0B9324BC-1753-4770-983E-713065A27274}" ShortID="581279090">
+											<GameParameterRef Name="in_out" ID="{A7E70614-2474-4D94-A4E7-116253D395E6}" />
+											<Curve Name="" ID="{851344D6-EC53-4E25-92A2-F2865F69AA21}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>50</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>10.037</XPos>
+														<YPos>50</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>25</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1" />
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C4646654-0C3D-48D9-91D5-7200A12BD0A3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True" />
+													<Property Name="Max" Type="Real64" Value="1" />
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+								<Property Name="PositioningType" Type="int16" Value="1" />
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>90</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{023CEC24-280C-406B-A465-BFDB065B0E92}" ShortID="1000515845">
+											<GameParameterRef Name="in_out" ID="{A7E70614-2474-4D94-A4E7-116253D395E6}" />
+											<Curve Name="" ID="{58ACAE36-841D-4468-A890-A908626E2DE7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>3.479</XPos>
+														<YPos>-15.769</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12</XPos>
+														<YPos>-1</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>25</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{EBEB316B-36B3-49EC-AE98-E6F54EF24412}" ShortID="293329257">
+											<GameParameterRef Name="ambient_volume" ID="{4DC75A30-2174-4AD4-A44B-D573E2162670}" />
+											<Curve Name="" ID="{C5AC9B45-A51F-4194-879A-068B88FC129C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.1</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.9</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{D83E3D84-F669-4354-892A-BB5C5C883A57}" ShortID="636669552">
+											<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+											<Curve Name="" ID="{F7E848D7-7D7F-418D-83E2-FE0D21AA4B2B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="btla2h" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="_31627460" ID="{3DB94573-DA4A-494F-AD4D-CE066DEFDEAE}" ShortID="406532228">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_988366454" ID="{B20B7C7B-8813-4D8A-8BC5-5752E77687D5}" ShortID="142464464" Type="SoundFX">
+											<Comment>Embedded SFX, id: 773302862</Comment>
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{36B416B2-671B-481E-A9AF-8B94F7CD82A7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True" />
+																	<Property Name="Min" Type="Real64" Value="-300" />
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="773302862_wem" ID="{319D93A3-EC3D-4171-94AB-82140CE6723D}" ShortID="370445620">
+													<Language>SFX</Language>
+													<AudioFile>773302862.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="773302862_wem" ID="{319D93A3-EC3D-4171-94AB-82140CE6723D}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</BlendContainer>
+								<Sound Name="_35357855" ID="{63122B04-5440-4627-8994-4654C788E95B}" ShortID="828651926" Type="SoundFX">
+									<Comment>Embedded SFX, id: 267697703</Comment>
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{611AD0E9-F8C3-473D-AB60-79CA6E9418F0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True" />
+															<Property Name="Min" Type="Real64" Value="-600" />
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2EA33C1A-9A75-4CED-B749-686A6A8FBADC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True" />
+															<Property Name="Min" Type="Real64" Value="-8" />
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="267697703_wem" ID="{2427B3A2-A197-4B5D-9343-A6982DD4A129}" ShortID="631015527">
+											<Language>SFX</Language>
+											<AudioFile>267697703.wem.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="267697703_wem" ID="{2427B3A2-A197-4B5D-9343-A6982DD4A129}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="_911920233" ID="{EFE42620-B076-4F12-B9D6-4CA8282F7196}" ShortID="154837631" Type="SoundFX">
+									<Comment>Embedded SFX, id: 895611783.wem</Comment>
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CA9F9242-4294-44AF-96EF-E22666373F09}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True" />
+															<Property Name="Min" Type="Real64" Value="-600" />
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="895611783_wem" ID="{1B6008CB-D6BF-4360-B4C9-15151147B326}" ShortID="345175329">
+											<Language>SFX</Language>
+											<AudioFile>895611783.wem.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="895611783_wem" ID="{1B6008CB-D6BF-4360-B4C9-15151147B326}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<AttenuationInfo>
+									<AttenuationRef Name="_1024701631" ID="{5122BB70-6C73-4CF1-8CDD-3FAC830155A4}" Platform="Linked" />
+								</AttenuationInfo>
+								<Position Name="" ID="{172AC59F-FD11-4BAE-AB68-52B76A3AB701}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True" />
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1" />
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="_55731139_Path" ID="{1CB102AB-A88E-4EDB-A1B0-6B5B799F3D3D}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="c10200l" ID="{33489D0A-015E-4621-A07A-5EDA7A500618}" />
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="camera_fps" ID="{820BF039-4EE9-499B-A880-D4C415E4B5D9}" />
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="a31t835" ID="{688B4F8C-A0F4-48AD-8D5E-AB7E2333CF6F}" />
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="dying" ID="{CEBB3A5B-5696-4DD2-B8C6-05EAE170363D}" />
+										<State Name="Custom State" ID="{58510CFA-92BF-46FB-9CC2-22B12E184AE5}" ShortID="731918492">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-7" />
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+										<State Name="Custom State" ID="{206ED741-BEF0-4FDA-8D33-A51B7F60C47B}" ShortID="235664202">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-5" />
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="in" ID="{F0F546B0-DBF1-450C-8D9A-8A4029237980}" />
+										<State Name="Custom State" ID="{9E5E3A03-A369-40BE-9D55-ED610571D1E1}" ShortID="1011977996">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-200" />
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="fps" ID="{C716BFBC-491F-4A53-B4F7-3D0EC4EA0357}" />
+										<State Name="Custom State" ID="{ACA7F2DD-D3BC-4BE7-A5D8-3EAA114DEC52}" ShortID="273091513">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-5" />
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="injured" ID="{A67554FE-81F7-469D-8DDD-2B08D96D7B7F}" />
+										<State Name="Custom State" ID="{FBED2689-A5F9-46A6-8F07-2FA69D56126E}" ShortID="694221996">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="37" />
+												<Property Name="Volume" Type="Real64" Value="-3" />
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ConversionInfo>
+								<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+							</ConversionInfo>
+						</RandomSequenceContainer>
+						<Folder Name="e20010" ID="{DD7EA43C-38A4-460A-88CC-553C177DCEEA}" ShortID="736945198">
+							<ChildrenList>
+								<ActorMixer Name="_862704825" ID="{A41EB1A7-06AC-4C38-A5F3-09FD37C13A7B}" ShortID="557983614">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{C43D2813-A38D-48DA-9E0C-FDEEB82B5A64}" ShortID="727282007">
+													<GameParameterRef Name="ambient_volume" ID="{4DC75A30-2174-4AD4-A44B-D573E2162670}" />
+													<Curve Name="" ID="{D66D9008-9C0C-4547-B9CE-FC31F27119B8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.1</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.9</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{EA022A1A-328E-4A7A-9905-D599C6C89C01}" ShortID="553787783">
+													<GameParameterRef Name="a2g_qcx" ID="{38D6E1E2-6EFC-4435-B6E2-7D09BB596BA6}" />
+													<Curve Name="" ID="{90FEF635-1C2C-4A90-A6CD-30AB3EFD1CA5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.583</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.645</XPos>
+																<YPos>-7</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{7D12A756-DA67-42F6-9581-8AAF375AA43C}" ShortID="653665961">
+													<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+													<Curve Name="" ID="{63EEE71B-2F11-40C9-8E25-1EAE114D18ED}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{8C5B555C-5742-4C34-B6E9-28BB60E6E1AA}" ShortID="1041598231">
+													<GameParameterRef Name="in_out" ID="{A7E70614-2474-4D94-A4E7-116253D395E6}" />
+													<Curve Name="" ID="{2D288F38-6CFD-462D-BD3D-990958DA7111}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>19.643</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>20</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{BE95A183-B8C2-4282-9443-2FBBC690F5D6}" ShortID="209492049">
+													<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+													<Curve Name="" ID="{105AEB52-3627-47B9-857D-EEF8F774FC50}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>-4</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_25861978" ID="{1ADDDF5C-8188-4DD8-8D7B-04DDCC5F50D9}" ShortID="578453341" Type="SoundFX">
+											<Comment>Embedded SFX, id: 200498083</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200498083_wem" ID="{EA38B899-E863-411E-88E9-0255752C7956}" ShortID="1053716255">
+													<Language>SFX</Language>
+													<AudioFile>200498083.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EDF12A9B-6BB7-4DE1-A979-388469E411DB}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-55" />
+														<Property Name="PanY" Type="Real64" Value="75" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="200498083_wem" ID="{EA38B899-E863-411E-88E9-0255752C7956}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_884339397" ID="{E9F07906-6640-4926-A1C3-D14A9074ABEB}" ShortID="342266680" Type="SoundFX">
+											<Comment>Embedded SFX, id: 200498083</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-500</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200498083_wem" ID="{53D23F06-0583-4D42-A532-933332FA8990}" ShortID="476596264">
+													<Language>SFX</Language>
+													<AudioFile>200498083.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E56EA3AE-A0F1-4580-9C33-55961073D025}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-55" />
+														<Property Name="PanY" Type="Real64" Value="75" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="200498083_wem" ID="{53D23F06-0583-4D42-A532-933332FA8990}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_983854328" ID="{893A2358-5BF7-4809-A52C-59863E1A5E3E}" ShortID="1028000316" Type="SoundFX">
+											<Comment>Embedded SFX, id: 200498083</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200498083_wem" ID="{F5FA61C8-28DE-4657-9F5A-B9FE20C7F76D}" ShortID="829607339">
+													<Language>SFX</Language>
+													<AudioFile>200498083.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F1241030-735B-4533-A0E8-A050D48A07A5}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="55" />
+														<Property Name="PanY" Type="Real64" Value="75" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="200498083_wem" ID="{F5FA61C8-28DE-4657-9F5A-B9FE20C7F76D}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_574188911" ID="{F7141A36-C73A-4A48-BF72-A83AB237A808}" ShortID="644225775" Type="SoundFX">
+											<Comment>Embedded SFX, id: 200498083
+
+</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-650</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200498083_wem" ID="{F6B7BE4D-5F2B-4625-ADF1-1744B54D150E}" ShortID="388827145">
+													<Language>SFX</Language>
+													<AudioFile>200498083.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{5FD20D15-7C06-44D8-8976-BE923FE6E6C7}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="55" />
+														<Property Name="PanY" Type="Real64" Value="75" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="200498083_wem" ID="{F6B7BE4D-5F2B-4625-ADF1-1744B54D150E}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="camera_fps" ID="{820BF039-4EE9-499B-A880-D4C415E4B5D9}" />
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+												<State Name="Custom State" ID="{9A94409F-4CC1-4EB4-A7F7-E3172D6FA33C}" ShortID="547267221">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96" />
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="_864486202" ID="{86194938-25AE-47EA-8424-0170629C0D55}" ShortID="1029701222">
@@ -5630,7 +6662,7 @@ what is additional parameter 33=3</Comment>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+							<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -5691,7 +6723,7 @@ what is additional parameter 33=3</Comment>
 														</StateGroupList>
 														<CustomStateList>
 															<CustomState>
-																<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+																<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 																<State Name="Custom State" ID="{0588FDA1-9D05-492E-A8FB-CF5E52DCDD25}" ShortID="1066226437">
 																	<PropertyList>
 																		<Property Name="Volume" Type="Real64" Value="6" />
@@ -5772,7 +6804,7 @@ what is additional parameter 33=3</Comment>
 														</StateGroupList>
 														<CustomStateList>
 															<CustomState>
-																<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+																<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 																<State Name="Custom State" ID="{9747BDDC-0567-455B-A7B1-5A14785B0DE1}" ShortID="818425412">
 																	<PropertyList>
 																		<Property Name="Volume" Type="Real64" Value="6" />
@@ -13622,7 +14654,7 @@ what is additional parameter 33=3</Comment>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="a434hiy" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+													<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -13765,169 +14797,6 @@ what is additional parameter 33=3</Comment>
 												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 											</ConversionInfo>
 										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="small_fall" ID="{6C6E77E1-40C5-45EC-BD57-8D728283FC78}" ShortID="726880133">
-									<ChildrenList>
-										<Sound Name="_35787545" ID="{27D418C4-E092-4EF1-9626-8A33B29EA751}" ShortID="925836132" Type="SoundFX">
-											<Comment>Sound, id: 35787545
-Embedded SFX, id: 12933296</Comment>
-											<PropertyList>
-												<Property Name="GameAuxSendVolume" Type="Real64">
-													<ValueList>
-														<Value>6</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
-												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
-												<Property Name="OverridePositioning" Type="bool" Value="True" />
-												<Property Name="OverridePriority" Type="bool" Value="True" />
-												<Property Name="PositioningType" Type="int16" Value="1" />
-												<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
-												<Property Name="PriorityDistanceOffset" Type="int16">
-													<ValueList>
-														<Value>-40</Value>
-													</ValueList>
-												</Property>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-12</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="12933296_wem" ID="{375FB4F7-9FE9-4B99-BDA5-9192C43185E7}" ShortID="309485688">
-													<Language>SFX</Language>
-													<AudioFile>12933296.wem.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<AttenuationInfo>
-													<AttenuationRef Name="_232563285" ID="{0137E873-9FBD-4CA0-B45E-9669DFA7EE4F}" Platform="Linked" />
-												</AttenuationInfo>
-											</PositioningInfo>
-											<ConversionInfo>
-												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-											</ConversionInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="12933296_wem" ID="{375FB4F7-9FE9-4B99-BDA5-9192C43185E7}" Platform="Linked" />
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="_684454717" ID="{9B817A9E-883B-4708-B520-E0377167E54E}" ShortID="49108543" Type="SoundFX">
-											<Comment>Sound, id: 684454717
-Embedded SFX, id: 388201622.wem</Comment>
-											<PropertyList>
-												<Property Name="GameAuxSendVolume" Type="Real64">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
-												<Property Name="OutputBusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{C838190C-311E-4916-AA20-13D531402126}" ShortID="900373119">
-															<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
-															<Curve Name="" ID="{965FFACB-5323-4825-9724-6A5BE8E12960}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3" />
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>16.67</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>66.67</XPos>
-																		<YPos>-4</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Constant</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>200</XPos>
-																		<YPos>-4</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
-												<Property Name="OverridePositioning" Type="bool" Value="True" />
-												<Property Name="OverridePriority" Type="bool" Value="True" />
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-300</Value>
-													</ValueList>
-												</Property>
-												<Property Name="PositioningType" Type="int16" Value="1" />
-												<Property Name="Priority" Type="int16">
-													<ValueList>
-														<Value>30</Value>
-													</ValueList>
-												</Property>
-												<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
-												<Property Name="PriorityDistanceOffset" Type="int16">
-													<ValueList>
-														<Value>-40</Value>
-													</ValueList>
-												</Property>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="388201622_wem" ID="{A53A52A9-CDC4-4A0B-8829-63BB74B2BFE7}" ShortID="1012393961">
-													<Language>SFX</Language>
-													<AudioFile>388201622.wem.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<AttenuationInfo>
-													<AttenuationRef Name="_232563285" ID="{0137E873-9FBD-4CA0-B45E-9669DFA7EE4F}" Platform="Linked" />
-												</AttenuationInfo>
-											</PositioningInfo>
-											<ConversionInfo>
-												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-											</ConversionInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="388201622_wem" ID="{A53A52A9-CDC4-4A0B-8829-63BB74B2BFE7}" Platform="Linked" />
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="wallcover" ID="{343543C4-992B-4543-8D3A-4C4EC420FE96}" ShortID="437054944">
@@ -14785,6 +15654,237 @@ Embedded SFX, id: 388201622.wem</Comment>
 										</Folder>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="small_fall" ID="{6C6E77E1-40C5-45EC-BD57-8D728283FC78}" ShortID="726880133">
+									<ChildrenList>
+										<Sound Name="_35787545" ID="{27D418C4-E092-4EF1-9626-8A33B29EA751}" ShortID="925836132" Type="SoundFX">
+											<Comment>Sound, id: 35787545
+Embedded SFX, id: 12933296</Comment>
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
+												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverridePriority" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+												<Property Name="PriorityDistanceOffset" Type="int16">
+													<ValueList>
+														<Value>-40</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{11958C04-799D-4FF8-809A-8AAA942B3EB7}" ShortID="726338863">
+															<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+															<Curve Name="" ID="{754F3CDC-0794-4C5C-94E3-5076E1DCC09B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>39.581</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="12933296_wem" ID="{375FB4F7-9FE9-4B99-BDA5-9192C43185E7}" ShortID="309485688">
+													<Language>SFX</Language>
+													<AudioFile>12933296.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_232563285" ID="{0137E873-9FBD-4CA0-B45E-9669DFA7EE4F}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="12933296_wem" ID="{375FB4F7-9FE9-4B99-BDA5-9192C43185E7}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_684454717" ID="{9B817A9E-883B-4708-B520-E0377167E54E}" ShortID="49108543" Type="SoundFX">
+											<Comment>Sound, id: 684454717
+Embedded SFX, id: 388201622.wem</Comment>
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OutputBusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{C838190C-311E-4916-AA20-13D531402126}" ShortID="900373119">
+															<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+															<Curve Name="" ID="{965FFACB-5323-4825-9724-6A5BE8E12960}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>16.67</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>66.67</XPos>
+																		<YPos>-4</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>200</XPos>
+																		<YPos>-4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverridePriority" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+												<Property Name="PriorityDistanceOffset" Type="int16">
+													<ValueList>
+														<Value>-40</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{CCF2955B-0DAD-4586-A2DE-36279D12E655}" ShortID="823370489">
+															<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+															<Curve Name="" ID="{5A3E7265-55D0-4FFD-B38C-1B2B14106FEC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3" />
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>39.581</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="388201622_wem" ID="{A53A52A9-CDC4-4A0B-8829-63BB74B2BFE7}" ShortID="1012393961">
+													<Language>SFX</Language>
+													<AudioFile>388201622.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_232563285" ID="{0137E873-9FBD-4CA0-B45E-9669DFA7EE4F}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="388201622_wem" ID="{A53A52A9-CDC4-4A0B-8829-63BB74B2BFE7}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="env_calm" ID="{03593B7B-0AF4-44A9-96C7-62570E11948E}" ShortID="145262882">
@@ -14810,7 +15910,7 @@ Embedded SFX, id: 388201622.wem</Comment>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-0</XPos>
+																		<XPos>0</XPos>
 																		<YPos>37</YPos>
 																		<Flags>0</Flags>
 																	</Point>
@@ -14982,7 +16082,7 @@ Embedded SFX, id: 388201622.wem</Comment>
 								</State>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+								<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
 								<State Name="Custom State" ID="{A32284FB-1D48-4E75-A182-6E7A2D404B79}" ShortID="220528741">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64" Value="-3" />

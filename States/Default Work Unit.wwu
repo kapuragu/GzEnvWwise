@@ -81,7 +81,7 @@ ADDED IN TPP</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="a9trcud" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}">
+				<StateGroup Name="tape_state" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}">
 					<Comment>1888532759</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{CC1A5D26-ACA5-40C7-9625-C917C68EBEE5}" />
@@ -100,7 +100,7 @@ ADDED IN TPP</Comment>
 						<State Name="fps" ID="{C716BFBC-491F-4A53-B4F7-3D0EC4EA0357}">
 							<Comment>932139042</Comment>
 						</State>
-						<State Name="cwdiu0w" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}">
+						<State Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}">
 							<Comment>676729040</Comment>
 						</State>
 					</ChildrenList>
@@ -117,6 +117,30 @@ OLD: 1007152837</Comment>
 						<State Name="injured" ID="{A67554FE-81F7-469D-8DDD-2B08D96D7B7F}">
 							<Comment>2860195132
 OLD: 575965534</Comment>
+						</State>
+						<State Name="highspeed" ID="{FBECFACD-7023-4971-9778-DAB9F3DDFACB}">
+							<Comment>909092410</Comment>
+						</State>
+						<State Name="scope" ID="{CE59F0BD-FC4C-4F3E-8444-DC31F0876198}">
+							<Comment>2431786863</Comment>
+						</State>
+						<State Name="synaptic_violet" ID="{824548D1-7159-4D5F-AD87-D17B3F3E9F51}">
+							<Comment>3299004024</Comment>
+						</State>
+						<State Name="nomic" ID="{B8DC05B7-081A-4211-81BA-93408613442B}">
+							<Comment>4092900741</Comment>
+						</State>
+						<State Name="stun" ID="{980B0C9B-3994-44FE-924D-C5E759C20359}">
+							<Comment>352666449</Comment>
+						</State>
+						<State Name="playdead" ID="{A9DD763E-0E63-48A8-B959-4A6FFF7AD7DE}">
+							<Comment>662274965</Comment>
+						</State>
+						<State Name="sleep" ID="{B3BCC5EA-E7E3-4D29-B859-D458D2A49509}">
+							<Comment>3671647190</Comment>
+						</State>
+						<State Name="listen" ID="{44217838-7F7B-463B-9DBE-A47345644B96}">
+							<Comment>3369760968</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>
@@ -195,6 +219,65 @@ OLD: 575965534</Comment>
 						</State>
 						<State Name="j9b70w" ID="{14961B73-DA31-4741-BD68-F5FD8A3357C5}">
 							<Comment>15262344</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="system_state" ID="{2FDA3411-A2A0-41BD-AA26-A76DC964C093}">
+					<Comment>3081597100</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{0B8DEDE9-BED9-44B0-89DB-5DCE7679EE41}" />
+						<State Name="boot" ID="{4E1DEB45-8A1A-435A-AC31-35B0087CBFF8}">
+							<Comment>1761500993</Comment>
+						</State>
+						<State Name="result" ID="{798939B9-ED5C-4077-91C0-D8689A5687CF}">
+							<Comment>936499202</Comment>
+						</State>
+						<State Name="mission_title" ID="{385F787C-C540-4B09-9983-ACA3EE748355}">
+							<Comment>813656466</Comment>
+						</State>
+						<State Name="credit" ID="{A6B2274D-F45C-46BE-9FD1-8334EF281ABB}">
+							<Comment>4072209002</Comment>
+						</State>
+						<State Name="radiodrama" ID="{DDB2E7FF-A860-49C5-9AE4-27A40C9A7531}">
+							<Comment>2667185715</Comment>
+						</State>
+						<State Name="reward" ID="{8C693E50-1743-4AF6-B1CB-7EC710838F94}">
+							<Comment>1873057832</Comment>
+						</State>
+						<State Name="gameover" ID="{83B53B7C-1926-40E7-B45B-0862AEE0E590}">
+							<Comment>4158285989</Comment>
+						</State>
+						<State Name="blackout" ID="{50003952-493B-462A-A8ED-8BA2C85A49C4}">
+							<Comment>1048927694</Comment>
+						</State>
+						<State Name="intermission" ID="{1E4D04EF-3EDA-4B6D-B9A8-13028373CF75}">
+							<Comment>2749137245</Comment>
+						</State>
+						<State Name="manual" ID="{9FD3D7B8-7D63-4FC5-ACBC-C4F11D1B17E4}">
+							<Comment>4033255915</Comment>
+						</State>
+						<State Name="mute" ID="{307AC41A-7AF3-4FD2-8E2E-57B8B96072FC}">
+							<Comment>2974103762</Comment>
+						</State>
+						<State Name="smoking" ID="{4DEC80F5-2110-4384-90BB-B34D36F17225}">
+							<Comment>2807992953</Comment>
+						</State>
+						<State Name="ypqnmz" ID="{14F19D19-6773-4B5F-BCC3-9755B966F8D8}">
+							<Comment>3324554334</Comment>
+						</State>
+						<State Name="t6pczw" ID="{9A1A69A0-34DD-4706-8214-049E6F4A76C8}">
+							<Comment>1786610509</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="a31t835" ID="{688B4F8C-A0F4-48AD-8D5E-AB7E2333CF6F}">
+					<Comment>1857378326
+OLD: 2486895787</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{FD01CBAD-2D37-413C-A1B0-962CFB000D49}" />
+						<State Name="in" ID="{F0F546B0-DBF1-450C-8D9A-8A4029237980}">
+							<Comment>1752637612
+OLD: 1992770801</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>

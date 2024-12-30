@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{92A6EB53-8C4F-4496-AE2E-9AB1F6610295}" SchemaVersion="62">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{92A6EB53-8C4F-4496-AE2E-9AB1F6610295}" PersistMode="Standalone" />
+		<WorkUnit Name="Default Work Unit" ID="{92A6EB53-8C4F-4496-AE2E-9AB1F6610295}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="bgm_phase_life" ID="{B5ADDB17-08B1-4820-B205-048E058CDFCE}">
+					<Comment>2963568022</Comment>
+					<ChildrenList>
+						<Switch Name="bgm_phase_life_normal" ID="{9EAAE066-C220-43EB-8432-64328E642B6B}">
+							<Comment>3684859792</Comment>
+						</Switch>
+						<Switch Name="bgm_phase_life_dying" ID="{3AA0C372-5ADD-41E3-B36F-8A8C36AA4C27}">
+							<Comment>701919416</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
