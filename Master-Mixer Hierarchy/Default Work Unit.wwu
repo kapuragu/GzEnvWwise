@@ -71,11 +71,17 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<AuxBus Name="btla2h" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}">
+										<AuxBus Name="gen8_int_l" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}">
 											<Comment>3175760176</Comment>
 										</AuxBus>
 										<AuxBus Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}">
 											<Comment>1132214669</Comment>
+										</AuxBus>
+										<AuxBus Name="gen8_int_s" ID="{00DFE368-4028-4FFF-ADC8-53C656CC6399}">
+											<Comment>3175760175</Comment>
+										</AuxBus>
+										<AuxBus Name="gen8_ext" ID="{311D1374-70F5-4A71-8A89-C5D39567EED5}">
+											<Comment>3678912323</Comment>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>

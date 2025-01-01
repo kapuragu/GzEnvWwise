@@ -106,7 +106,7 @@ ADDED IN TPP</Comment>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="c10200l" ID="{33489D0A-015E-4621-A07A-5EDA7A500618}">
-					<Comment>505863753, 
+					<Comment>505863753
 OLD: 3096969374</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{F20D384F-9B53-408A-AE1A-646ABB10B410}" />
