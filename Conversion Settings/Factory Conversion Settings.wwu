@@ -1134,7 +1134,7 @@
 									<ConversionPlugin Name="" ID="{04A642AB-4605-46A7-9F42-3D7E453772F0}" PluginName="ADPCM" CompanyID="0" PluginID="2" />
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{49C5A3B8-E0D4-4C5A-A993-FE1CEE874BF6}" PluginName="ADPCM" CompanyID="0" PluginID="2" />
+									<ConversionPlugin Name="" ID="{D7FF14E1-B993-4F71-9626-64AC13DC0AC5}" PluginName="ADPCM" CompanyID="0" PluginID="2" />
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Wii">
 									<ConversionPlugin Name="" ID="{15E9371F-28BA-44BA-B733-4BC1B20A4086}" PluginName="ADPCM" CompanyID="0" PluginID="5" />
