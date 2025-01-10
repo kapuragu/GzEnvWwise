@@ -2132,7 +2132,6 @@
 										</Action>
 										<Action Name="Set Voice Volume" ID="{2CCECD86-1CD0-406B-9222-8C90C1B2FDE6}" ShortID="98725692" Type="ChangeVolume" Scope="One" Global="true">
 											<PropertyList>
-												<Property Name="Absolute" Type="bool" Value="False" />
 												<Property Name="Delay" Type="Real64" Value="5" />
 												<Property Name="FadeTime" Type="Real64" Value="0.5" />
 												<Property Name="Volume" Type="Real64" Value="-3.5" />

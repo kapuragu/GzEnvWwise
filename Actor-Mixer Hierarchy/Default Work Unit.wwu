@@ -784,9 +784,21 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="647397560_wem" ID="{77C53A91-52C6-4DE9-A720-B0425D5B02FE}" ShortID="1043531642">
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>647397560.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
 											<ConversionInfo>
 												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="647397560_wem" ID="{77C53A91-52C6-4DE9-A720-B0425D5B02FE}" Platform="Linked" />
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="_90186643" ID="{11A3D1CA-023D-4E80-8E71-C1E5BD2ECF9F}" ShortID="615734792" Type="SoundFX">
 											<Comment>Embedded SFX, id: 416194976</Comment>
@@ -809,9 +821,21 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="416194976_wem" ID="{DCA661F0-192B-4B20-9EA5-E7FBCCCB1F93}" ShortID="314887731">
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>416194976.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
 											<ConversionInfo>
 												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="416194976_wem" ID="{DCA661F0-192B-4B20-9EA5-E7FBCCCB1F93}" Platform="Linked" />
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="_301595813" ID="{B1EF069B-A7AE-4B71-92D5-AAFEE440C014}" ShortID="663329443" Type="SoundFX">
 											<Comment>Embedded SFX, id: 930345206</Comment>
@@ -861,9 +885,21 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="506026967_wem" ID="{F4A9E5D5-A9A0-459C-A83F-FAC153541C60}" ShortID="250773683">
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>506026967.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
 											<ConversionInfo>
 												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="506026967_wem" ID="{F4A9E5D5-A9A0-459C-A83F-FAC153541C60}" Platform="Linked" />
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<PositioningInfo>
@@ -7517,9 +7553,9 @@
 														<Value>-6</Value>
 													</ValueList>
 													<RTPCList>
-														<RTPC Name="" ID="{ED9FAA49-FE6D-405F-A7EE-321698F61DD7}" ShortID="1056575739">
+														<RTPC Name="" ID="{C8E5625B-F85C-4AB8-8CC1-C3F9B12398FB}" ShortID="1032038926">
 															<GameParameterRef Name="BG_afgh_24hours" ID="{93B85CE1-6CC9-4C20-A8D1-0ECE73670B6C}" />
-															<Curve Name="" ID="{48E1960E-90BA-4860-8339-6F4D51713CA1}">
+															<Curve Name="" ID="{699FF600-5C20-468C-895E-75112DF554DF}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3" />
 																</PropertyList>
@@ -7531,22 +7567,24 @@
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>0.499</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>1.001</XPos>
+																		<XPos>0.5</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3</XPos>
+																		<XPos>3.166</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>3.001</XPos>
+																		<XPos>3.167</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
@@ -7716,22 +7754,22 @@
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.833</XPos>
+																<XPos>0.499</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>0.834</XPos>
+																<XPos>0.5</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>2.833</XPos>
+																<XPos>3.166</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>2.834</XPos>
+																<XPos>3.167</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -7929,9 +7967,9 @@
 														<Value>-18</Value>
 													</ValueList>
 													<RTPCList>
-														<RTPC Name="" ID="{D3416A71-44D6-44D6-9A08-3BA15F85E618}" ShortID="896703116">
+														<RTPC Name="" ID="{2F08432C-2E06-43E9-B6BD-638267F3C959}" ShortID="342980547">
 															<GameParameterRef Name="BG_afgh_24hours" ID="{93B85CE1-6CC9-4C20-A8D1-0ECE73670B6C}" />
-															<Curve Name="" ID="{58F43129-A030-4BAB-A97F-BBBB2FBE1F32}">
+															<Curve Name="" ID="{7FA29FC0-3D41-4FB4-ACDE-98C15CEF533C}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3" />
 																</PropertyList>
@@ -7943,22 +7981,22 @@
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>0.499</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1.001</XPos>
+																		<XPos>0.5</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3</XPos>
+																		<XPos>3.166</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3.001</XPos>
+																		<XPos>3.167</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
@@ -10717,8 +10755,9 @@ Embedded SFX, id: 388201622.wem</Comment>
 											</ValueList>
 										</Property>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False" />
-										<Property Name="LoopCount" Type="int32">
+										<Property Name="LoopCount" Type="int32" Value="1">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{61600369-D07A-449E-8594-FF302E61F704}">
@@ -10733,7 +10772,7 @@ Embedded SFX, id: 388201622.wem</Comment>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
@@ -11569,7 +11608,6 @@ Embedded SFX, id: 388201622.wem</Comment>
 												<State Name="Custom State" ID="{37422661-2C16-4BC6-9641-003C425B0CC6}" ShortID="623512237">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="-100" />
-														<Property Name="Volume" Type="Real64" Value="-1" />
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -14226,7 +14264,6 @@ Embedded SFX, id: 1054270119</Comment>
 													</ValueList>
 												</Property>
 												<Property Name="RandomOrSequence" Type="int16" Value="0" />
-												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -14300,6 +14337,42 @@ Embedded SFX, id: 1054270119</Comment>
 														<ActiveSource Name="246934607_wem" ID="{34B4CA03-5DCB-40AB-B190-CA76916DF150}" Platform="Linked" />
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="_1022028818" ID="{69D6CACB-8F0F-40BA-95EC-C56C45C007B3}" ShortID="531389573" Type="SoundFX">
+													<Comment>246934607	</Comment>
+													<PropertyList>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1.3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="246934607_wem" ID="{38236FCD-4D14-4C26-ACCA-8FE70D4E1662}" ShortID="435573965">
+															<Language>SFX</Language>
+															<AudioFile>246934607.wem.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="246934607_wem" ID="{38236FCD-4D14-4C26-ACCA-8FE70D4E1662}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
 												<Sound Name="_380181196" ID="{A1C4767E-6C39-4EC6-B834-26DDFE81E2AD}" ShortID="407566519" Type="SoundFX">
 													<Comment>246934607	</Comment>
 													<PropertyList>
@@ -14338,6 +14411,7 @@ Embedded SFX, id: 1054270119</Comment>
 												</Sound>
 												<RandomSequenceContainer Name="_820804796" ID="{96167A68-0DA5-45EF-AE77-41E5A7AF6A18}" ShortID="752923689">
 													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.25" />
@@ -14393,42 +14467,6 @@ Embedded SFX, id: 1054270119</Comment>
 														<ItemRef Name="_1017250742" ID="{39ECC51D-B2C0-4712-8DE9-10B9D75C8E2F}" />
 													</Playlist>
 												</RandomSequenceContainer>
-												<Sound Name="_1022028818" ID="{69D6CACB-8F0F-40BA-95EC-C56C45C007B3}" ShortID="531389573" Type="SoundFX">
-													<Comment>246934607	</Comment>
-													<PropertyList>
-														<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
-														<Property Name="UserAuxSendVolume0" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-1.3</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="246934607_wem" ID="{38236FCD-4D14-4C26-ACCA-8FE70D4E1662}" ShortID="435573965">
-															<Language>SFX</Language>
-															<AudioFile>246934607.wem.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ConversionInfo>
-														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-													</ConversionInfo>
-													<ActiveSourceList>
-														<ActiveSource Name="246934607_wem" ID="{38236FCD-4D14-4C26-ACCA-8FE70D4E1662}" Platform="Linked" />
-													</ActiveSourceList>
-												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
 												<AttenuationInfo>
@@ -14457,9 +14495,9 @@ Embedded SFX, id: 1054270119</Comment>
 											</ConversionInfo>
 											<Playlist>
 												<ItemRef Name="_298737261" ID="{412F82A0-6C0D-41CA-BD61-B2EE4DF7827E}" />
+												<ItemRef Name="_1022028818" ID="{69D6CACB-8F0F-40BA-95EC-C56C45C007B3}" />
 												<ItemRef Name="_380181196" ID="{A1C4767E-6C39-4EC6-B834-26DDFE81E2AD}" />
 												<ItemRef Name="_820804796" ID="{96167A68-0DA5-45EF-AE77-41E5A7AF6A18}" />
-												<ItemRef Name="_1022028818" ID="{69D6CACB-8F0F-40BA-95EC-C56C45C007B3}" />
 											</Playlist>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -16821,7 +16859,7 @@ what is additional parameter 33=3</Comment>
 																				<SegmentShape>Constant</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>-0</XPos>
+																				<XPos>0</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
@@ -17827,7 +17865,7 @@ what is additional parameter 33=3</Comment>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 								</ActorMixer>
-								<Folder Name="situation" ID="{E989369E-F779-462A-8393-DD2FACF97422}" ShortID="782549323">
+								<Folder Name="situation heli" ID="{E989369E-F779-462A-8393-DD2FACF97422}" ShortID="782549323">
 									<ChildrenList>
 										<Sound Name="_524655325" ID="{5EBE4D0F-3377-46E8-ADCF-0B724D0B1C27}" ShortID="694095403" Type="SoundFX">
 											<Comment>703041382</Comment>
@@ -23321,6 +23359,7 @@ Embedded SFX, id: 619035268</Comment>
 												<Value>60</Value>
 											</ValueList>
 										</Property>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False" />
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -24266,7 +24305,7 @@ Embedded SFX, id: 619035268</Comment>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>-0</XPos>
+												<XPos>0</XPos>
 												<YPos>3.486</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Constant</SegmentShape>
@@ -24670,6 +24709,11 @@ Embedded SFX, id: 619035268</Comment>
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="90815789_wem" ID="{75C54CA7-2375-411F-96E6-FE6A983557F7}" ShortID="991173451">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="6.40936944342142E-02" />
+																<Property Name="LoopEnd" Type="Real64" Value="0.16181167308842" />
+																<Property Name="OverrideWavLoop" Type="bool" Value="True" />
+															</PropertyList>
 															<ConversionInfo>
 																<ConversionRef Name="ADPCM As Input" ID="{844B7EC4-A8FF-43AD-821E-25B9459D4413}" />
 															</ConversionInfo>

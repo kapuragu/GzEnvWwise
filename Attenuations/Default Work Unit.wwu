@@ -1801,29 +1801,10 @@
 											<SegmentShape>Constant</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>48</XPos>
+											<XPos>15</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>50</XPos>
-											<YPos>-2</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>75</XPos>
-											<YPos>-6</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>105</XPos>
-											<YPos>-7</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>155</XPos>
-											<YPos>-11</YPos>
-											<Flags>0</Flags>
+											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>200</XPos>
@@ -1857,7 +1838,7 @@
 							</CurveUsageInfo>
 						</VolumeWetGameUsage>
 						<VolumeWetUserUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
 								<Curve Name="VolumeWetUser" ID="{078B7811-00B3-43C0-8687-3A2C46ACFE9C}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3" />
@@ -1908,18 +1889,8 @@
 											<SegmentShape>Constant</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>40.815</XPos>
+											<XPos>30</XPos>
 											<YPos>0</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>49.552</XPos>
-											<YPos>23</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>75.896</XPos>
-											<YPos>42</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -1942,18 +1913,7 @@
 											<XPos>0</XPos>
 											<YPos>50</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Constant</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>39.999</XPos>
-											<YPos>50</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>45</XPos>
-											<YPos>0</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>Constant</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>200</XPos>

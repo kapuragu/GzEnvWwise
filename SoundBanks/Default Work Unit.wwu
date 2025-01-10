@@ -3,14 +3,6 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{4C3B63F2-985A-4394-8BDF-937BFFE9080D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="vox_f30040" ID="{19D44A94-3611-4CB4-975C-540A2A3A1289}">
-					<ObjectInclusionList>
-						<ObjectRef Name="DD_vox_ene_conversation_GZ" ID="{0E4DBA33-2A7D-4DDB-ADCE-0ABC7C270FF2}" WorkUnitID="{1C8DEB4E-0FF1-4DA9-B333-29FCAF173AF9}" Filter="7" Origin="Manual" />
-						<ObjectRef Name="AM_vox_ene_conversation_GZ" ID="{26B6FF33-400B-4BEC-BD4B-BE2F07555520}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" Filter="7" Origin="Manual" />
-					</ObjectInclusionList>
-					<ObjectExclusionList />
-					<GameSyncExclusionList />
-				</SoundBank>
 				<SoundBank Name="common_bank_00" ID="{1CCD91CB-2D4E-4D9D-888B-C3925F15BBD6}">
 					<ObjectInclusionList>
 						<ObjectRef Name="common_bank_00" ID="{418848CA-7BFC-46E6-8EEE-6AF4A85AF358}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
@@ -20,31 +12,59 @@
 				</SoundBank>
 				<SoundBank Name="env_gntn_common" ID="{2FA1B529-7C3C-457B-A144-93B18B7CFD22}">
 					<ObjectInclusionList>
-						<ObjectRef Name="env_gntn_common" ID="{E774102D-B7AA-4F5B-B68B-B30E38F276AF}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_gntn_common" ID="{E774102D-B7AA-4F5B-B68B-B30E38F276AF}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
 				</SoundBank>
 				<SoundBank Name="env_f30040" ID="{EAA39F88-2FCB-42A2-8A04-CA0933BB6AD4}">
 					<ObjectInclusionList>
-						<ObjectRef Name="env_gntn_fine_factory" ID="{E4256264-3E4C-4065-BC0B-721B6212F9CB}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
-						<ObjectRef Name="env_f30040" ID="{FC25B277-70BB-4DFC-8C72-8C113E8EF9E4}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
-						<ObjectRef Name="env_gntn_fine_center" ID="{1884E2CE-DAE4-4EDD-B8BB-055052EC3572}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
-						<ObjectRef Name="env_gntn_fine_sea" ID="{6B93A7D4-FFBD-4618-9400-DB0EF000D2E8}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_factory" ID="{E4256264-3E4C-4065-BC0B-721B6212F9CB}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+						<ObjectRef Name="env_f30040" ID="{FC25B277-70BB-4DFC-8C72-8C113E8EF9E4}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_center" ID="{1884E2CE-DAE4-4EDD-B8BB-055052EC3572}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_sea" ID="{6B93A7D4-FFBD-4618-9400-DB0EF000D2E8}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
 				</SoundBank>
 				<SoundBank Name="vehicle_000_resident_gz" ID="{974250ED-7EB7-464E-B30C-74924A024203}">
 					<ObjectInclusionList>
-						<ObjectRef Name="vehicle_000_resident" ID="{8DBF355F-0BE7-47C3-861A-3CED7EEEE5B3}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="vehicle_000_resident" ID="{8DBF355F-0BE7-47C3-861A-3CED7EEEE5B3}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
 				</SoundBank>
 				<SoundBank Name="system_SE_bank_00" ID="{565B5F9A-806D-4BCA-9067-4802C848B288}">
 					<ObjectInclusionList>
-						<ObjectRef Name="system_SE_bank_00" ID="{6E4B830E-ECC8-4A98-A027-7FE08DF56FEA}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="system_SE_bank_00" ID="{6E4B830E-ECC8-4A98-A027-7FE08DF56FEA}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="env_e20060" ID="{C69DE71D-0BFE-4CEE-A0BD-3EBD1875E746}">
+					<ObjectInclusionList>
+						<ObjectRef Name="env_e20060" ID="{90AC66CB-0BDE-46FD-867F-D60F1DE38DD1}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="env_e20070" ID="{C4B17CEB-AEF6-4A6C-A2AF-B1C7BA8222BE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="bioroid" ID="{DE695018-22DE-44CD-A6AE-78FC34C34CF5}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="env_homage" ID="{8170CE0C-3EE2-4A70-842A-62D43E8AF4A3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="env_homage" ID="{F104CC14-8835-40FF-ADAD-5E879A146EC7}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="env_e20040" ID="{277D6868-FA09-43CB-885F-3640E407466E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="env_e20040" ID="{5862128E-A5B4-4CE3-BC83-FE5B324F6411}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
