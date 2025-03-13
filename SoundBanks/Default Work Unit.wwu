@@ -12,7 +12,7 @@
 				</SoundBank>
 				<SoundBank Name="env_gntn_common" ID="{2FA1B529-7C3C-457B-A144-93B18B7CFD22}">
 					<ObjectInclusionList>
-						<ObjectRef Name="env_gntn_common" ID="{E774102D-B7AA-4F5B-B68B-B30E38F276AF}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+						<ObjectRef Name="env_gntn_common" ID="{E774102D-B7AA-4F5B-B68B-B30E38F276AF}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
@@ -43,7 +43,7 @@
 				</SoundBank>
 				<SoundBank Name="env_e20060" ID="{C69DE71D-0BFE-4CEE-A0BD-3EBD1875E746}">
 					<ObjectInclusionList>
-						<ObjectRef Name="env_e20060" ID="{90AC66CB-0BDE-46FD-867F-D60F1DE38DD1}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_e20060" ID="{90AC66CB-0BDE-46FD-867F-D60F1DE38DD1}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />

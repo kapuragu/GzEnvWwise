@@ -2104,7 +2104,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="sfx_m_gntn_alert_siren4_lp" ID="{A7048877-BA2F-41BB-BA8C-7329A1FAA6BD}">
+								<Event Name="sfx_m_gntn_alert_siren4_lpa" ID="{A7048877-BA2F-41BB-BA8C-7329A1FAA6BD}">
 									<ChildrenList>
 										<Action Name="Stop" ID="{E8EA9595-B7D0-464D-9AFC-C2A9AF004432}" ShortID="400155027" Type="Stop" Scope="One" Global="true">
 											<ElementList>
@@ -2144,7 +2144,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Stop_sfx_m_gntn_alert_siren4_lp" ID="{DAA58591-329F-49DD-A13E-6C97C0377250}">
+								<Event Name="Stop_sfx_m_gntn_alert_siren4_lpa" ID="{DAA58591-329F-49DD-A13E-6C97C0377250}">
 									<ChildrenList>
 										<Action Name="Break" ID="{A34DE497-1C45-40C2-AA50-31E748929625}" ShortID="548955767" Type="Break" Scope="One" Global="true">
 											<ElementList>

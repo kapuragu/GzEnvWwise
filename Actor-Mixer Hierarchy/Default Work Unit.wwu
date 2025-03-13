@@ -7564,27 +7564,24 @@
 																		<XPos>0</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.499</XPos>
+																		<XPos>0.999</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.5</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3.166</XPos>
+																		<XPos>2.999</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>3.167</XPos>
+																		<XPos>3</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
@@ -7740,9 +7737,9 @@
 										<Property Name="PositioningType" Type="int16" Value="1" />
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{D8D96CDA-0189-4A18-8826-9BCD04FB3765}" ShortID="617815032">
+												<RTPC Name="" ID="{A4AD9C12-FA08-4251-ADF5-A6048EF5BB56}" ShortID="926869313">
 													<GameParameterRef Name="BG_afgh_24hours" ID="{93B85CE1-6CC9-4C20-A8D1-0ECE73670B6C}" />
-													<Curve Name="" ID="{8CA83AFA-77E0-4216-9521-28A675CBEC23}">
+													<Curve Name="" ID="{011E8299-514D-4948-A5A5-D6457B3E992E}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3" />
 														</PropertyList>
@@ -7751,25 +7748,24 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.499</XPos>
+																<XPos>0.999</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>0.5</XPos>
+																<XPos>1</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>3.166</XPos>
+																<XPos>2.999</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>3.167</XPos>
+																<XPos>3</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -7967,9 +7963,9 @@
 														<Value>-18</Value>
 													</ValueList>
 													<RTPCList>
-														<RTPC Name="" ID="{2F08432C-2E06-43E9-B6BD-638267F3C959}" ShortID="342980547">
+														<RTPC Name="" ID="{1AF168F4-C34B-4FD7-8C4B-F71930732CB1}" ShortID="1052034571">
 															<GameParameterRef Name="BG_afgh_24hours" ID="{93B85CE1-6CC9-4C20-A8D1-0ECE73670B6C}" />
-															<Curve Name="" ID="{7FA29FC0-3D41-4FB4-ACDE-98C15CEF533C}">
+															<Curve Name="" ID="{1E00AE3B-C66E-427D-81B4-90798F63239F}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3" />
 																</PropertyList>
@@ -7978,25 +7974,24 @@
 																		<XPos>0</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.499</XPos>
+																		<XPos>0.999</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.5</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3.166</XPos>
+																		<XPos>2.999</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>3.167</XPos>
+																		<XPos>3</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
@@ -14239,7 +14234,14 @@ Embedded SFX, id: 1054270119</Comment>
 									<ChildrenList>
 										<RandomSequenceContainer Name="_112898819" ID="{C3435F47-53AD-4DB6-95DB-D31DCEEEFA23}" ShortID="895317186">
 											<PropertyList>
-												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
 												<Property Name="OverrideOutput" Type="bool" Value="True" />
 												<Property Name="OverridePositioning" Type="bool" Value="True" />
 												<Property Name="OverridePriority" Type="bool" Value="True" />
@@ -14251,7 +14253,6 @@ Embedded SFX, id: 1054270119</Comment>
 													</ValueList>
 												</Property>
 												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0" />
-												<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
 												<Property Name="PlayMechanismLoopCount" Type="int32" Value="1" />
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
@@ -14309,7 +14310,21 @@ Embedded SFX, id: 1054270119</Comment>
 												<Sound Name="_298737261" ID="{412F82A0-6C0D-41CA-BD61-B2EE4DF7827E}" ShortID="289869970" Type="SoundFX">
 													<Comment>246934607	</Comment>
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -14340,7 +14355,21 @@ Embedded SFX, id: 1054270119</Comment>
 												<Sound Name="_1022028818" ID="{69D6CACB-8F0F-40BA-95EC-C56C45C007B3}" ShortID="531389573" Type="SoundFX">
 													<Comment>246934607	</Comment>
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -14376,7 +14405,21 @@ Embedded SFX, id: 1054270119</Comment>
 												<Sound Name="_380181196" ID="{A1C4767E-6C39-4EC6-B834-26DDFE81E2AD}" ShortID="407566519" Type="SoundFX">
 													<Comment>246934607	</Comment>
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -14411,11 +14454,26 @@ Embedded SFX, id: 1054270119</Comment>
 												</Sound>
 												<RandomSequenceContainer Name="_820804796" ID="{96167A68-0DA5-45EF-AE77-41E5A7AF6A18}" ShortID="752923689">
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+														<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+														<Property Name="OverridePriority" Type="bool" Value="True" />
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+														<Property Name="PlayMechanismLoopCount" Type="int32" Value="1" />
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.25" />
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
 														<Property Name="RandomOrSequence" Type="int16" Value="0" />
 													</PropertyList>
 													<ReferenceList>
@@ -14427,6 +14485,19 @@ Embedded SFX, id: 1054270119</Comment>
 														<Sound Name="_1017250742" ID="{39ECC51D-B2C0-4712-8DE9-10B9D75C8E2F}" ShortID="762864488" Type="SoundFX">
 															<Comment>246934607	</Comment>
 															<PropertyList>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>1</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+																<Property Name="OverridePriority" Type="bool" Value="True" />
+																<Property Name="Priority" Type="int16">
+																	<ValueList>
+																		<Value>70</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
 																	<ValueList>
 																		<Value>-6</Value>
@@ -18879,7 +18950,8 @@ what is additional parameter 33=3</Comment>
 					</ConversionInfo>
 				</ActorMixer>
 				<ActorMixer Name="_323860386" ID="{C8C92BB3-A56C-4029-AB5B-E821BA0844AC}" ShortID="205841759">
-					<Comment>TODO position source</Comment>
+					<Comment>TODO position source
+TODO wind</Comment>
 					<ExcludedPlatformList>
 						<Platform>Windows</Platform>
 					</ExcludedPlatformList>
@@ -24378,53 +24450,58 @@ Embedded SFX, id: 619035268</Comment>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="_213241744" ID="{ED3258DD-CF9F-4299-ABC2-1E6011400AC8}" ShortID="454218882" Type="SoundFX">
-									<Comment>Embedded SFX, id: 937058887</Comment>
-									<PropertyList>
-										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
-										<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
-										<Property Name="OverridePositioning" Type="bool" Value="True" />
-										<Property Name="PositioningType" Type="int16" Value="1" />
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
-										</Reference>
-									</ReferenceList>
+								<Folder Name="alien_burn" ID="{85314E0B-1EA4-4353-91D6-02AA2FFC402B}" ShortID="259336610">
 									<ChildrenList>
-										<AudioFileSource Name="937058887_wem" ID="{22566DDD-33BE-4BC1-9B98-7D5616E1E859}" ShortID="993108537">
-											<Language>SFX</Language>
-											<AudioFile>937058887.wem.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="_213241744" ID="{ED3258DD-CF9F-4299-ABC2-1E6011400AC8}" ShortID="454218882" Type="SoundFX">
+											<Comment>Embedded SFX, id: 937058887</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
+												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="937058887_wem" ID="{22566DDD-33BE-4BC1-9B98-7D5616E1E859}" ShortID="993108537">
+													<Language>SFX</Language>
+													<AudioFile>937058887.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_148896541" ID="{4EE09CA3-B94B-49B2-BA7C-06B1C7737E2D}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="937058887_wem" ID="{22566DDD-33BE-4BC1-9B98-7D5616E1E859}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<PositioningInfo>
-										<AttenuationInfo>
-											<AttenuationRef Name="_148896541" ID="{4EE09CA3-B94B-49B2-BA7C-06B1C7737E2D}" Platform="Linked" />
-										</AttenuationInfo>
-									</PositioningInfo>
-									<ConversionInfo>
-										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
-									</ConversionInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="937058887_wem" ID="{22566DDD-33BE-4BC1-9B98-7D5616E1E859}" Platform="Linked" />
-									</ActiveSourceList>
-								</Sound>
+								</Folder>
 							</ChildrenList>
 							<ConversionInfo>
 								<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
