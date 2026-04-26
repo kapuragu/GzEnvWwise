@@ -3328,6 +3328,18 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="sfx_a_patch" ID="{8724F611-2A5B-4BAD-BF85-1EE7214ED396}">
+							<Comment>originally from env_gntn_common</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{11C3C312-D686-4C25-8FDA-597B34975069}" ShortID="623403601" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FC0BF020-4227-4B14-898C-5973B63E6150}" Global="false">
+											<ObjectRef Name="_914283079" ID="{6D94DA0D-346C-45D4-AE46-7D7888F3F777}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="env_homage" ID="{F104CC14-8835-40FF-ADAD-5E879A146EC7}" ShortID="569538544">

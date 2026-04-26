@@ -25128,6 +25128,265 @@ Embedded SFX, id: 619035268</Comment>
 						<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 					</ConversionInfo>
 				</ActorMixer>
+				<ActorMixer Name="_714320027" ID="{135F5E5F-A094-48F0-8278-45F7A3FB0EEE}" ShortID="424438553">
+					<Comment>714320027</Comment>
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+						<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{A5FFE4F2-B634-487A-9B1C-D585EE76E55E}" ShortID="445980799">
+									<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+									<Curve Name="" ID="{720E0564-6382-4703-B933-C6D1E243832B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537" />
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>80</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{2F9E09C5-3B6C-49C0-81A5-E03C045065A6}" ShortID="139795969">
+									<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+									<Curve Name="" ID="{6AD5A591-ACD2-407C-9F8D-133EFA30091A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537" />
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>40</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{B1FCED82-030A-447F-8271-A85EB14EAB3D}" ShortID="651829197">
+									<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+									<Curve Name="" ID="{AC2F306B-B9D0-45C7-A6E3-B5638D38FC27}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3" />
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-100</XPos>
+												<YPos>6</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>3.5</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Constant</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>11.11</XPos>
+												<YPos>3.5</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>16.67</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>66.67</XPos>
+												<YPos>-2</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Constant</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>200</XPos>
+												<YPos>-2</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{60926AEC-E6F9-466D-88E9-D29BADEDB7B0}" ShortID="622447689">
+									<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+									<Curve Name="" ID="{37FF1701-3B2A-4AC1-B425-1C4BCEC68569}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3" />
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-1.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1" />
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True" />
+						<Property Name="PriorityDistanceOffset" Type="int16">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True" />
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{900F30B0-A684-4098-B8B7-6C24D8799AB6}" ShortID="991875941">
+									<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+									<Curve Name="" ID="{58801F46-3CB2-4144-83B2-D20655DB8232}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3" />
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-6</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="sfx_a_patch" ID="{3B5FFA68-CCCA-4D3D-8EB7-D264541A7E58}" ShortID="169963085">
+							<ChildrenList>
+								<RandomSequenceContainer Name="_914283079" ID="{6D94DA0D-346C-45D4-AE46-7D7888F3F777}" ShortID="165492941">
+									<Comment>914283079</Comment>
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AB9FBE1E-1C8C-4AA4-87AC-1095ED32737D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True" />
+															<Property Name="Min" Type="Real64" Value="-300" />
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1" />
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.7">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{70D54582-B96D-45E5-B9D0-F53930105E69}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True" />
+															<Property Name="Max" Type="Real64" Value="1" />
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_533619472" ID="{E1902F2D-1780-47DC-940A-C03A8312156D}" ShortID="528076161" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="628773977_wem" ID="{8383F705-F43C-405B-BF7B-1468A47E21A7}" ShortID="439111257">
+													<Language>SFX</Language>
+													<AudioFile>628773977.wem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="628773977_wem" ID="{8383F705-F43C-405B-BF7B-1468A47E21A7}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+					<PositioningInfo>
+						<AttenuationInfo>
+							<AttenuationRef Name="_718911636" ID="{0E055EA4-FD00-47F1-A5D0-8A8DE545C1FA}" Platform="Linked" />
+						</AttenuationInfo>
+					</PositioningInfo>
+					<ConversionInfo>
+						<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+					</ConversionInfo>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
