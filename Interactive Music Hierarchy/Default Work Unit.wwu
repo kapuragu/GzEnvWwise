@@ -1,6 +1,928 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" SchemaVersion="62">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" PersistMode="Standalone" />
+		<WorkUnit Name="Default Work Unit" ID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="bgm_gntn_jingle_result" ID="{644DCD4D-8F54-4650-9EB7-65DAF1701688}" ShortID="378944590">
+					<ChildrenList>
+						<MusicSwitchContainer Name="bgm_gntn_result" ID="{F3815AB0-13F6-4059-AC10-F5194AB7766E}" ShortID="77400338">
+							<Comment>ref: 186047628</Comment>
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>90</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="music_system_bus" ID="{D02AFC2A-E326-45B7-A5A9-989D7B47E0A5}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="729397858_bgm_gntn_ed_lp" ID="{04AF0770-4523-4DBA-9C79-4AE33F5BBA75}" ShortID="878241939">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="297871163_bgm_gntn_ed_lp" ID="{D8B21481-B26B-40CC-A910-5082C47C8F5C}" ShortID="376317896">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="12941.1666666667" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="297871163_bgm_gntn_ed_lp" ID="{D6FA2870-0B0F-4BFB-B31B-6AB1DE96C5DA}" ShortID="149047722">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="297871163_bgm_gntn_ed_lp" ID="{3160CA11-BFAE-46DC-9823-EA3B1BFF97A8}" ShortID="341507372">
+															<Language>SFX</Language>
+															<AudioFile>297871163_bgm_gntn_ed_lp.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{D56A64A6-5CB3-4E00-BB2F-99BDBD8135B1}">
+															<ClipList>
+																<MusicClip Name="297871163_bgm_gntn_ed_lp" ID="{FC4F2645-3535-42AC-95C8-230CC166B05B}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="12941.1666666667" />
+																		<Property Name="FadeInMode" Type="int16" Value="0" />
+																		<Property Name="FadeOutMode" Type="int16" Value="0" />
+																	</PropertyList>
+																	<AudioSourceRef Name="297871163_bgm_gntn_ed_lp" ID="{3160CA11-BFAE-46DC-9823-EA3B1BFF97A8}" />
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+											</ConversionInfo>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{5D81983D-92DC-4138-AD12-6E1C5BEDD52B}" />
+												<MusicCue Name="Exit Cue" ID="{438D7561-9AD5-44CB-A5DC-95C1FC07D03A}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1" />
+														<Property Name="TimeMs" Type="Real64" Value="12941.1666666667" />
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+										<MusicSegment Name="4354259_bgm_gntn_ed_lp_2" ID="{504279F8-0B0D-407E-81A6-8AC7754AFE40}" ShortID="319651945">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="51764.7083333333" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="4354259_bgm_gntn_ed_lp_2" ID="{869C2215-5E93-4F83-83F2-8369E53EF3DD}" ShortID="367575576">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="4354259_bgm_gntn_ed_lp_2" ID="{0BAD447E-25B2-42F0-B1C1-6E7D186EE582}" ShortID="850849169">
+															<Language>SFX</Language>
+															<AudioFile>4354259_bgm_gntn_ed_lp_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{024E4AA0-46E3-4FFF-A215-DD9C2D3272E1}">
+															<ClipList>
+																<MusicClip Name="4354259_bgm_gntn_ed_lp_2" ID="{7B8D3CC2-F1F1-47E9-832B-1D246D98502F}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="51764.7083333333" />
+																		<Property Name="FadeInMode" Type="int16" Value="0" />
+																		<Property Name="FadeOutMode" Type="int16" Value="0" />
+																	</PropertyList>
+																	<AudioSourceRef Name="4354259_bgm_gntn_ed_lp_2" ID="{0BAD447E-25B2-42F0-B1C1-6E7D186EE582}" />
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+											</ConversionInfo>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{D5C4C81F-5775-469A-99F7-5BABD0C63ABE}" />
+												<MusicCue Name="Exit Cue" ID="{9266B97B-8BD6-439A-A4C7-1ABCEAD411E7}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1" />
+														<Property Name="TimeMs" Type="Real64" Value="51764.7083333333" />
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C2338B91-6729-417C-AFC6-039F7AC74F80}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True" />
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{042A2659-C319-45EB-9ED7-A58710451ED4}">
+													<TransitionInfo />
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo />
+										</MusicTransition>
+									</TransitionList>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{A8D60867-61F9-4B3B-81E1-9E0561CC96DA}" ShortID="834813616">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0" />
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{338AFA47-1B6E-4320-9097-E11D1DE8AFFF}" ShortID="483112054">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1" />
+													</PropertyList>
+													<SegmentRef Name="297871163_bgm_gntn_ed_lp" ID="{D8B21481-B26B-40CC-A910-5082C47C8F5C}" />
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{EF04DF85-EDFE-4FB8-9BB8-E9C0B7CF7FE5}" ShortID="52631969">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0" />
+														<Property Name="PlaylistItemType" Type="int16" Value="1" />
+													</PropertyList>
+													<SegmentRef Name="4354259_bgm_gntn_ed_lp_2" ID="{504279F8-0B0D-407E-81A6-8AC7754AFE40}" />
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" ShortID="48535287">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="12250000_bgm_gntn_ed_credit" ID="{4E982806-8AFA-49C5-B28B-C10CC9AE9473}" ShortID="420468402">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="23722.6666666667" />
+												<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="12250000_bgm_gntn_ed_credit" ID="{A3406ED0-E904-4C46-AD67-67B39D4EBB2A}" ShortID="944509187">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="12250000_bgm_gntn_ed_credit" ID="{2A75311A-5129-4E30-8DF6-47E42C08D961}" ShortID="469487144">
+															<Language>SFX</Language>
+															<AudioFile>12250000_bgm_gntn_ed_credit.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{CF84FC26-2B9E-4027-8C77-4BDCEFAD2B64}">
+															<ClipList>
+																<MusicClip Name="12250000_bgm_gntn_ed_credit" ID="{FE5DCC3E-30A4-4AB6-88DC-A97312B379CC}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="23722.6666666667" />
+																		<Property Name="FadeInMode" Type="int16" Value="0" />
+																		<Property Name="FadeOutMode" Type="int16" Value="0" />
+																	</PropertyList>
+																	<AudioSourceRef Name="12250000_bgm_gntn_ed_credit" ID="{2A75311A-5129-4E30-8DF6-47E42C08D961}" />
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+											</ConversionInfo>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{236D6544-2C02-460D-8809-9056E0B89540}" />
+												<MusicCue Name="Exit Cue" ID="{9D186927-96C7-48AA-A717-CF00B62910C7}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1" />
+														<Property Name="TimeMs" Type="Real64" Value="23722.6666666667" />
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{243FC82D-3811-448E-B6F7-86AEA3F1C7BD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True" />
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{DECD4448-6E40-4FC5-8FDD-42644386EDDB}">
+													<TransitionInfo />
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo />
+										</MusicTransition>
+									</TransitionList>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{0E7FAF5F-804F-4344-9654-095B5A28DFB8}" ShortID="708301721">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0" />
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{924A4685-5970-40EC-A3AD-862C07692C96}" ShortID="952054318">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1" />
+													</PropertyList>
+													<SegmentRef Name="12250000_bgm_gntn_ed_credit" ID="{4E982806-8AFA-49C5-B28B-C10CC9AE9473}" />
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+								<MusicSegment Name="363482599_bgm_gntn_ed_result_e" ID="{791F430B-3D43-4D6A-A5A0-7868641E50C4}" ShortID="856799635">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="4500" />
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="363482599_bgm_gntn_ed_result_e" ID="{AE60753D-A3EE-4444-96B7-9813CB87FFDA}" ShortID="950165905">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="363482599_bgm_gntn_ed_result_e" ID="{C3EA8318-E651-49E8-92E5-E12FB6FF2508}" ShortID="724935299">
+													<Language>SFX</Language>
+													<AudioFile>363482599_bgm_gntn_ed_result_e.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D94F9ADC-9717-4DE0-BCEC-873662362E83}">
+													<ClipList>
+														<MusicClip Name="363482599_bgm_gntn_ed_result_e" ID="{751A1758-F26C-4005-A43E-A788BBF90352}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4500" />
+																<Property Name="FadeInMode" Type="int16" Value="0" />
+																<Property Name="FadeOutMode" Type="int16" Value="0" />
+															</PropertyList>
+															<AudioSourceRef Name="363482599_bgm_gntn_ed_result_e" ID="{C3EA8318-E651-49E8-92E5-E12FB6FF2508}" />
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+									</ConversionInfo>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{23EC50AE-25EA-467C-936D-D803A9548DD4}" />
+										<MusicCue Name="Exit Cue" ID="{8783E45C-6AC7-4FDD-9D39-DB4A00EAA6C9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1" />
+												<Property Name="TimeMs" Type="Real64" Value="4500" />
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="646441642_bgm_gntn_ed_result_cd" ID="{C21552F6-9F32-441A-84EC-F47BFE145F65}" ShortID="826976531">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5000" />
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="646441642_bgm_gntn_ed_result_cd" ID="{B68876E0-494B-4E70-9EE4-0AAA8D19E078}" ShortID="208466843">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="646441642_bgm_gntn_ed_result_cd" ID="{933D0517-67D7-4024-B8B1-84332A5D75DE}" ShortID="786709333">
+													<Language>SFX</Language>
+													<AudioFile>646441642_bgm_gntn_ed_result_cd.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3ECE1BA0-063D-4162-BB6A-2C5C3F185947}">
+													<ClipList>
+														<MusicClip Name="646441642_bgm_gntn_ed_result_cd" ID="{4DCA5118-E6FB-4B3B-A3E6-A7FE90F13A0D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="5000" />
+																<Property Name="FadeInMode" Type="int16" Value="0" />
+																<Property Name="FadeOutMode" Type="int16" Value="0" />
+															</PropertyList>
+															<AudioSourceRef Name="646441642_bgm_gntn_ed_result_cd" ID="{933D0517-67D7-4024-B8B1-84332A5D75DE}" />
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+									</ConversionInfo>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{8D6C3BE3-47A6-4837-A428-4985473315C9}" />
+										<MusicCue Name="Exit Cue" ID="{26E46E76-F8A8-4C30-9338-B65966551B9F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1" />
+												<Property Name="TimeMs" Type="Real64" Value="5000" />
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="449560381_bgm_gntn_ed_result_s" ID="{CFC26028-3DF3-4007-9582-A2B62DD4067C}" ShortID="15497432">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="449560381_bgm_gntn_ed_result_s" ID="{93DB982D-A595-4321-BA48-34B80BEA0383}" ShortID="1025491473">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="449560381_bgm_gntn_ed_result_s" ID="{DE9C78FC-9F65-4692-AB1B-26AF87635985}" ShortID="378602172">
+													<Language>SFX</Language>
+													<AudioFile>449560381_bgm_gntn_ed_result_s.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{59EEC72D-5D6E-4B63-B0AF-3FE2C70E5276}">
+													<ClipList>
+														<MusicClip Name="449560381_bgm_gntn_ed_result_s" ID="{C1477519-49E6-4A35-9002-F96F93A53EC9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4000" />
+																<Property Name="FadeInMode" Type="int16" Value="0" />
+																<Property Name="FadeOutMode" Type="int16" Value="0" />
+															</PropertyList>
+															<AudioSourceRef Name="449560381_bgm_gntn_ed_result_s" ID="{DE9C78FC-9F65-4692-AB1B-26AF87635985}" />
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+									</ConversionInfo>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{16459E66-9A84-4192-82F7-CDFC2EE4569A}" />
+										<MusicCue Name="Exit Cue" ID="{9D4821D3-32C5-4355-8661-8F2C9C606BD1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1" />
+												<Property Name="TimeMs" Type="Real64" Value="4000" />
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="14915931_bgm_gntn_ed_result_ab" ID="{385B7A8A-7233-4CF0-90C5-07FE148A4405}" ShortID="793072830">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5750" />
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="14915931_bgm_gntn_ed_result_ab" ID="{95669AA6-48D2-4E22-A304-C6266259B913}" ShortID="1023945038">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="14915931_bgm_gntn_ed_result_ab" ID="{110F153E-6282-43DE-BDD2-E0BBEFF251A7}" ShortID="247607675">
+													<Language>SFX</Language>
+													<AudioFile>14915931_bgm_gntn_ed_result_ab.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0842D817-6AAA-4BDA-ADD8-A5BFA8BFEB14}">
+													<ClipList>
+														<MusicClip Name="14915931_bgm_gntn_ed_result_ab" ID="{37BE1BDC-B53F-4AC3-8EDE-17F00E4E4C0D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="5750" />
+																<Property Name="FadeInMode" Type="int16" Value="0" />
+																<Property Name="FadeOutMode" Type="int16" Value="0" />
+															</PropertyList>
+															<AudioSourceRef Name="14915931_bgm_gntn_ed_result_ab" ID="{110F153E-6282-43DE-BDD2-E0BBEFF251A7}" />
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+									</ConversionInfo>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{AE3F4C8A-D218-4292-85D1-2B630BE098EC}" />
+										<MusicCue Name="Exit Cue" ID="{3A9411A8-CC56-4069-8BB7-2300536707A8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1" />
+												<Property Name="TimeMs" Type="Real64" Value="5750" />
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" />
+							</ConversionInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1944197E-B6E2-42C0-9B72-C4C46FB0F94C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True" />
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{82BB4E8B-219D-4CC7-8FF1-8478DBEF0B78}">
+											<PropertyList>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{29201DFF-DE28-488A-8465-2CDA20FD91B8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="7" />
+															<Property Name="FadeOffset" Type="Real64" Value="1" />
+															<Property Name="FadeTime" Type="Real64" Value="1" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{EFA44C1A-A544-4495-BBA5-22F5DEB2597A}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2" />
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+												<Property Name="SourceContextType" Type="int16" Value="2" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="729397858_bgm_gntn_ed_lp" ID="{04AF0770-4523-4DBA-9C79-4AE33F5BBA75}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{338AFA47-1B6E-4320-9097-E11D1DE8AFFF}" />
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{5A8965F1-F94A-4A20-ADBF-38B6269E6803}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="6" />
+															<Property Name="FadeOffset" Type="Real64" Value="2" />
+															<Property Name="FadeTime" Type="Real64" Value="4" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C9E7713A-47D9-488E-9398-A4ECBD598044}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2" />
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+												<Property Name="SourceContextType" Type="int16" Value="2" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="449560381_bgm_gntn_ed_result_s" ID="{CFC26028-3DF3-4007-9582-A2B62DD4067C}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{0D89498D-CD64-4D7D-B45A-0682C1129F74}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5" />
+															<Property Name="FadeTime" Type="Real64" Value="0.5" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{18C7EC22-5320-490E-AE2F-9AE3F0AD80E7}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2" />
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+												<Property Name="SourceContextType" Type="int16" Value="2" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="14915931_bgm_gntn_ed_result_ab" ID="{385B7A8A-7233-4CF0-90C5-07FE148A4405}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{6FB8AE5E-36D6-41FF-AC55-F94D514A0457}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5" />
+															<Property Name="FadeTime" Type="Real64" Value="0.5" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{8BE32592-D33D-48C3-82A1-442034B4E1E4}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2" />
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+												<Property Name="SourceContextType" Type="int16" Value="2" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="646441642_bgm_gntn_ed_result_cd" ID="{C21552F6-9F32-441A-84EC-F47BFE145F65}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{640F2BEB-783A-4A22-BBB6-9202435506F8}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5" />
+															<Property Name="FadeTime" Type="Real64" Value="0.5" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{BEADEC81-645B-4CF4-87D7-49C2453F47D2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2" />
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True" />
+												<Property Name="ExitSourceAt" Type="int16" Value="0" />
+												<Property Name="SourceContextType" Type="int16" Value="2" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="363482599_bgm_gntn_ed_result_e" ID="{791F430B-3D43-4D6A-A5A0-7868641E50C4}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{0A2A01F0-29EC-4E51-A745-335B41512C25}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5" />
+															<Property Name="FadeTime" Type="Real64" Value="0.5" />
+															<Property Name="FadeType" Type="int16" Value="1" />
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo />
+								</MusicTransition>
+							</TransitionList>
+							<ArgumentList>
+								<ArgumentRef Name="bgm_jingle_ed" ID="{CB93BC6E-EBC5-4741-9EEE-A8E0612A3E61}" />
+								<ArgumentRef Name="bgm_jingle_result_rank" ID="{C3213BEE-CE45-4915-B1D9-D6B806AF22A9}" />
+							</ArgumentList>
+							<EntryList>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_credit" ID="{A9259730-5358-4D87-8414-953727813E26}" />
+										<PathElementRef Name="bgm_jingle_result_rank" ID="{C3213BEE-CE45-4915-B1D9-D6B806AF22A9}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="968704299_bgm_gntn_ed_credit" ID="{DABDEB58-2C08-4A1C-87C8-750C5B20C80A}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_kaz" ID="{63E9414E-1C9C-4CDE-BF83-2F0855DA2FA0}" />
+										<PathElementRef Name="bgm_jingle_result_rank" ID="{C3213BEE-CE45-4915-B1D9-D6B806AF22A9}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="729397858_bgm_gntn_ed_lp" ID="{04AF0770-4523-4DBA-9C79-4AE33F5BBA75}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+										<PathElementRef Name="bgm_jingle_result_cd" ID="{8C888A69-496D-4FEE-B9F8-24E15BE0930F}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="646441642_bgm_gntn_ed_result_cd" ID="{C21552F6-9F32-441A-84EC-F47BFE145F65}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+										<PathElementRef Name="bgm_jingle_result_e" ID="{E8854AB8-AE2B-45AB-8B60-E4DF3D12F682}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="363482599_bgm_gntn_ed_result_e" ID="{791F430B-3D43-4D6A-A5A0-7868641E50C4}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+										<PathElementRef Name="bgm_jingle_result_s" ID="{1D4A6E75-1D52-4944-A32D-4A78CEF7F207}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="449560381_bgm_gntn_ed_result_s" ID="{CFC26028-3DF3-4007-9582-A2B62DD4067C}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+										<PathElementRef Name="bgm_jingle_result_ab" ID="{229D9561-6B5C-4CA2-B5B9-786C73CCC506}" />
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="14915931_bgm_gntn_ed_result_ab" ID="{385B7A8A-7233-4CF0-90C5-07FE148A4405}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+										<PathElementRef Name="bgm_jingle_result_none" ID="{6A60AC92-5ABF-4444-ABA6-4AB78F3765CE}" />
+									</Path>
+									<AudioNodeInfo>
+										<NoObject Platform="Linked" />
+									</AudioNodeInfo>
+								</Entry>
+							</EntryList>
+						</MusicSwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

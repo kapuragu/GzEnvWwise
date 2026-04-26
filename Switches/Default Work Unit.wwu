@@ -14,6 +14,40 @@
 						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="bgm_jingle_result_rank" ID="{C3213BEE-CE45-4915-B1D9-D6B806AF22A9}">
+					<Comment>4144500162</Comment>
+					<ChildrenList>
+						<Switch Name="bgm_jingle_result_e" ID="{E8854AB8-AE2B-45AB-8B60-E4DF3D12F682}">
+							<Comment>1772885741</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_result_s" ID="{1D4A6E75-1D52-4944-A32D-4A78CEF7F207}">
+							<Comment>1772885755</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_result_ab" ID="{229D9561-6B5C-4CA2-B5B9-786C73CCC506}">
+							<Comment>1122504873</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_result_cd" ID="{8C888A69-496D-4FEE-B9F8-24E15BE0930F}">
+							<Comment>1156060053</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_result_none" ID="{6A60AC92-5ABF-4444-ABA6-4AB78F3765CE}">
+							<Comment>1427800686</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="bgm_jingle_ed" ID="{CB93BC6E-EBC5-4741-9EEE-A8E0612A3E61}">
+					<Comment>928185077</Comment>
+					<ChildrenList>
+						<Switch Name="bgm_jingle_credit" ID="{A9259730-5358-4D87-8414-953727813E26}">
+							<Comment>1186451809</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}">
+							<Comment>866880573</Comment>
+						</Switch>
+						<Switch Name="bgm_jingle_kaz" ID="{63E9414E-1C9C-4CDE-BF83-2F0855DA2FA0}">
+							<Comment>596781344</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

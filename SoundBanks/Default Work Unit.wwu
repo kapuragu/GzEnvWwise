@@ -69,6 +69,13 @@
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
 				</SoundBank>
+				<SoundBank Name="bgm_gz_result" ID="{403E7D9A-47E8-49C1-AE81-04F162A639A5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="bgm_gz_result" ID="{D62E9A78-9D3A-4EFB-BD8B-2A1DCDB840DD}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
