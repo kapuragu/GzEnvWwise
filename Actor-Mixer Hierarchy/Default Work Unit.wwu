@@ -18952,9 +18952,6 @@ what is additional parameter 33=3</Comment>
 				<ActorMixer Name="_323860386" ID="{C8C92BB3-A56C-4029-AB5B-E821BA0844AC}" ShortID="205841759">
 					<Comment>TODO position source
 TODO wind</Comment>
-					<ExcludedPlatformList>
-						<Platform>Windows</Platform>
-					</ExcludedPlatformList>
 					<PropertyList>
 						<Property Name="3DPositionSource" Type="int16" Value="0" />
 						<Property Name="FollowListenerOrientation" Type="bool" Value="False" />
@@ -19172,6 +19169,10 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{2A1FF374-4687-4E35-9887-B1A5E84C7249}" ShortID="630879116">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{A5720C87-63D9-4C5B-A4C7-AE184B1277FE}">
@@ -19320,7 +19321,7 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_829028246" ID="{A412BAED-3553-4E02-AF2F-87E1CA64FBD5}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{2A1FF374-4687-4E35-9887-B1A5E84C7249}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="_983802528" ID="{537F955E-FB6D-4BD6-88F0-8D56224FCD05}" ShortID="776970122" Type="SoundFX">
@@ -19482,6 +19483,10 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{F1F6755A-8821-4528-B2A8-9A6F46D85A48}" ShortID="946046387">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{511686AF-3AD6-4136-AF72-0F024FFFECE1}">
@@ -19630,7 +19635,7 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_926194008" ID="{B65FA956-9E0D-4D68-AFA7-49125934A5C9}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{F1F6755A-8821-4528-B2A8-9A6F46D85A48}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="_998267343" ID="{0245DD5B-CF4F-497F-87FC-378FD4FAF735}" ShortID="867496696" Type="SoundFX">
@@ -19833,6 +19838,10 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{0520297C-6F22-4A4D-9779-D1DAC60CF485}" ShortID="1056726203">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{5EA25738-123C-42F9-8175-A0DB422875E0}">
@@ -19981,7 +19990,7 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_653459279" ID="{1BB5E3E1-ECB2-4E24-BFE6-788B92628833}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{0520297C-6F22-4A4D-9779-D1DAC60CF485}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -20099,12 +20108,16 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{02A8AB9F-627A-4F3E-842D-46F52650A5D0}" ShortID="341091790">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ConversionInfo>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_999198740" ID="{8AABB7EF-FBEC-4488-8FD2-428DD42761D0}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{02A8AB9F-627A-4F3E-842D-46F52650A5D0}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="_97650816" ID="{43B5EE2A-720E-4517-8E26-FE9507DA2DAC}" ShortID="957840" Type="SoundFX">
@@ -20218,12 +20231,16 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{5EDD575C-0457-43BB-A424-71980FEFF9E5}" ShortID="863620278">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ConversionInfo>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_379899538" ID="{1234567C-BFBE-4094-9999-4AF0C7C31AA5}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{5EDD575C-0457-43BB-A424-71980FEFF9E5}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -20341,12 +20358,16 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{87595D53-036C-46B5-A5BC-E18792A6AF36}" ShortID="443093414">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ConversionInfo>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_379899538" ID="{5A6650D7-CF6A-4E8F-81CF-EC45893172A7}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{87595D53-036C-46B5-A5BC-E18792A6AF36}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="_889592371" ID="{69ACE8A4-F550-4311-88CF-50940CE2A571}" ShortID="1004447060" Type="SoundFX">
@@ -20548,6 +20569,10 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 												</List>
 											</PluginInnerObjectList>
 										</SourcePlugin>
+										<AudioFileSource Name="110482524" ID="{97F75282-ED76-4B87-B97C-A8CB6D0C3342}" ShortID="427704837">
+											<Language>SFX</Language>
+											<AudioFile>110482524.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{AF4BE891-EE20-4C8E-8E09-12418949C1FF}">
@@ -20696,7 +20721,7 @@ SoundSeed_Air_SoundSeed_Wind</Comment>
 										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 									</ConversionInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="_829028246" ID="{483A2FBE-54E4-45C6-8C19-E6D6FAAE9110}" Platform="Linked" />
+										<ActiveSource Name="110482524" ID="{97F75282-ED76-4B87-B97C-A8CB6D0C3342}" Platform="Linked" />
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

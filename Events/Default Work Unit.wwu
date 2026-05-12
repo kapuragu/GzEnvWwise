@@ -890,9 +890,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{5AAB4AA6-F702-4B8F-8695-5E71EFB765D4}" ShortID="208284323" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -903,9 +900,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{83894352-A890-47D8-AF53-E1ADC79D18B6}" ShortID="205873603" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -930,9 +924,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{BB2A2B87-52EB-40CE-89A5-31E8AF64A689}" ShortID="1010793096" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -943,9 +934,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{368030E0-B61C-4B16-BD69-B4F538AD166E}" ShortID="51697962" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1122,9 +1110,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{53EF7F3A-31B3-46CB-9799-1167159C7D38}" ShortID="984233193" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1135,9 +1120,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{0392303C-8832-4730-AC99-E6133962EFFE}" ShortID="919772792" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1252,9 +1234,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{140980F8-6979-403C-B218-5781DE1F4356}" ShortID="945152878" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1265,9 +1244,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{A5484315-650B-4BF4-A396-E1530715E2A8}" ShortID="641670844" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1292,9 +1268,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{5F147E38-AFA0-4828-9B0F-E60476F2DD5E}" ShortID="680279394" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1305,9 +1278,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{95FD8E69-12A6-4A50-9EF2-2D928B5BE5E4}" ShortID="187783256" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1318,9 +1288,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{96D244B1-A9A2-45F8-8460-E2D04506430F}" ShortID="419890456" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1393,9 +1360,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{8B691AF2-AD90-4177-BAD1-3AC5C1849A63}" ShortID="716262285" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
@@ -1406,9 +1370,6 @@
 									</ElementList>
 								</Action>
 								<Action Name="Play" ID="{D3DAB1FA-F88F-4634-8D6F-000243A6B394}" ShortID="702249070" Type="Play" Scope="One" Global="false">
-									<ExcludedPlatformList>
-										<Platform>Windows</Platform>
-									</ExcludedPlatformList>
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1" />
 									</PropertyList>
