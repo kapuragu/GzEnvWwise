@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" SchemaVersion="62">
+	<AudioObjects>
+		<WorkUnit Name="DUMMY TPP" ID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" ShortID="861168908" Type="SoundFX">
+					<Comment>861168908</Comment>
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="425352632" ID="{AB134F18-182B-4D9C-AE0F-7094EA299A36}" ShortID="469351359">
+							<Language>SFX</Language>
+							<AudioFile>425352632.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ConversionInfo>
+						<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+					</ConversionInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="425352632" ID="{AB134F18-182B-4D9C-AE0F-7094EA299A36}" Platform="Linked" />
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

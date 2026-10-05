@@ -64,7 +64,10 @@
 				</SoundBank>
 				<SoundBank Name="env_e20040" ID="{277D6868-FA09-43CB-885F-3640E407466E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="env_e20040" ID="{5862128E-A5B4-4CE3-BC83-FE5B324F6411}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_14_B3" ID="{C772AE78-2C84-4CA8-9539-D34397F9DE5A}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_10_indoor" ID="{DE023D82-42C2-42D9-ABDE-8812EF21979C}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_e20040" ID="{5862128E-A5B4-4CE3-BC83-FE5B324F6411}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="env_gntn_fine_15_duct" ID="{D225A5D0-5363-4706-9552-5DF13744F32E}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />
@@ -72,6 +75,20 @@
 				<SoundBank Name="bgm_gz_result" ID="{403E7D9A-47E8-49C1-AE81-04F162A639A5}">
 					<ObjectInclusionList>
 						<ObjectRef Name="bgm_gz_result" ID="{D62E9A78-9D3A-4EFB-BD8B-2A1DCDB840DD}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="bgm_e20010_result" ID="{D4F1F842-7E10-488E-9342-EBB7726AFA7B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="bgm_e20010_result" ID="{CCAF536B-B060-455D-94AC-7E7C3FCEA177}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+				<SoundBank Name="p11_010170_000" ID="{DD94A06D-C97B-47CF-A0C2-CEA91E00F91E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="p11_010170_000" ID="{A4A2ABE2-5B2F-42BF-AE1A-94D1F88BA253}" WorkUnitID="{8BA612F3-81A9-4532-A8FC-0D84EA369EBE}" Filter="3" Origin="Manual" />
 					</ObjectInclusionList>
 					<ObjectExclusionList />
 					<GameSyncExclusionList />

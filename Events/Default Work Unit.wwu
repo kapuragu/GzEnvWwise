@@ -3274,6 +3274,2967 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="sfx_m_e20040_fixed_20" ID="{85B08EE7-9F21-41CA-8F13-0EF37583897F}">
+							<Comment>1363436300</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{86AA27FF-92B4-4650-8A4B-FC315ABBB806}" ShortID="1069298915" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{A238767E-92D0-4DB8-A7A3-0C22636CDC23}" Global="true">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{9AAEAA7D-C2E9-4B93-A36B-B8897554B08F}" ShortID="394199437" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{0F91DBEA-9024-4814-873A-C97AB8A33AB8}" Global="true">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{0F531A1B-A96C-4DEA-9ACE-B3F3A2DA1D04}" ShortID="708279933" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{1DA36393-83D2-4BD8-B143-C32172A5EA12}" Global="true">
+											<ObjectRef Name="_172605615" ID="{09C4AD5B-D434-464B-A344-88578FECCA4B}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{66CAC09F-09FD-4089-BF25-FB1A72796BEB}" ShortID="983355572" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F5C6432C-3B1C-4CDC-9E08-24F1D2B1E0B9}" Global="true">
+											<ObjectRef Name="_280046656" ID="{776B9C29-5A82-49FB-BD35-F58CDA37C28E}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{26577137-2362-49C9-BBA3-493C36B0A816}" ShortID="734239183" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{4F7C25E5-86B3-467B-80B6-E71D6CABA08C}" Global="true">
+											<ObjectRef Name="_786032109" ID="{E337B01F-55C1-467C-853C-CB37040C0CA0}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C9CE8FDC-182C-48F7-BF08-A3FD75AE06E8}" ShortID="339205642" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{0A8B37AE-E9A5-4A5D-A970-F87B1D72009B}" Global="true">
+											<ObjectRef Name="_227441015" ID="{1DA17A3E-3B07-4A52-8419-AF841EBFB561}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{0E290C19-69E1-4435-B837-79ABCD6716AA}" ShortID="283028912" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{88C6F105-2749-4BFA-AE07-1489A97F2CE7}" Global="true">
+											<ObjectRef Name="_85240759" ID="{60184852-BF7A-432A-B2A3-7A9496F98ACE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{8E0E4867-FC00-4B2E-8B3B-6E8CF83399C6}" ShortID="599001641" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{AF1187F4-D876-47AA-8DF2-3CB54BFADB9C}" Global="true">
+											<ObjectRef Name="_773329621" ID="{58AABB4D-9256-4104-97F8-838B14AD4430}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{BB5BBC12-2D92-4593-98FA-4322A66C067B}" ShortID="769212557" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{8D8E0C69-4FAA-4F7D-8727-BCB82AA536FF}" Global="true">
+											<ObjectRef Name="_567010237" ID="{6B29776C-0D43-4B30-847F-A151FDCA4C91}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{E5D5445C-7459-424F-B476-343A65204E3B}" ShortID="525323152" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{B1A17EAB-B3E1-4309-AC98-8EB48911CF7B}" Global="true">
+											<ObjectRef Name="_1033969011" ID="{33B11AFC-018C-4746-BA73-6C8E9679D8CF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{D7A8686C-C3D1-43BE-826C-6688AF84D101}" ShortID="17852338" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{A823BCAC-4341-4B8C-AF8E-3A3A60CEEB30}" Global="true">
+											<ObjectRef Name="_689717568" ID="{C8FAB622-9CDE-4FC3-858C-557073045A60}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{085468C8-7BD4-443E-BA68-1268B359495E}" ShortID="838428103" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{B9F1A11D-C3DC-475B-BE8D-4F428DBA2286}" Global="true">
+											<ObjectRef Name="_762036555" ID="{0CF69F0E-3708-42B7-BB6A-513C63D4A70F}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1C5D9A4B-D4DC-45B7-B732-45130C251F5C}" ShortID="840780128" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{23DD2FE2-FE78-411A-BCDB-5A1F8315B3D2}" Global="true">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{6E7A3E8C-1CFB-4CAE-8A9B-7C9250EFAE2E}" ShortID="126674940" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{DBC35C1C-3DEE-4326-B849-A31217E72D65}" Global="true">
+											<ObjectRef Name="_812594913" ID="{D3A9677D-8AB9-4734-AE16-C0F947C9EE15}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B2837B10-A923-478E-9542-87C08B56B6F0}" ShortID="891657361" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{B4DAAEB1-4D0D-4683-A02D-373CB1FE8EA1}" Global="true">
+											<ObjectRef Name="_840216676" ID="{99E199C1-D047-4A7E-9F22-8C7B1AD28454}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{056353A0-C8F5-4B8A-B640-8DC39247FB58}" ShortID="475925457" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{942F77FE-F2B3-4C30-90CE-FC766C39BA33}" Global="true">
+											<ObjectRef Name="_896062358" ID="{E5174972-841E-4040-A80D-93870393924C}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{33A1553E-74D8-4DA4-B6CF-DEFA3252507B}" ShortID="161172427" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{694A5987-5124-4FAA-BB00-34B833A305B5}" Global="true">
+											<ObjectRef Name="_452833682" ID="{5BCC3BCB-FE4A-4DBE-9C59-D2CADCBF48CD}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{A792FF3C-A36B-4E3D-B08D-2D8A9C0C7D36}" ShortID="896748571" Type="ResetVolume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{ED19E870-4B66-4692-A96B-0398AB2E00C7}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{153FB837-D809-49B0-8AF9-8453ADE15F61}" ShortID="494200511" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{65C553ED-A406-45FD-9245-D2BC9F0901DF}" Global="true">
+											<ObjectRef Name="_654632875" ID="{524FF9E8-4439-49CD-ABF5-2CFE18B1E843}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{6E5C6463-1E2B-4B64-8135-E0B1AF8F90F5}" ShortID="186392865" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{29F57FB8-67DB-46F4-8FE2-5B0598E3C950}" Global="true">
+											<ObjectRef Name="_872799397" ID="{7244B81B-F250-4651-A254-C0ED305E4094}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{330F8560-6F66-47B0-8B52-0604A105768A}" ShortID="181269306" Type="ResetVolume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{B10DE5DF-116F-4672-B47F-C2C6B0A93AEE}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Pitch" ID="{482BEC71-1D5C-411D-BEFC-32EE5E86DE8A}" ShortID="52755401" Type="ResetPitch" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{7F95E58A-69AB-491A-B4A5-9F5F33C46DEA}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_01" ID="{D1B1735E-2383-4CBE-966C-FBCF305B2C0E}">
+							<Comment>1396991571</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{23A7E76C-F77F-4A93-9ECC-6F631F543239}" ShortID="780347509" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{37C0A737-67E3-4E9A-9E4F-FB447E03259F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{390EDD66-3192-47FF-BBF9-2B5E3B009B9A}" ShortID="518705133" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{740789E9-3849-494C-9F63-0E88D6532889}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{B873A30E-84B5-41CF-B785-BF891E99DCC2}" ShortID="324900519" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="Pitch" Type="int32" Value="-300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3B53489E-18CE-403D-8AD2-B83BA1D33297}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{BCD97150-383F-4670-93B9-69D8796B3B22}" ShortID="271149906" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8DD8619D-83C9-4273-AFA2-22A0F8D91A3A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{2482C879-017E-4288-96D8-BEE69B62B029}" ShortID="812016971" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{26AAFAD6-3F48-4DE8-B908-36082D346622}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{2D2A8FDE-14F7-4E17-A367-58AB3630B345}" ShortID="448820283" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B863F3DA-4524-4C34-B7A1-7656874D4D85}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{0B1C75C3-FE38-4209-B863-8E81C63BDEAC}" ShortID="457238408" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A4E7C0E2-AD16-452D-AEA5-CBF8544F60E6}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{AD4280F6-EF70-4176-B35F-EF47DD33FFF4}" ShortID="762081584" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="5.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{63D4B07D-ED14-42C5-9C08-C610A2E2FEFB}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{1A02612C-F57E-4500-B0DF-AFFC337ECF2A}" ShortID="368480559" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2CA20620-3B37-4537-8563-5C755D90C58D}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{4808D68D-4359-4C0D-A422-AA651B0478DB}" ShortID="270321219" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="9" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5403E83F-3DFF-4F3F-ACAF-060940B061F4}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_02" ID="{34C386F1-11FC-4607-9739-EC918B7002A5}">
+							<Comment>1396991568
+missing is heli sound from common bank</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{0FF1325E-D535-4355-AF76-4AF2FEA6E628}" ShortID="389953255" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9B29BACD-D2AF-4B2E-B85E-A98124C1A6AA}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{287ED0B7-BBDF-45EB-B544-C63B9F01724B}" ShortID="578942860" Type="ChangeVolume" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{F14F5115-8CFC-42A3-8ED0-F75EEBBF164C}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{F8777596-D4B1-42F8-9570-17DF56B6745C}" ShortID="379642370" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EE22D236-38CB-4DF7-9996-8D6DBF8D48E6}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{7DF87879-0F31-4A49-A4FB-58878BF2FF93}" ShortID="116754011" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F693D400-211F-4559-BE2A-4A611F96E627}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{F8918435-5CF2-4625-89D7-2A53C3098B30}" ShortID="1022541150" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9D887D97-7ADD-4EF7-BC1F-010A6CEFCF2B}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{D698C866-E1B6-4FCE-BD7C-8DCEE4A8E761}" ShortID="530556919" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{665DE6D6-47D3-4146-94B2-9736FB3A6836}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{ADC8DB7A-522A-4253-ADE8-24FC342586F7}" ShortID="987896013" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="0.3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{86C4A619-D3C1-4AC0-B64E-65CBC0235D89}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{09A3A8AE-D113-4D80-87BA-89454A7A8F3C}" ShortID="922983288" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BA706439-CA63-4F3F-A427-B34171C2DA7E}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{516528A1-8D69-4276-A998-B0B58AF2EAE1}" ShortID="624879581" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="0.3" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2F2BF2CB-C47F-43BF-B245-CCA7BE271C84}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{08FD6206-F409-4B2E-A9F8-EF8FB2C6176E}" ShortID="170470014" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AE81CBFC-8965-4E2B-B3D9-FB232F93F7BB}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{8392FA68-EEF8-46C3-94E3-7661DEBDECAC}" ShortID="818815712" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+										<Property Name="Volume" Type="Real64" Value="8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6DCD79B4-3CDF-4A84-B8CA-EFE047C54339}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{0838F7B3-7F83-466A-93A2-FD0DF6A6B96B}" ShortID="793941636" Type="ResetVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{80DDF317-9643-4706-AFAD-2CF7A96ED4FD}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{2B5C6D26-5C7D-4780-97D1-75F64688C78C}" ShortID="50456213" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeTime" Type="Real64" Value="1.1" />
+										<Property Name="Pitch" Type="int32" Value="300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{816BF20E-2535-438A-AEC4-B8C6C721F6C7}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Pitch" ID="{24036DA3-666D-4712-A576-96EA75D00086}" ShortID="810538826" Type="ResetPitch" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{A897208B-5DEB-4BDC-96B4-1705AC2EC9AE}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_03" ID="{9FF0BC11-54EE-45AD-B6E4-D5051DCB4B22}">
+							<Comment>1396991569</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{B59FD639-0AF1-4810-9447-8D233C4BF31F}" ShortID="786931943" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{72C4A58E-796B-48CA-8B3A-AC002D30FE29}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{47C1535C-50AE-4118-A85A-A58230640339}" ShortID="15408404" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-3.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FA6C9756-BAE8-4F88-9ECB-33B5A4AF9CA5}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{30D856B6-1AD6-4F04-B115-7E99ED62E926}" ShortID="913452302" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="Pitch" Type="int32" Value="-400" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CA187226-41C9-4D61-85C8-336EE01E62A2}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{66AF1A57-C4D6-4E74-BA3D-22C91AA4FE81}" ShortID="973821335" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{68BDE110-EB1C-4FC1-AB8B-BAB5A686E6E8}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{3AB006D7-2217-4CF6-8ADE-0ED892E1CE65}" ShortID="962633813" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{10CC5EDD-623A-46B3-91F5-5A22DEBB8C2D}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{97A485DD-2F8C-4CB1-A510-823AB0AFC219}" ShortID="571797081" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="9" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AE9AB589-0992-4931-92CB-556EF75FDEFB}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{19F9FE94-CEE2-48AC-B493-31EBD3BA7889}" ShortID="861610144" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{83146B68-E81B-4530-95F3-8859DC266799}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{7157831C-4D8D-443E-BF3F-3D01074338BB}" ShortID="171683763" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="14" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{46073D78-0A56-4DBB-A54B-4AE8191A9BDA}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{E22104BD-6302-40AA-8A4C-94A4283CB116}" ShortID="245074023" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="-11" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C1EE9CE2-2C09-4299-AC6A-864C5D2887AD}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{F3640C78-AB74-4FD0-BC6F-2DAD3C4DBCDE}" ShortID="602122073" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="15" />
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{04B72E23-E4BA-40D2-B51E-E0337E24B4C1}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{201917DB-9909-4023-8DD3-8D1554A79134}" ShortID="990284657" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0529E364-AA03-4D0D-BAAC-5D79FF9E66D9}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{D9E571EC-189F-4F82-917B-9900C70EA02D}" ShortID="949056270" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="14" />
+										<Property Name="FadeTime" Type="Real64" Value="7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{15B3C939-6E04-417E-B46B-0F266A86A04C}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{2A032D20-A109-439A-9ED9-C0C922A3DB4C}" ShortID="66471045" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Pitch" Type="int32" Value="300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8FED3086-9C2E-4BA9-9047-093980A3D08A}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{6C092CBA-89C8-413A-A2FA-12CD7CE01FE7}" ShortID="368348423" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="15" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+										<Property Name="Pitch" Type="int32" Value="-300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BBEBF209-57F3-459E-9B18-7AFBD0BB18F5}" Global="false">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_04" ID="{C4CC90E1-4C9A-409F-92DC-424550412DDD}">
+							<Comment>1396991574</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{75D08D75-BA9F-45F5-84C4-EDC1BEAFB9C8}" ShortID="877686572" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-11" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CC08FB5F-C010-4640-AB9C-FABE8B4559B2}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{40CF2E18-5FF5-40FB-847A-EF60A290D492}" ShortID="512333243" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0286281F-97C6-4F2C-8888-C62D0337C870}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{24B42F43-6317-4251-9ABE-5B167C6D5534}" ShortID="541478662" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-500" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1494B9FC-AC15-4165-A472-E142C2691CAA}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{28FD836E-301B-4AE7-B3FD-FB308E9B4CC8}" ShortID="856228688" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C948DFB9-7E29-433B-AD9D-CF936BF3ADA2}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{1A395152-1070-47A4-AC97-ABA803346ABF}" ShortID="572974456" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9CA0B4B0-4D22-4539-8B03-120200A175E6}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{B18B9F14-D78D-4D69-AB8E-36338283C7D4}" ShortID="758773236" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9B6B1DC7-0ED5-4E0E-81C0-D5FE1408F190}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{CF1E68D8-F13E-4433-84DC-56FFC7E61DA5}" ShortID="1003290774" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="12" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{360E6505-7976-4E64-BD3E-32F28214F7FE}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{E2C79099-0317-4DFC-97AE-C4919845D107}" ShortID="37982448" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{591A94DF-1544-4EB2-A658-EB4E0F4F9862}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{4D760976-3B03-4890-991D-923A20279EBD}" ShortID="326399922" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AFC65E4E-ADB2-435A-9896-A1AC8AE5E1CF}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{55335BA3-7AF8-413B-906A-8366F0669F57}" ShortID="72818166" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{AF96BB82-DF8A-4613-94CA-6FE440A31B64}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{66F50D6B-112A-4C3D-BBB1-EFAC6394D632}" ShortID="643955423" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="17" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9FC7F16A-ADB5-4678-ADAA-C6EF5F5F7158}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{068DBF5B-888E-41A1-9482-A159E9605A73}" ShortID="187060266" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="-11" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{05726951-8110-4F82-BD68-45AB17726A11}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{947D12F3-7577-4C13-A362-AEEDCBE98718}" ShortID="497520571" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{177A9EEB-F17F-4359-82D1-44C8A14D0E67}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{1ED7418D-90E5-4792-BAC1-2DD9A8CC1747}" ShortID="808588557" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E5DDC5AA-2B5E-4BE6-97CF-48BBC628A669}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{8CE2AAE6-3D81-4D72-820E-950612B62B60}" ShortID="1045984689" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8A9771D7-A0B5-4841-B717-EA3A33B7217C}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_05" ID="{C184883C-DADF-4CC4-83CB-F578128EF4B7}">
+							<Comment>1396991575</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{22A63B26-5CEE-4FBF-A6E1-6ECF120181B2}" ShortID="605838624" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E1891C0B-0BE2-4D65-8BDE-F49A94A73A25}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{DF698A9A-3F10-4378-AA14-00861B5EEAC5}" ShortID="266486638" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{25F14C25-67EC-400D-8151-E1BC45822824}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{D9C64ADE-DAB4-4390-BEFF-2E5F148AE39E}" ShortID="486826845" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6C54CC02-E124-4AE7-8EB3-2E311AE23D6E}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{8520E4BD-2B57-43B5-8FC0-27846208A400}" ShortID="1056885919" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3F1DD4BE-DADF-48A9-A9F9-3024DC7C1BEA}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{04CFFA25-AD4A-4F2B-B0B7-BF7E9849BF43}" ShortID="744800277" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+										<Property Name="Pitch" Type="int32" Value="-450" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1DA106C1-927B-4B7C-AC19-4BF5C9DDB765}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{81EB90E9-90A7-466C-98F0-B688A5A85BC7}" ShortID="804537561" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.5" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CFD1B509-B995-44A7-9D9E-E6C053BE01DA}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{E04A7207-4A7B-4C0D-964D-B2C0F488C87A}" ShortID="525783575" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1FF3D148-4B25-4D5B-9249-EC719F889FA2}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{68BCEC7B-F2EE-467B-BB14-1F1648D713FE}" ShortID="1003793475" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.3" />
+										<Property Name="FadeTime" Type="Real64" Value="0.6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{259B98F7-A022-4CC5-A914-A3AEEFD8A35C}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{21903113-7D33-4E79-9A3D-ABB81C836A2C}" ShortID="546161002" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1331A46A-50A4-4369-828F-207CA44B2153}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{A9CCB893-AEDC-491B-A3D0-C72A98260D6F}" ShortID="756886981" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.3" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C8EDDDB0-EBB2-4D31-A526-3F678DBD446E}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{DB580A7D-770F-4AA9-9BA2-54179E6AF324}" ShortID="1009703618" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{46E9E0B7-7D09-4306-B5FB-F04BC8C53316}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{ABEED8F0-339C-4EC3-A558-170137954505}" ShortID="1047619159" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="7.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{12E1BEA3-FFCB-44C1-9AC6-3373A75F07F0}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{C75AC09D-1DBE-4AED-83A6-6E7A8621A676}" ShortID="1041718023" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E064175E-6D44-4F62-B53E-0799B9E89F02}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{B927976B-FD95-42C7-8284-F504AE639A23}" ShortID="694209063" Type="ChangePitch" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="7.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+										<Property Name="Pitch" Type="int32" Value="300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6877C036-F54C-47F3-A3CC-2EE8F556AFD1}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Pitch" ID="{6A0DA15F-F247-46AC-A363-0F4DD1551A1A}" ShortID="240586549" Type="ResetPitch" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{84947EE4-87D2-4D67-B716-937A05704188}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_06" ID="{9D46E145-572C-4957-A011-31058971F913}">
+							<Comment>1396991572</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{EAA7AD33-7D33-4E1B-A6F6-902742900ED2}" ShortID="934984573" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{23CC2A8B-3015-46A7-AA69-2B6095BF483F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{FCE96045-AA54-4156-B123-C73DAF6F2581}" ShortID="900230877" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8F0FB83E-DFA6-4181-A4A7-489B9410B5DB}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{DB7E00BF-FADD-4F01-881B-3A9D5CD59078}" ShortID="864512587" Type="ChangePitch" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{747741D0-436D-4490-B34E-FD3A49ACB8E7}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{255F1C09-6079-405A-A8C2-10D0363B5C47}" ShortID="522693169" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E8C1FAA1-CFFF-425D-907C-7319910A3F12}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{1DD7F140-2776-4EF0-9243-E6F674876CE4}" ShortID="73194840" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AD5EAD4C-01A6-4211-B619-9431A5E34522}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{2092F21A-159F-40B0-B49D-709231AC1D56}" ShortID="956348294" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{03E3B44C-6C92-4250-A003-C68289E78EF2}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{473C71CB-008A-42C5-8955-93D4AB11781D}" ShortID="1073623198" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{29BF938F-8B8F-4333-B24D-C85FED36ADBF}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{E106BB54-5F51-44FB-A943-B2C32A8D7704}" ShortID="558766802" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0188D837-9FFD-4319-BD3D-2C0BD845600C}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{8CA22373-5A3A-4B0E-9F39-25A440590560}" ShortID="508888627" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0254866D-3DFE-4070-ABFE-A3D3DF1CB81F}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Bus Volume" ID="{182FC197-CBDA-4F69-9A51-2C919823856D}" ShortID="760332319" Type="ChangeBusVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeCurve" Type="int16" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4C9B455C-90A8-4CAC-ADA2-C1FFB2B9D72B}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_07" ID="{9C26758D-9A44-4974-8836-C7CFF0B03DFC}">
+							<Comment>1396991573</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{D3B50C62-A7E0-4144-A750-A68DB36795B3}" ShortID="660424340" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D4EB4F98-1590-4F02-A801-A3263EA50B5B}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{2F03A2A8-A196-4091-97C3-1F72AA2FB8DC}" ShortID="201503686" Type="ChangePitch" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{83B57B2F-65A5-4DA7-B4E3-BAC4B97C669C}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{4110BED4-5298-47F0-93CA-0ED44648A1AA}" ShortID="344269818" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{554E88C2-577A-458D-9835-B9F0F85D2B96}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{E3A9F030-004E-4360-B06F-A4AD52206EF4}" ShortID="813409897" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Pitch" Type="int32" Value="-150" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A8648F1F-0FE9-42C1-A228-4C7E45A1F9FC}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_08" ID="{2C82DECC-9CFA-48EA-807E-01D6449EA7D4}">
+							<Comment>1396991578</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{6C096BBD-5C82-4723-B0CD-9343877CBCB5}" ShortID="715580091" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{88E75F96-6069-4FB3-B501-F1F740C5504A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{87115283-56D0-4D19-B56E-A888BA572350}" ShortID="1010848706" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{60D9209A-EA69-4144-9271-E2354942E68F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{B90BA896-F8D4-428A-AF45-D80730A9997C}" ShortID="670174560" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{58FDB1E0-DC41-45A5-991F-7E0F13674C09}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{D6B96DC1-F2A3-4B58-AF72-69D5ABA8465F}" ShortID="377797500" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{25159E3D-6E8F-4C67-A611-EBA864F83DA4}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{7F23BA76-2735-406E-AABC-1FD69EC6A8FC}" ShortID="540564314" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="1.4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B0616732-348E-40ED-88BD-E0A9043D597F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{7547B48E-4299-41B8-9459-D210E8889014}" ShortID="338705911" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Pitch" Type="int32" Value="-150" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B6EBEA7E-5DC4-47DC-962A-32451DA0688E}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C83845F9-20E3-471B-8ED1-48B286A4EEB2}" ShortID="872115791" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8AA6B6D0-D6E4-4284-B366-FFD3206D75C7}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{478EADC2-FAA2-4C62-ACB3-DE44DB552949}" ShortID="426321887" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7AB4605B-0AF2-4F29-B32F-4729733BA48F}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{0240966F-6AEA-4F6E-81E7-A3B9FFC40BE1}" ShortID="654374574" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F163D951-FC0F-4B5E-B784-6029C379C261}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{8AC728A5-5646-4FD8-A3E2-B35E34EF32F8}" ShortID="451678947" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5ADF3A2C-FE17-436D-8DD1-72145CD24A6D}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{80D2A22F-2D4D-41D1-A8AB-A6EC4D974911}" ShortID="932669409" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{11EC3E81-3DD2-479F-8ABB-7BDDCC8983BB}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{8D4F84CD-7789-4CFE-ABCD-F4884D2A19B7}" ShortID="302436332" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EFD95C56-15DB-4998-9D62-B0F4E0F7027E}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{BFE49308-986D-4230-9CF8-A2451BC927CA}" ShortID="42533149" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DA70F18B-29C8-4304-9E04-5569CE94E370}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{A59FD1A0-4BD9-47B3-9DE6-CD7E1643AD07}" ShortID="509418188" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="2.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6671C4E8-BEFB-4183-A8E8-C41C98104A76}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_09" ID="{A6A1AEE7-965A-4797-88F1-9016826F37B9}">
+							<Comment>1396991579</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{08FAADB4-4798-4C6C-8FC1-1BFA67B58D65}" ShortID="352677587" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{09D80BE4-AEE6-4F4A-906D-B54FDC4C96D1}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{9EBEEE1E-12DC-4F98-B6C8-C7B0C81888B2}" ShortID="180869862" Type="ChangePitch" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6DF09804-002C-4263-A41E-335D1DD76C01}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{536093E5-5FD1-48FD-816E-6A5379592034}" ShortID="661211611" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4C946103-0F69-4E76-9CC1-39F483F7CF14}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{D8E68334-0031-4257-87B0-FAA412156BFE}" ShortID="263074835" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Pitch" Type="int32" Value="-150" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DCF47222-72E1-4DBA-88FD-2A3C9E0D710F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_10" ID="{A788ACE8-0F7B-47C2-888B-66007111837B}">
+							<Comment>1413769157</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{C0D07E75-468E-4C79-B10C-47DF343C7AFB}" ShortID="939660505" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D9277936-3C67-45C7-9A80-0F7591455713}" Global="true">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{D9CB0221-332B-4EE1-918F-EA6CB29F1793}" ShortID="811469344" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2C639967-F1D3-452B-9B3F-66BA4BD2F0A6}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{486621DE-6BFA-47DA-BCF3-D007FCEE2E27}" ShortID="544814877" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EF473F39-5CC8-4F48-9A7F-53F7009E1EA1}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{E1CFF3A1-62CA-49C6-9633-957D35BB3188}" ShortID="1063627246" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-15" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{74339CAF-11C6-45A0-A257-0A0BA3E41BBD}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{B4E104BB-FF0C-4997-9998-E16FE11B6647}" ShortID="763362940" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="Pitch" Type="int32" Value="-800" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0AD91C0B-C880-475C-B042-4B4BD1C0D4F5}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{1FDA60D8-C359-4158-8897-9E764E8DC77C}" ShortID="739766039" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="1.4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CF7309E6-BC8E-446E-8182-BB101B67D936}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{F13D7E96-0378-46E9-847B-BF7301B5D58E}" ShortID="955302036" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8AB3157F-0675-4BA4-9A62-A69C91BEE096}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{14650921-D4F1-4DD8-8A67-D91EFE65AAEC}" ShortID="852610471" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A4F65A0D-3426-405F-94FA-3E7D95D7DABE}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{F7E75719-9A99-4061-A1AB-1C9D14376AF4}" ShortID="280161442" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-400" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4D609956-851A-44C1-B588-5242CBAD81E3}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{CFAD26E6-281A-4621-9651-F1550C9566CD}" ShortID="348870784" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="11.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1.4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9C83F7B2-A17D-45DF-9229-14D3063E248F}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{6FF994B2-C300-4347-B22B-9D7D05DB51D1}" ShortID="289759067" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13.5" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+										<Property Name="Volume" Type="Real64" Value="-2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{70F95F3D-4ADF-4399-9839-7530815BB8B1}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1AEC0DA1-C541-434D-A903-B969B1B4406E}" ShortID="705245043" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0BB211A3-4513-4A9A-BB92-BDABB665A1AB}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{59589225-5716-440A-A075-18D42114D48A}" ShortID="584897983" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4F889885-B691-4A75-92AB-CBF47E5E30CF}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{6B7D0FA3-CD87-4EBD-B222-CFE0358EEDCC}" ShortID="930342305" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeTime" Type="Real64" Value="8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DEF5A863-CD1A-458E-9D82-CEFAFC677BF7}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{28039BC6-23BF-434F-BDD4-3211DA09DFB9}" ShortID="770422060" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="12.5" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+										<Property Name="Volume" Type="Real64" Value="-11" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{40A7677B-B429-4550-A60D-249B96CF34A9}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{AF4709EE-E882-4BDC-B4A0-3522066F8E60}" ShortID="775849467" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9D908100-865E-40D3-A7FE-A14BC3936E62}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{407211D4-8880-4F82-B660-13101BDF1E17}" ShortID="165433299" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="0.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{58AE1B0C-C7A0-4576-A94E-E68A888DC53B}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{11ACA174-7EDF-4C7B-AFEF-0761F5BAD866}" ShortID="273994585" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeTime" Type="Real64" Value="3.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{044F6CF3-BA7E-44D5-AECC-F5E4EDE524C8}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_11" ID="{5293979B-B29F-496C-B800-5ADB81A6C652}">
+							<Comment>1413769156
+empy</Comment>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_12" ID="{83ED39D3-5AA2-488D-87E8-F377A8637CC2}">
+							<Comment>1413769159</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{0D54C135-B8B4-4063-A4C9-AF963885599E}" ShortID="653118839" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{758CAB05-CF22-421B-823C-3F3A26290940}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{92FBEE37-6169-4103-AA1A-2EC5D7CADEF4}" ShortID="1049349516" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B064F788-1B48-4A67-9C2F-82E1294BF244}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{32E1EF8A-1906-4968-B10A-AD3C05509C01}" ShortID="330212815" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EE71EBDA-0D89-4C01-B9AE-F2E0E974B932}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{B924B501-0D09-4438-AC77-6B59CCD6DC06}" ShortID="928732808" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{30F187F8-2FE1-41EA-BAD5-7AB4DE015E87}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{05054645-CE71-4A92-97E0-122B2D9DD281}" ShortID="76665756" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2.5" />
+										<Property Name="Pitch" Type="int32" Value="-450" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{45C4E196-BCEF-4661-B004-C6C4563B2A4C}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{E1038FDA-33A1-42AC-AF9E-142D5578556C}" ShortID="631615110" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.5" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AAB55876-3C5C-4F09-8B91-7CEB48E6848A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{141B58ED-D83A-4B8A-81EA-528817AA204B}" ShortID="694942262" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F2367ECD-2698-437A-9A99-1759C5131FD8}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{AC3078D9-C35D-4CAF-B376-C2E77482F66D}" ShortID="36778590" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.3" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CECB8794-BA6E-49F4-9C73-C359DBEC5567}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{5139B469-B65F-4F45-820E-8CCF3BBF412D}" ShortID="697801131" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{450A909D-2240-4CF1-AE1E-CFA6AD856C43}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{721F53B1-1B38-47E5-A342-54ADAC93A2F2}" ShortID="699362763" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.3" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{59DDA14F-3CD6-4EA8-8250-842B9E893884}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{6E602535-9743-4119-BF31-2757001DAAE0}" ShortID="830939620" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CF8BBE2A-DAD8-470A-B59D-E7883F96EBD3}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{92418A88-46A3-4232-9E16-58BBBA86FBB8}" ShortID="734263472" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeTime" Type="Real64" Value="3.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{ED6DC85F-0271-41FC-93C2-F2BF4718A47D}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_13" ID="{5928F86E-2A85-4DED-B70E-6C025CD27B63}">
+							<Comment>1413769158</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{56AC22C9-443B-430F-A5C1-DE3AA02852BA}" ShortID="223311012" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{333DB1EC-619C-47C4-B161-3C51381AC8E3}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{4BA70903-0D31-4B1C-83FE-0F35839242CF}" ShortID="786951979" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D37CA21B-4E88-42EB-8531-110AF829A2B0}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{86187F4D-1B9C-438E-A3A6-235D6458CC4A}" ShortID="589642981" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6A5A2A80-9E4F-4F5F-B6DB-F0BA5B968242}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{9283823E-0C9E-4790-A357-C90D64BCB0D8}" ShortID="652563187" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{734B2087-A826-4D23-BCD8-C89E28027BA9}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{5A236F4C-86DF-4804-9769-B45D98757595}" ShortID="713745174" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6586FA6B-7D57-4ECF-858C-476B47EEFA5C}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{A7A29FAC-1931-478A-A31A-3790A67B349B}" ShortID="777076551" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="-8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DFE765AA-64E1-4B94-81A4-AC67D008E1E3}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{4EC22BB5-E9B5-49C2-8BD9-EEC86614A656}" ShortID="16602219" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DF447559-0F43-4224-96A1-A9C60FBEF324}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{0910D0B0-E854-400C-8EBD-7EADAAFDAF7B}" ShortID="1023753667" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B9B1586F-2CBF-49DA-904E-E86DFC7DB68F}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{7DF93650-43EB-4981-9CD4-370A0CB90170}" ShortID="178167215" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5E5456D8-F6EB-4F45-AAE0-B4A3EF5115F7}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{82127B6C-E13F-45CC-B756-2995879382AD}" ShortID="679807589" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4.5" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4796681F-F115-47AD-A0BC-CF865A3F1A72}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{A9E10ECB-00ED-494B-8858-59491D4CC698}" ShortID="299395586" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E9AE93BC-3E2F-4871-AA4E-DDFE6D41BEF6}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{524CCD93-F55A-4C6C-BCC3-4CB86BC1D697}" ShortID="1029996542" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="4" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+										<Property Name="Volume" Type="Real64" Value="9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9474F44A-DB31-4F3B-9306-598AD05106C8}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{57FA3C88-5D2F-4FF3-B455-EA892720F95B}" ShortID="237203546" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="11" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D1F2F30B-ADF3-45F0-B999-BAE31EBF1E2C}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_14" ID="{C878C0BA-C4FB-418F-9847-526FC8D93047}">
+							<ChildrenList>
+								<Action Name="Set Voice Pitch" ID="{9C8B7797-2E0F-414F-B9E8-4800D4CBEF99}" ShortID="246675265" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-500" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CA17F3AC-CCE7-4B64-8969-756CC87EF8B2}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{6A57639A-377A-4A6F-9E9C-830E66A3F574}" ShortID="660847442" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{941A5673-5F92-4D76-B24F-1A332E656ED9}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{981A4DED-ADFE-4305-95C7-5EB99F55751A}" ShortID="996874942" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D220D9BC-C343-417C-9394-A0A25CBDC9B2}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B3C81886-9952-4D81-BEED-26AF39E3C045}" ShortID="1046216963" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B444268E-8583-4C34-B029-5C4DD1917C4A}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{B561E34E-1398-400A-A18E-5F248F85C42F}" ShortID="443383498" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{74B27EF3-136C-4F15-99D5-86563BBFA4E1}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{3AAAE9EE-836E-4474-9060-BDB4114AC72A}" ShortID="775979577" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.5" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FEAE0204-F550-4E5D-A2C7-806D03C16F7F}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{EAD62113-B72F-4365-9338-5F5752EDC60A}" ShortID="299328961" Type="ChangePitch" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Pitch" Type="int32" Value="300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5E3441B1-20E5-408E-821D-D2F4F09F7D38}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{E20011FE-539C-414B-A510-DD5DE3DFCBBE}" ShortID="830912129" Type="ChangePitch" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="1.5" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Pitch" Type="int32" Value="-300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3DB2870C-9516-46E4-8E07-9A64540E6A29}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_15" ID="{04CBFFA2-8442-4F51-BF06-511C3D16CD64}">
+							<Comment>1413769152</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{56FAE26F-5B5E-4173-A9AF-5FBAE698BFB5}" ShortID="263848654" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A9A88B03-2727-4CAA-9CFB-BF49E506E330}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{2E2CDEA8-9F46-42D5-9ED6-643FC2792302}" ShortID="737310387" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6BE2CB22-9ABD-4EFF-B6E4-6CA6E52E95C9}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{0B1A0B70-9F67-4BF4-A8C6-769A4F4AD54F}" ShortID="266903067" Type="ChangePitch" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1F5C2577-05C7-4692-8E30-33EE22233771}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{66175B9E-BBD7-4FDF-97E5-13E8CF70EFBA}" ShortID="552686257" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A2E37456-0776-4CD9-920E-03EB7533DFA8}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{C54905E1-CB3E-4136-AFB1-2D92F8209A37}" ShortID="200268531" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="9" />
+										<Property Name="Pitch" Type="int32" Value="-300" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E67B72AB-176D-46EB-9C47-91C94F010D0A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{82651D4D-1804-47DC-BD9D-CF301B0B1C77}" ShortID="37331761" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{61C376E6-E07E-41A2-B533-438EC26C6CB7}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{42198C70-3603-4D6A-9BCE-0F768A29CCFF}" ShortID="572822034" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1FF11F66-B9A0-4271-9776-2CC2C6790DA9}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{AA1FFFF5-0F96-4CC5-BA5E-5FAD8C5ADF56}" ShortID="964737691" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CEA62FCC-EEAE-4888-BE34-38868EFC41AD}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{F85D456F-B8D3-4C22-B985-3D2AB48CA9BE}" ShortID="56433520" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6A8FA4A2-A4BD-4096-ADAA-789007A071F8}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{ABB90091-83F6-4BC8-BD34-55088C9AE9E7}" ShortID="153632637" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5" />
+										<Property Name="FadeCurve" Type="int16" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8620AAE0-91B9-4509-AFAA-B3A70D4E25FE}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{F636FC22-3DD5-411B-B3D8-C0339694144D}" ShortID="283944280" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3AFF2A0A-C6F5-4179-A715-C155B8636827}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{3CE66E77-03E3-4DC5-B475-8016DB74F188}" ShortID="328973732" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="9" />
+										<Property Name="FadeTime" Type="Real64" Value="9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{59F7EF8B-0E05-4AC5-851F-8ED9D3FE6382}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_16" ID="{F0B554A1-57A0-4CB4-9BE8-1CD5CCA2E721}">
+							<Comment>1413769155</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{2BB268F6-A33E-4D71-9F64-A19E76CD2DD2}" ShortID="859895866" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{078CEA05-60AE-427D-A7DF-10259B3AD35A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{2A76F332-9F36-4A6A-A74D-01631F9D22B2}" ShortID="508971246" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D2C29791-F57E-4F15-B6A6-F00DF03D1436}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{E502F9B2-1B51-4026-A522-B06AC8B3F6D1}" ShortID="77721933" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FF237B92-598C-49AF-B233-FBB64EA33D85}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{AC01C3AA-4EC1-40DB-9518-7BFB48B085F5}" ShortID="501899377" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3" />
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8304221E-6183-4163-9494-C66CABD72B22}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{768BC930-FDE3-4206-89D5-1561AC1F5B8A}" ShortID="702320994" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="0.8" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E9014814-4B9B-4F0B-AD09-B46276814B55}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1497090D-AAE6-4876-92BD-66BA52EBCF91}" ShortID="587247311" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3.8" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E6B2CBAE-4546-4722-A407-C090C0C7046D}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{C0A4B5AA-DB2B-4639-BB9C-F2568F78E022}" ShortID="243546268" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3CDD8D12-9CA1-4581-A8A6-299455383823}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{4069433D-30C4-43EB-AD04-ACA021DACF47}" ShortID="912714801" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F6499288-324D-497A-B5A8-154B7A6244A2}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{A243DBCB-BF3E-4133-8FE2-C3246426E1BF}" ShortID="72942832" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3" />
+										<Property Name="FadeCurve" Type="int16" Value="0" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9051E264-1876-40D7-9500-C06AC0BFC98B}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{83675FFA-69C4-4A3B-9066-0149B493419B}" ShortID="391448433" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeCurve" Type="int16" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2D2F3C89-93E7-4F9F-B1AE-5ED08D66700F}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{23174502-BC29-44E2-8D32-32E8A473C34D}" ShortID="180929582" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{183EC3DB-9499-42C1-BB30-04B17C0457AE}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{6BA486CA-9CEB-4334-9B7F-034724EE25AF}" ShortID="848589840" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C163D459-F658-403F-B673-C9B0D6BD6283}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_17" ID="{CE6F2556-FFB3-4086-9E03-C6BE00C99370}">
+							<Comment>1413769154</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{34D60A96-D12B-4334-9663-D8A5C92395C6}" ShortID="671163966" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FCFF127B-2D66-41CF-99E5-51011ACAC2C1}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{DCF5AE46-5804-4D6C-8D02-87A28EBE20DB}" ShortID="31634474" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2B444152-352F-4C06-80EF-44914F327E0F}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{2036D369-5794-41BC-9151-FFFFA230A392}" ShortID="838981797" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AFFBA7BA-D46F-469B-A8D3-BF0EA8918AA1}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{B6A0B904-8DCA-42BF-B3DC-AC4098151AB7}" ShortID="497904386" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{271C789F-547D-489E-85D0-15B6BA2DBBED}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{CBEA9F6B-D005-4244-88CB-D09EA5010A24}" ShortID="215411563" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D1821367-FDC2-436A-8002-3DC4AB6E0109}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{F4EDD6A2-07FA-45E5-9A9B-320D565E3D05}" ShortID="808269005" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{348275B2-01B0-4AB3-BFBF-DBE088DF114F}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{EF94B742-A87A-4D12-A076-5C163389E109}" ShortID="570227066" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F4B82397-56C6-416B-94D0-79C17FCE011A}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{80616BB1-F88E-4903-A54D-F7399E0A3639}" ShortID="466495990" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F8C4E9D3-94D5-42F7-AF28-096A08767CE8}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{E7E41CC9-4458-4A2F-AD45-9368ECC83DA3}" ShortID="758635180" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8066164C-B6AF-454F-A151-EC44FB942A5D}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{9AEF8E28-CC45-404B-95E6-85C48A0300BC}" ShortID="502905017" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeCurve" Type="int16" Value="2" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8F1895EA-F2AA-43A4-94C8-FDF030132E82}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{3E728F20-5642-4DD9-951F-FD3A6A08F170}" ShortID="460176062" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeTime" Type="Real64" Value="0.7" />
+										<Property Name="Volume" Type="Real64" Value="10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{551CA397-3A45-4DEB-921D-81690DF730BB}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{6C8CAEB8-27DA-4ABA-99CD-810EEC2AD559}" ShortID="1006904004" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{449FE357-7EF8-4F12-8A65-19D202652A97}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_18" ID="{CAD31A13-6735-41F1-8147-5A486F95A186}">
+							<Comment>1413769165</Comment>
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{B3B2CB04-79FC-4FF1-A693-0D02CDA0CD60}" ShortID="996863022" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CEA1377B-ED63-4C60-8617-90E79138B0FF}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{11CC68D7-7337-474D-B67B-916A50FE6B5A}" ShortID="755229845" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E6838DAE-D122-4C10-B3E5-BE06C707D460}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{9BF163BC-5646-4484-81E0-F4D501B51C9B}" ShortID="497167980" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-500" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2061D4BA-AFE2-4415-A186-8E95592D51DF}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{913FBF90-9456-45FE-8BEC-35102E1CC0B4}" ShortID="363487007" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9DDB3A29-BCDC-4BDD-8030-AA0BA89CF56A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{AE47A043-3BBC-4817-8306-F50584C496E0}" ShortID="886526223" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+										<Property Name="Pitch" Type="int32" Value="-200" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E117F33F-FCB5-424E-A4D3-DC29A7F11A08}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{260E42C5-EA20-44A8-B238-A17378C51D32}" ShortID="139700012" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="5" />
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5907E2E1-6EE4-4030-ABC8-5A6E3E185B8A}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{58D8FE1C-CFE4-410F-8B79-9FE62F2300F3}" ShortID="965995568" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="12" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4C7146BD-AF68-4E76-8153-E874C9E7BD50}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{99E4E458-7980-4AFF-84E3-32028DE27286}" ShortID="658151876" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0E72BCFF-69A9-4122-A6AD-D44342CA7C2C}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{9641C50E-AEC1-412F-AD02-32EA8FFFE1C7}" ShortID="248650556" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5B8DC978-A161-4EA7-8335-B6F4C38CB4A9}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{7EFD7563-C561-4E53-A7B7-E90CAFE232E8}" ShortID="544619970" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1DB7E6E7-220B-4099-9A61-5EA882602917}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B4E908AF-33F0-4C23-9ADA-29D8038F0CAD}" ShortID="320088191" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="16" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="18" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{09C09F26-FEC0-4D5E-9EC7-68FA066FF46A}" Global="false">
+											<ObjectRef Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{6560E8D3-5EF4-42E5-BA5D-820A201EF1D6}" ShortID="615437175" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="4" />
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9682F164-6FDF-4FFC-8334-74EAEF3455CA}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{DE6E7CC5-9F61-4471-BE34-B9805E5CEEFF}" ShortID="867827190" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeCurve" Type="int16" Value="1" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{93E0226D-541C-4E06-B115-078E90E5B06F}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{0A860A43-9278-4C0F-BF13-DE37F2051F12}" ShortID="956208831" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="FadeTime" Type="Real64" Value="2" />
+										<Property Name="Volume" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9B0F6252-C514-46DB-9E94-FEE046B9DA91}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{84DC3108-82D9-42F4-8A8C-5E61786D1647}" ShortID="8451012" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EC704DA8-39ED-4057-936F-9D82526F9B6C}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_19" ID="{35905C30-6E2A-4AB7-90C5-4D7CDD93CC5F}">
+							<Comment>1413769164</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{59BB8737-4AEB-4FC6-9908-5285BF00FFE9}" ShortID="268405108" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E6A94AF6-FBB1-4834-9A6B-A1000AC9DB50}" Global="false">
+											<ObjectRef Name="_585309722" ID="{408DEF58-61AF-4326-B327-10082297515C}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{EA0F1E02-A8E9-43A2-A1BB-D16FE23FF9AB}" ShortID="677614259" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B2413994-6DA9-407F-8ADD-882529BBDA5D}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{7E0DBD84-98EC-46D6-BC74-EA51C9E18A2F}" ShortID="450463020" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{13F2AA12-B010-4B63-9191-527D3EF1923B}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{F7290926-29EA-48B5-BEAB-7B472C8521B8}" ShortID="376957572" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="-600" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2F35E823-A4FC-4B77-888B-CCEFD84466EA}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{2570DEE2-9268-4731-914E-1BB2E4D3754C}" ShortID="617061516" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{411F7A50-964D-4020-8D9F-15FA93A9E91D}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{9B2A4436-01EF-4E7F-A359-D4D8C86B4E58}" ShortID="877602949" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+										<Property Name="Pitch" Type="int32" Value="-450" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1A58A9EB-363A-4E36-A6EA-0EC1EB930B8B}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Pitch" ID="{4BA0634D-64FD-4E82-8AF3-984596003D6D}" ShortID="231238495" Type="ChangePitch" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.5" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{509F258B-1F9B-4ECD-8DD9-8E8F571071E7}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{7BA0A44F-E50D-4996-8CF9-25CAC4E36416}" ShortID="170230671" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C1451FB4-CC14-44C8-9A39-F049692B2AC3}" Global="false">
+											<ObjectRef Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{4B54716C-70E7-46D9-8D2B-A60DD26D9C8B}" ShortID="1042836198" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.3" />
+										<Property Name="FadeTime" Type="Real64" Value="1.2" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FC3973BB-A9EE-46CD-8672-C7C96E55515B}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{EBA3AC5A-C839-4440-9EF4-D1C2A15EC4C0}" ShortID="977694333" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8DB60D98-7011-4491-AFD4-881C9B4131CD}" Global="false">
+											<ObjectRef Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{866F5EE3-7BA9-4784-9018-7E391F605E21}" ShortID="218863124" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="8.3" />
+										<Property Name="FadeTime" Type="Real64" Value="1.2" />
+										<Property Name="Volume" Type="Real64" Value="-10" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C994158B-3C09-45CB-9BEF-A0A065B1AF02}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{F111FF6D-6885-4E0F-8393-D66AF6595750}" ShortID="490776197" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="10" />
+										<Property Name="FadeTime" Type="Real64" Value="6" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E9526F3C-7C0D-4BA8-9285-652A8527C33F}" Global="true">
+											<ObjectRef Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{05359906-09B5-4B2C-8446-F309AC6D00E8}" ShortID="931450507" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Absolute" Type="bool" Value="False" />
+										<Property Name="Delay" Type="Real64" Value="8" />
+										<Property Name="FadeTime" Type="Real64" Value="1.5" />
+										<Property Name="Volume" Type="Real64" Value="8" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0EDD60D2-6C04-4D80-B2C8-6EA3FED69100}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Voice Volume" ID="{B0C9A4B0-DE7B-44C8-AD3E-35DE1F8F96DF}" ShortID="611534478" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="9.5" />
+										<Property Name="FadeTime" Type="Real64" Value="3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3F00C31E-F2CA-447E-BE50-107F7AF6E40E}" Global="true">
+											<ObjectRef Name="gc_52xc" ID="{9CEA481C-59C1-495C-948A-72C43860AC75}" WorkUnitID="{1132A01A-A02D-459A-85F4-5C6609DDE447}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{58AA35F2-3E72-468A-B7C4-A0A271044011}" ShortID="58768250" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7CA3A92B-9008-42D7-BBF2-B96DEC399A61}" Global="false">
+											<ObjectRef Name="_704817036" ID="{34C3706B-62C3-440A-BF7E-57335E70D163}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{F543BF4F-C636-48A8-9794-0594F592041A}" ShortID="35942891" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="7.3" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A6907F73-72F2-4C92-B9CF-36BD3B9282E0}" Global="false">
+											<ObjectRef Name="_342082367" ID="{CDBEEA8C-ABA0-4D75-89E4-74A02073A728}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_21" ID="{2340A65A-85F7-4911-86BF-D904D6F5E9C0}">
+							<Comment>1363436301</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{4072CCB3-AB8D-45F3-B3D9-3725D7D99C4B}" ShortID="51286145" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F0F80A34-A4A6-4655-A948-9ACB71C6B5F6}" Global="true">
+											<ObjectRef Name="_689717568" ID="{C8FAB622-9CDE-4FC3-858C-557073045A60}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{F20F5A46-03A0-4520-B464-02985549A427}" ShortID="606217087" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{964D9CEE-A19F-4107-ACFA-21C815E74F8E}" Global="false">
+											<ObjectRef Name="_689717568" ID="{C8FAB622-9CDE-4FC3-858C-557073045A60}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set State" ID="{99247A78-196A-49A6-9738-9A61672FDD42}" ShortID="485784898" Type="SetState" Scope="All" Global="true">
+									<SetItemParam>
+										<Group Name="m0p0zn" ID="{9F2C01F3-9108-44A7-B8D2-39160E0FAF1A}" />
+										<GroupItem Name="a3si4wk" ID="{7C1C9C14-801A-453C-B0F1-8365796CF588}" />
+									</SetItemParam>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_22" ID="{293969B1-C9CD-4A4A-886B-872E58C8156F}">
+							<Comment>1363436302</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{DCA3A69E-7F12-472C-ADE7-8F0BF8E9352A}" ShortID="377182310" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{080435E3-26BB-4B54-9F08-10932A4EA7F7}" Global="true">
+											<ObjectRef Name="_773329621" ID="{58AABB4D-9256-4104-97F8-838B14AD4430}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{166B341A-D844-4352-8D93-4C5BF185BC85}" ShortID="156952629" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0A493CC8-6F84-4065-B89C-85554CA55144}" Global="false">
+											<ObjectRef Name="_773329621" ID="{58AABB4D-9256-4104-97F8-838B14AD4430}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_23" ID="{2F37625F-49D0-46A3-BDA4-E4E4F9A234F3}">
+							<Comment>1363436303</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{33BE928B-38DE-4B79-829E-052314766A4C}" ShortID="704775007" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{04547948-DC4B-4F12-8FDB-093135BE8296}" Global="true">
+											<ObjectRef Name="_452833682" ID="{5BCC3BCB-FE4A-4DBE-9C59-D2CADCBF48CD}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{511FD206-37E0-4ED6-97B9-5C033E41975C}" ShortID="841144947" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{7AE2D666-85F8-40EF-A899-2EAEE3181215}" Global="false">
+											<ObjectRef Name="_452833682" ID="{5BCC3BCB-FE4A-4DBE-9C59-D2CADCBF48CD}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_24" ID="{98B6D32D-C7B7-4814-992B-6C02A9639854}">
+							<Comment>1363436296</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{E125502B-684E-4859-8D58-07BCDC3F7111}" ShortID="580182434" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{D38FF023-8F46-48D5-BD18-CE7D8C803FC0}" Global="true">
+											<ObjectRef Name="_762036555" ID="{0CF69F0E-3708-42B7-BB6A-513C63D4A70F}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{A1789F05-3049-4978-AA8B-2FD727F9F3DC}" ShortID="82221193" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F78F1D41-4D37-4496-A8B2-EDAB66DADF00}" Global="true">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{262BA21C-92DF-42DD-B7F5-6271A6E458E8}" ShortID="807351961" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{B51DCFA6-0E7F-4D26-BBDC-7B2A40596DD8}" Global="true">
+											<ObjectRef Name="_812594913" ID="{D3A9677D-8AB9-4734-AE16-C0F947C9EE15}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{6C1F3D26-A3F7-417A-9106-EDF94460077A}" ShortID="45188237" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{75499805-C8F2-4536-B9B6-F95BD7A3EC99}" Global="true">
+											<ObjectRef Name="_840216676" ID="{99E199C1-D047-4A7E-9F22-8C7B1AD28454}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{56700012-9B85-4D22-98BF-16DDDDA67E15}" ShortID="477865566" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{4B84A97E-B88A-4ECF-A8F1-8934195B20C5}" Global="true">
+											<ObjectRef Name="_896062358" ID="{E5174972-841E-4040-A80D-93870393924C}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{B38D781B-0FC3-4DF7-9F57-3D8F65A10D56}" ShortID="849587901" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C4ADC018-3AE8-4B83-9686-D6A96163793F}" Global="false">
+											<ObjectRef Name="_762036555" ID="{0CF69F0E-3708-42B7-BB6A-513C63D4A70F}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B15B3F2A-9BB7-45D0-8603-33ADD74F497C}" ShortID="53501375" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeCurve" Type="int16" Value="7" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CEBEB606-EBD4-4E1A-AB1E-476AF09AEBC1}" Global="true">
+											<ObjectRef Name="_762036555" ID="{0CF69F0E-3708-42B7-BB6A-513C63D4A70F}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{627C5FCC-77FD-4EB1-B1B6-2932EDB56C85}" ShortID="354188520" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FC725CFC-150D-4C3F-92F7-6ECBF366E1BD}" Global="false">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{2C9D20D4-33B5-4B2C-B8FE-B8FBB79FEE58}" ShortID="653745975" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+										<Property Name="Volume" Type="Real64" Value="-12" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BBCBE9FC-AE7D-44F5-AD05-24685B50FE6A}" Global="false">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Voice Volume" ID="{42E243DA-CE6A-41B6-81C1-7B39FE8F0899}" ShortID="386586704" Type="ChangeVolume" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6B0BFC38-ACC7-4D0D-9A38-7105D4C8E73C}" Global="false">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{86E6277D-EA78-4D34-A659-D747CE41CA4D}" ShortID="41094214" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6" />
+										<Property Name="FadeCurve" Type="int16" Value="6" />
+										<Property Name="FadeTime" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BE232C1B-6C64-467D-A03F-51029FF35BFA}" Global="true">
+											<ObjectRef Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{6D7E2716-0273-4934-B4F5-DF077E67A270}" ShortID="1029204045" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0E352BAA-8BDB-4242-B7CC-AC9703834DDF}" Global="false">
+											<ObjectRef Name="_812594913" ID="{D3A9677D-8AB9-4734-AE16-C0F947C9EE15}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{0BD45F61-C505-49CC-B31A-AB77D02D362C}" ShortID="41648557" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1DF97C29-C40F-469B-854B-CA251574AF0B}" Global="false">
+											<ObjectRef Name="_840216676" ID="{99E199C1-D047-4A7E-9F22-8C7B1AD28454}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{74736C0F-7052-4776-AE0C-8FA26A18A0D1}" ShortID="103378761" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6B8484F3-1859-4D75-8798-4482498EA4EB}" Global="false">
+											<ObjectRef Name="_896062358" ID="{E5174972-841E-4040-A80D-93870393924C}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_25" ID="{3453C359-01E6-46A2-BD59-94F20A8AE552}">
+							<Comment>1363436297</Comment>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_27" ID="{A8C589C7-9CC8-4F60-BDC3-EBB575CB2CB9}">
+							<Comment>1363436299</Comment>
+							<ChildrenList>
+								<Action Name="Stop" ID="{BD1A3393-969E-473B-82E6-35B925F94963}" ShortID="120759424" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{79CD2457-62BA-45D0-AC3C-008121C7EAC0}" Global="true">
+											<ObjectRef Name="_567010237" ID="{6B29776C-0D43-4B30-847F-A151FDCA4C91}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{4AEB3667-EA9B-4CDA-BF77-B1DF4B2BB625}" ShortID="514487747" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{6E53EB89-1791-48CD-9019-0FAC6835308A}" Global="true">
+											<ObjectRef Name="_1033969011" ID="{33B11AFC-018C-4746-BA73-6C8E9679D8CF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{C4335B44-6CCA-4142-A618-2205656D34A9}" ShortID="868339963" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{CDDDF75D-986C-4E8E-A69B-672CD19C42A8}" Global="false">
+											<ObjectRef Name="_567010237" ID="{6B29776C-0D43-4B30-847F-A151FDCA4C91}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{29BB0E8C-2FCF-4779-B8DF-8D07799B7199}" ShortID="762979589" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B80B7093-7E23-483D-A53D-2E6E7750C86E}" Global="false">
+											<ObjectRef Name="_1033969011" ID="{33B11AFC-018C-4746-BA73-6C8E9679D8CF}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_28" ID="{4A76E6E3-7D34-4F41-A151-3E483EF41216}">
+							<Comment>1363436292</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{FDE408A9-0D71-46BA-9BF0-20354EA925E2}" ShortID="840009664" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{AD74ED82-D538-4625-8189-28CE3E36F6B9}" Global="false">
+											<ObjectRef Name="_872799397" ID="{7244B81B-F250-4651-A254-C0ED305E4094}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_29" ID="{16888F42-7507-4D82-8C7A-40FF21A73A10}">
+							<Comment>1363436293</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{CFD9885C-2282-4319-8431-30278403B1D2}" ShortID="403710809" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1F01FCF6-FC5A-46B7-ACFA-84ADBABC8C08}" Global="false">
+											<ObjectRef Name="_820818241" ID="{A020622F-61D0-49C8-ADA6-92E75ADF68A1}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_whoosh_l" ID="{AF9F13BF-3A30-4E28-97B0-A3F2D7434E39}" />
+						<Event Name="sfx_m_e20040_whoosh_l_w" ID="{CAC3C4DA-6BA9-4ADA-8E3C-84468A088922}" />
+						<Event Name="sfx_m_e20040_whoosh_m" ID="{8ECE7D50-FB4F-45BA-859C-5ED10E0A31DE}" />
+						<Event Name="sfx_m_e20040_whoosh_s" ID="{341B26AD-3FD6-449A-8EA8-F32EB06A2169}" />
+						<Event Name="sfx_m_e20040_whoosh_s_w" ID="{EDA5CBEB-6B74-482C-820A-D4593C49B4C3}" />
+						<Event Name="sfx_m_e20040_siren" ID="{85B4F0F1-7D9C-4339-AE63-103E8550CF1E}" />
+						<Event Name="sfx_m_e20040_jail" ID="{C075EB05-4749-413C-87D3-12CE61CCD544}" />
+						<Event Name="sfx_m_e20040_power_noise" ID="{10A24BFA-224F-4444-A40A-80D1058A1AB4}" />
+						<Event Name="sfx_m_e20040_light" ID="{0B94182A-B7D0-4FDC-A908-BE8BA5538F50}" />
+						<Event Name="sfx_m_e20040_tree" ID="{522EEAC0-74B5-4EA1-8828-0B98874EE123}" />
+						<Event Name="sfx_m_e20040_fixed_26" ID="{0E31792F-B843-4F25-9A62-8AD1DF326807}">
+							<Comment>1363436298
+unused and empty</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{FDB9C1C6-7BEF-4CD7-8B89-6B0075A6FBCB}" ShortID="436972771" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{427298EC-E34B-4CC7-AA3D-78E1B1A4093B}" Global="false">
+											<ObjectRef Name="_812826115" ID="{EC2DF457-F005-491D-A34C-AFF192AEF10A}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_m_e20040_fixed_30" ID="{2514B1DB-1167-4E6E-9B39-DB32965BC45F}">
+							<Comment>1380214015</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{78FAFC4B-6100-4700-89A3-7CA94318339C}" ShortID="218929426" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{E95883AE-3B94-45FE-908C-A908050B3726}" Global="false">
+											<ObjectRef Name="_812826115" ID="{EC2DF457-F005-491D-A34C-AFF192AEF10A}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="system_SE_bank_00" ID="{6E4B830E-ECC8-4A98-A027-7FE08DF56FEA}" ShortID="214931201">
@@ -3442,6 +6403,67 @@
 										<Group Name="bgm_jingle_result_rank" ID="{C3213BEE-CE45-4915-B1D9-D6B806AF22A9}" />
 										<GroupItem Name="bgm_jingle_result_e" ID="{E8854AB8-AE2B-45AB-8B60-E4DF3D12F682}" />
 									</SetItemParam>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="bgm_e20010_result" ID="{CCAF536B-B060-455D-94AC-7E7C3FCEA177}" ShortID="760814942">
+					<ChildrenList>
+						<Event Name="Play_bgm_e20010_result" ID="{41DC6548-FDCE-45DA-9542-B56A0B504BC2}">
+							<ChildrenList>
+								<Action Name="Set Switch" ID="{7928ACB8-DAB4-4D97-931A-C94A0457BA45}" ShortID="535249214" Type="SetSwitch" Scope="All" Global="false">
+									<SetItemParam>
+										<Group Name="bgm_jingle_ed" ID="{CB93BC6E-EBC5-4741-9EEE-A8E0612A3E61}" />
+										<GroupItem Name="bgm_jingle_result" ID="{99BC8AA1-BD22-47A1-9B02-46DE393016B2}" />
+									</SetItemParam>
+								</Action>
+								<Action Name="Play" ID="{446D3142-F277-4A3B-BD62-E83F9D7B6170}" ShortID="1021282144" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{CE461B74-533F-42D5-B760-B92BE0F95E52}" Global="false">
+											<ObjectRef Name="998690356_bgm_e20010_result" ID="{B997738C-E3F3-48F8-95EE-82902E9A8FFD}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_bgm_e20010_result" ID="{695D3D29-1315-4B15-9161-56C94FE51B4C}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{4D0D5CDA-7844-4A54-ACF7-E9CBF8C918FF}" ShortID="325156644" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FB2939E9-8346-4B4E-9E19-0C650070B9D5}" Global="false">
+											<ObjectRef Name="998690356_bgm_e20010_result" ID="{B997738C-E3F3-48F8-95EE-82902E9A8FFD}" WorkUnitID="{D4B0DE3A-20B6-488C-8E62-383A85BD1E1F}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="p11_010170_000" ID="{A4A2ABE2-5B2F-42BF-AE1A-94D1F88BA253}" ShortID="663181978">
+					<ChildrenList>
+						<Event Name="Play_p11_010170_000" ID="{A9643E10-C239-4245-980E-8E63EBFB4AE8}">
+							<ChildrenList>
+								<Action Name="Play" ID="{E30FF45F-F831-442B-8A8E-7330A6E94AF0}" ShortID="541676827" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{8FC01E5A-44D6-4003-8CBC-100E519DDDBA}" Global="false">
+											<ObjectRef Name="p11_010170_000" ID="{D0255CEC-A739-4BCD-B97C-9C7867977628}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_p11_010170_000" ID="{274CA620-7C38-4C1B-81CB-60011B2E30DA}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{C3768FE5-B32D-4981-AF60-DDC28C6C71A2}" ShortID="297020921" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{32D67824-5166-461D-86D9-9B475AC9B3FA}" Global="false">
+											<ObjectRef Name="p11_010170_000" ID="{D0255CEC-A739-4BCD-B97C-9C7867977628}" WorkUnitID="{9DBE3036-2A70-4A88-958A-88186445E4DA}" />
+										</Element>
+									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>

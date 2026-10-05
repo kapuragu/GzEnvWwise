@@ -25412,6 +25412,2881 @@ Embedded SFX, id: 619035268</Comment>
 						<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 					</ConversionInfo>
 				</ActorMixer>
+				<Folder Name="p11_010170" ID="{1EBA4AB0-721D-4228-AEA7-9D662BD2B62C}" ShortID="752731951">
+					<ChildrenList>
+						<ActorMixer Name="gntn_demo_audio" ID="{A3528790-0138-418C-B5B1-441918D9D149}" ShortID="473120733">
+							<Comment>based on 400133458 in p41_010010</Comment>
+							<PropertyList>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>90</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="joined_forward_directions_bus" ID="{C7D64691-A2A4-4AE3-8F57-3061B83C1778}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="p11_010170_000" ID="{D0255CEC-A739-4BCD-B97C-9C7867977628}" ShortID="481526813" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="p11_010170_000" ID="{0E28C8D2-6552-4462-B8D9-29CFB963A154}" ShortID="511374232">
+											<Language>SFX</Language>
+											<AudioFile>p11_010170_000.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="p11_010170_000" ID="{0E28C8D2-6552-4462-B8D9-29CFB963A154}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+							</ConversionInfo>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="sfx_m_e20040_fixed" ID="{B13E490F-9CB1-400E-807A-73B88EB397DC}" ShortID="789452282">
+					<ChildrenList>
+						<ActorMixer Name="_682468062" ID="{9F45F6CB-09E9-4E81-80C8-0E55C2B9A3C0}" ShortID="914465459">
+							<Comment>682468062</Comment>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="less_keywords_stuff_bus" ID="{98E46A7D-9FDF-4D60-9BB6-911788D84BCE}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="_458580529" ID="{1608AD7A-4B68-4C71-8AA2-A2C82ADD7B7D}" ShortID="514433135" Type="SoundFX">
+									<Comment>458580529, 578293578
+Helicopter rotor</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="578293578" ID="{5B7D38B1-FFBC-4AA6-BCD1-5849F6D4433C}" ShortID="123985961">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>578293578.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="578293578" ID="{5B7D38B1-FFBC-4AA6-BCD1-5849F6D4433C}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="_499926110" ID="{1A25E8EA-94F5-4FD5-99E8-64AED66E3FF7}" ShortID="402058898" Type="SoundFX">
+									<Comment>499926110, 394890260
+Wind blowing, heli</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="394890260" ID="{3F98D12C-1D8B-4280-876E-B1AFA837774C}" ShortID="441751209">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>394890260.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="394890260" ID="{3F98D12C-1D8B-4280-876E-B1AFA837774C}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="_990923706" ID="{EB0EAD95-73A3-413A-B95A-D7C35A07B6E1}" ShortID="733118200">
+									<Comment>990923706
+wind blowing</Comment>
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_158962478" ID="{305225B5-2AFE-49DD-A9EE-D73CBDBB867E}" ShortID="111862537" Type="SoundFX">
+											<Comment>158962478 721198511</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="721198511" ID="{56AC6E0C-B5F9-4093-B709-71C29B3D91BC}" ShortID="423843603">
+													<Language>SFX</Language>
+													<AudioFile>721198511.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EFBD7CC9-5525-4916-B0D4-14A9D6C81DA5}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-50" />
+														<Property Name="PanY" Type="Real64" Value="25" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="721198511" ID="{56AC6E0C-B5F9-4093-B709-71C29B3D91BC}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_177430832" ID="{BEF75352-2F2C-4FCB-B647-C6BC99E63933}" ShortID="19551807" Type="SoundFX">
+											<Comment>177430832 721198511</Comment>
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True" />
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="721198511" ID="{6A2073CE-CE81-4C22-8A06-CA91D71F5FEA}" ShortID="345771203">
+													<Language>SFX</Language>
+													<AudioFile>721198511.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{BB6EB360-0C04-4221-88B2-D834059E0514}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="50" />
+														<Property Name="PanY" Type="Real64" Value="25" />
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="721198511" ID="{6A2073CE-CE81-4C22-8A06-CA91D71F5FEA}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</BlendContainer>
+								<RandomSequenceContainer Name="_172605615" ID="{09C4AD5B-D434-464B-A344-88578FECCA4B}" ShortID="292182835">
+									<Comment>172605615
+lil whoosh</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{B5C56529-D79B-4791-BABC-54466410AA03}" ShortID="775791645">
+													<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+													<Curve Name="" ID="{7C7AED5D-0412-40FC-A9F5-5B329A4C9C01}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-100</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25.026</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_588448453" ID="{960BBD80-2715-4C11-AE37-6537C4B33985}" ShortID="336386774" Type="SoundFX">
+											<Comment>588448453</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{2AC5D4D8-A0ED-4C0C-8862-4D5A819543B6}" ShortID="838703115" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.1" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{2AC5D4D8-A0ED-4C0C-8862-4D5A819543B6}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_560629785" ID="{CBA96D31-2D27-47C1-8312-36A6B7C716DC}" ShortID="157620809" Type="SoundFX">
+											<Comment>560629785 377616723</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="377616723" ID="{C56F50E2-6F54-4CBE-BBB2-455F94B5C632}" ShortID="696340238">
+													<Language>SFX</Language>
+													<AudioFile>377616723.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="377616723" ID="{C56F50E2-6F54-4CBE-BBB2-455F94B5C632}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_388054846" ID="{5C16DF62-43C5-46A6-B0ED-980EC9898BBB}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_588448453" ID="{960BBD80-2715-4C11-AE37-6537C4B33985}" />
+										<ItemRef Name="_560629785" ID="{CBA96D31-2D27-47C1-8312-36A6B7C716DC}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_280046656" ID="{776B9C29-5A82-49FB-BD35-F58CDA37C28E}" ShortID="1007355096">
+									<Comment>280046656
+short woosh</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{ABD4A958-6FFF-49B9-81F3-96C9F93457C3}" ShortID="245201104">
+													<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+													<Curve Name="" ID="{0BEF2DF5-DC99-4765-A3D1-11B46740200E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-100</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25.026</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_664252120" ID="{685A0E3C-9C0B-4A40-AF51-58DAD0837770}" ShortID="651868073" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{A32A2FAE-DC14-4173-B3CD-8DAE2FF8267B}" ShortID="785344306" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.1" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{A32A2FAE-DC14-4173-B3CD-8DAE2FF8267B}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_850633613" ID="{31B4BA96-4C08-4884-99C6-CC482B6F690F}" ShortID="469469974" Type="SoundFX">
+											<Comment>850633613</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="377616723" ID="{944A6ED4-EE4F-4A3A-95C9-ACD43C3BFFF5}" ShortID="890705460">
+													<Language>SFX</Language>
+													<AudioFile>377616723.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="377616723" ID="{944A6ED4-EE4F-4A3A-95C9-ACD43C3BFFF5}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_388054846" ID="{5C16DF62-43C5-46A6-B0ED-980EC9898BBB}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_664252120" ID="{685A0E3C-9C0B-4A40-AF51-58DAD0837770}" />
+										<ItemRef Name="_850633613" ID="{31B4BA96-4C08-4884-99C6-CC482B6F690F}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_786032109" ID="{E337B01F-55C1-467C-853C-CB37040C0CA0}" ShortID="571521112">
+									<Comment>786032109
+wooosh</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{C972F788-9D9C-4F69-8C48-EAE21B208583}" ShortID="758750650">
+													<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+													<Curve Name="" ID="{AA52485C-BCC4-40D3-BF2A-F6B3B2D7903D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-100</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25.026</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_535468083" ID="{2E5CBCB0-4970-4169-8741-E251CB500927}" ShortID="969639496" Type="SoundFX">
+											<Comment>535468083</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{1D5A3BCA-AD9A-409F-B9C6-2EA280A6B11A}" ShortID="642047453" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.1" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{1D5A3BCA-AD9A-409F-B9C6-2EA280A6B11A}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_224643752" ID="{ECE84ED7-EC65-4603-8D24-CDAAF06950F8}" ShortID="969031750" Type="SoundFX">
+											<Comment>224643752 40038085</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="40038085" ID="{31248481-03A0-4CC1-80A5-807419E05B18}" ShortID="557102595">
+													<Language>SFX</Language>
+													<AudioFile>40038085.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="40038085" ID="{31248481-03A0-4CC1-80A5-807419E05B18}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_388054846" ID="{5C16DF62-43C5-46A6-B0ED-980EC9898BBB}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_535468083" ID="{2E5CBCB0-4970-4169-8741-E251CB500927}" />
+										<ItemRef Name="_224643752" ID="{ECE84ED7-EC65-4603-8D24-CDAAF06950F8}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_227441015" ID="{1DA17A3E-3B07-4A52-8419-AF841EBFB561}" ShortID="239747017">
+									<Comment>227441015
+whoosh</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{012E0213-B0CD-4890-A454-27FD40666C76}" ShortID="643979903">
+													<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+													<Curve Name="" ID="{5BB7A4D6-5E2F-49E2-8DE2-57D9B539E574}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-100</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25.026</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_780747133" ID="{97BBCD6C-6CD1-498D-A3AA-C8F72052F137}" ShortID="223504888" Type="SoundFX">
+											<Comment>780747133</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{9B0E5BB5-4F95-4ADD-8BB8-C1060DE22459}" ShortID="247927006" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.1" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{9B0E5BB5-4F95-4ADD-8BB8-C1060DE22459}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_77014928" ID="{05CB7869-50BE-461F-9110-AB39BA3BEFEF}" ShortID="748029094" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="40038085" ID="{71C2ED7A-8A37-4A3A-928A-6A87A4766159}" ShortID="788126759">
+													<Language>SFX</Language>
+													<AudioFile>40038085.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="40038085" ID="{71C2ED7A-8A37-4A3A-928A-6A87A4766159}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_388054846" ID="{5C16DF62-43C5-46A6-B0ED-980EC9898BBB}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_780747133" ID="{97BBCD6C-6CD1-498D-A3AA-C8F72052F137}" />
+										<ItemRef Name="_77014928" ID="{05CB7869-50BE-461F-9110-AB39BA3BEFEF}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_85240759" ID="{60184852-BF7A-432A-B2A3-7A9496F98ACE}" ShortID="887559155">
+									<Comment>85240759
+woosh</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{A3DF7AED-04D0-4D8B-AF1F-54F56FF89F04}" ShortID="485955062">
+													<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+													<Curve Name="" ID="{CDDAA9D1-650E-47C1-A06B-7096D15F8BBB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-100</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25.026</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_348104728" ID="{C5BDAD2F-A953-4C3B-8D75-352417B239B0}" ShortID="668917994" Type="SoundFX">
+											<Comment>348104728</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{1F8C27AC-E9B2-457F-804C-937F385DAA73}" ShortID="63019289" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.45" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{1F8C27AC-E9B2-457F-804C-937F385DAA73}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_338216963" ID="{7995A5BA-9FF3-42B8-B8C8-EE065A288C44}" ShortID="28255308" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="40038085" ID="{B1F60BF4-ABDC-46A5-AF8B-BAF6713FBECD}" ShortID="65795158">
+													<Language>SFX</Language>
+													<AudioFile>40038085.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="40038085" ID="{B1F60BF4-ABDC-46A5-AF8B-BAF6713FBECD}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_388054846" ID="{5C16DF62-43C5-46A6-B0ED-980EC9898BBB}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_348104728" ID="{C5BDAD2F-A953-4C3B-8D75-352417B239B0}" />
+										<ItemRef Name="_338216963" ID="{7995A5BA-9FF3-42B8-B8C8-EE065A288C44}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_773329621" ID="{58AABB4D-9256-4104-97F8-838B14AD4430}" ShortID="523237886">
+									<Comment>773329621
+car horn clackson beepbeepbeeeep</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_982571137" ID="{E7D2BAA8-2060-4AAD-8E06-4F510DA69E3B}" ShortID="894320394" Type="SoundFX">
+											<Comment>982571137</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{57CFC685-4E02-422D-91B2-F97151C61FF8}" ShortID="13234333" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="8.2" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{57CFC685-4E02-422D-91B2-F97151C61FF8}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_532979203" ID="{FDA92ACB-925F-4948-87A7-5AD4B90D2A19}" ShortID="1014126280" Type="SoundFX">
+											<Comment>532979203 800357198</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="UseGameAuxSends" Type="bool" Value="True" />
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="800357198" ID="{E1141220-076C-4872-908F-969C895AD43F}" ShortID="763867766">
+													<Language>SFX</Language>
+													<AudioFile>800357198.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="800357198" ID="{E1141220-076C-4872-908F-969C895AD43F}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_982571137" ID="{E7D2BAA8-2060-4AAD-8E06-4F510DA69E3B}" />
+										<ItemRef Name="_532979203" ID="{FDA92ACB-925F-4948-87A7-5AD4B90D2A19}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_567010237" ID="{6B29776C-0D43-4B30-847F-A151FDCA4C91}" ShortID="458448246">
+									<Comment>567010237
+long skrrrt</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_54156760" ID="{4F106A98-230D-4634-BE61-772852465E8E}" ShortID="786731639" Type="SoundFX">
+											<Comment>54156760</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{9E33BD93-9856-441A-908A-8AD9F1773C68}" ShortID="466517499" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.7" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{9E33BD93-9856-441A-908A-8AD9F1773C68}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_1048496343" ID="{C36D4E74-2C6F-4582-B305-DD79041ECE6A}" ShortID="976682687" Type="SoundFX">
+											<Comment>1048496343 76649705
+wheel skrrrrt</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>31</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="76649705" ID="{93B6C8B7-7B10-4CCD-8143-3815DC88DD30}" ShortID="1037809101">
+													<Language>SFX</Language>
+													<AudioFile>76649705.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="76649705" ID="{93B6C8B7-7B10-4CCD-8143-3815DC88DD30}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_54156760" ID="{4F106A98-230D-4634-BE61-772852465E8E}" />
+										<ItemRef Name="_1048496343" ID="{C36D4E74-2C6F-4582-B305-DD79041ECE6A}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_1033969011" ID="{33B11AFC-018C-4746-BA73-6C8E9679D8CF}" ShortID="606364823">
+									<Comment>1033969011
+long skrrrrt</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_93403311" ID="{707718BD-89F9-4B94-BB66-9964DFF83A0D}" ShortID="926741199" Type="SoundFX">
+											<Comment>93403311</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{2B70AFCF-4603-43DC-9AD7-5CEF70C82EFC}" ShortID="906882250" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{2B70AFCF-4603-43DC-9AD7-5CEF70C82EFC}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_979701880" ID="{6D77F8B0-11D7-4973-8DA2-1DE0C5CD26F8}" ShortID="12482579" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>31</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="interior" ID="{C00D2CD9-5482-4F5A-B995-74719921F0A1}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="76649705" ID="{40593E23-2E58-4901-895B-FDFF5E0B69B2}" ShortID="434028598">
+													<Language>SFX</Language>
+													<AudioFile>76649705.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="76649705" ID="{40593E23-2E58-4901-895B-FDFF5E0B69B2}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_93403311" ID="{707718BD-89F9-4B94-BB66-9964DFF83A0D}" />
+										<ItemRef Name="_979701880" ID="{6D77F8B0-11D7-4973-8DA2-1DE0C5CD26F8}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_689717568" ID="{C8FAB622-9CDE-4FC3-858C-557073045A60}" ShortID="53262941">
+									<Comment>689717568
+flare fireworks</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_660633934" ID="{2548230C-293D-4B11-8025-455199F831FC}" ShortID="838208667" Type="SoundFX">
+											<Comment>660633934</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{4445BA92-BCB0-4FFC-897E-32ADF410684E}" ShortID="607425357" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.001" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{4445BA92-BCB0-4FFC-897E-32ADF410684E}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_847095105" ID="{A728F13D-2CCA-46A8-98CD-69EB576F4F8B}" ShortID="520363486" Type="SoundFX">
+											<Comment>847095105 1017860824</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1017860824" ID="{4221FC95-223D-4D1E-8B8B-CFE03E64AE1E}" ShortID="326909620">
+													<Language>SFX</Language>
+													<AudioFile>1017860824.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="1017860824" ID="{4221FC95-223D-4D1E-8B8B-CFE03E64AE1E}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_660633934" ID="{2548230C-293D-4B11-8025-455199F831FC}" />
+										<ItemRef Name="_847095105" ID="{A728F13D-2CCA-46A8-98CD-69EB576F4F8B}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_762036555" ID="{0CF69F0E-3708-42B7-BB6A-513C63D4A70F}" ShortID="90560057">
+									<Comment>762036555
+bad driving</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_1029590647" ID="{82F3690A-D30A-44E7-831C-0E35A18EE110}" ShortID="544016921" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{C10229D1-BBD8-4FD9-8F1D-9EF564ED0CEA}" ShortID="408531599" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.2" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{C10229D1-BBD8-4FD9-8F1D-9EF564ED0CEA}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_862011135" ID="{11E85B35-9E12-47EF-8DAD-78B076D3B22E}" ShortID="852199725" Type="SoundFX">
+											<Comment>862011135 114620735</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="114620735" ID="{21DEAFCB-DA7F-44CE-AF80-9C831FD49BC9}" ShortID="369027472">
+													<ConversionInfo>
+														<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>114620735.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="114620735" ID="{21DEAFCB-DA7F-44CE-AF80-9C831FD49BC9}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_1029590647" ID="{82F3690A-D30A-44E7-831C-0E35A18EE110}" />
+										<ItemRef Name="_862011135" ID="{11E85B35-9E12-47EF-8DAD-78B076D3B22E}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_943467817" ID="{3D95488D-8831-423A-93B6-46206CC4CCBF}" ShortID="780820560">
+									<Comment>943467817
+distant bad driving</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_286917457" ID="{ADE7A77A-9C60-465D-A52C-A2F54837D75A}" ShortID="481160758" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{09440803-0B6B-4936-8A0D-49DF19A47BF6}" ShortID="131065611" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="3" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{09440803-0B6B-4936-8A0D-49DF19A47BF6}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_201950484" ID="{763C351E-79B2-41F0-80E4-8685348FB979}" ShortID="675921703" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="114620735" ID="{F630AA69-E0E5-425D-BCF7-F8A23842DBCD}" ShortID="107131886">
+													<Language>SFX</Language>
+													<AudioFile>114620735.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="114620735" ID="{F630AA69-E0E5-425D-BCF7-F8A23842DBCD}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_286917457" ID="{ADE7A77A-9C60-465D-A52C-A2F54837D75A}" />
+										<ItemRef Name="_201950484" ID="{763C351E-79B2-41F0-80E4-8685348FB979}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_812594913" ID="{D3A9677D-8AB9-4734-AE16-C0F947C9EE15}" ShortID="863238943">
+									<Comment>812594913</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_292216029" ID="{F49E5413-939D-4504-9DF4-905CBA07F0A1}" ShortID="49969952" Type="SoundFX">
+											<Comment>292216029</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{41F9992A-23F3-4173-A60D-3CF538DE131F}" ShortID="818298647" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="6.5" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{41F9992A-23F3-4173-A60D-3CF538DE131F}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_882232929" ID="{5E4ED9CA-4758-4234-B0B9-EE6A6D388F3D}" ShortID="502975840" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-400</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="114620735" ID="{F1CF56BF-A119-496D-8655-708B0CD691BB}" ShortID="443390803">
+													<Language>SFX</Language>
+													<AudioFile>114620735.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="114620735" ID="{F1CF56BF-A119-496D-8655-708B0CD691BB}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_292216029" ID="{F49E5413-939D-4504-9DF4-905CBA07F0A1}" />
+										<ItemRef Name="_882232929" ID="{5E4ED9CA-4758-4234-B0B9-EE6A6D388F3D}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_840216676" ID="{99E199C1-D047-4A7E-9F22-8C7B1AD28454}" ShortID="366876354">
+									<Comment>840216676</Comment>
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_823348302" ID="{B9A6C27D-C0F6-4CCA-98DD-AF7009CD0C2A}" ShortID="544210433" Type="SoundFX">
+											<Comment>823348302</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{9442F3BB-AFF7-4C42-9B2C-1803A6D07E25}" ShortID="574570247" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="10.5" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{9442F3BB-AFF7-4C42-9B2C-1803A6D07E25}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_642544558" ID="{543F4929-531F-49AD-9523-F2A5C73D2268}" ShortID="308944265" Type="SoundFX">
+											<Comment>642544558</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="114620735" ID="{A781C254-8A4F-4CEF-8033-70DC60D1C192}" ShortID="349704481">
+													<ConversionInfo>
+														<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>114620735.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="114620735" ID="{A781C254-8A4F-4CEF-8033-70DC60D1C192}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_823348302" ID="{B9A6C27D-C0F6-4CCA-98DD-AF7009CD0C2A}" />
+										<ItemRef Name="_642544558" ID="{543F4929-531F-49AD-9523-F2A5C73D2268}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_896062358" ID="{E5174972-841E-4040-A80D-93870393924C}" ShortID="1051634822">
+									<Comment>896062358</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_925207465" ID="{2860D4E2-D82B-4008-B1F7-E50DFCA9F41B}" ShortID="1060166114" Type="SoundFX">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{BCDC3D0C-3C00-41BF-8659-27F92763FA2C}" ShortID="138115504" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="15" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{BCDC3D0C-3C00-41BF-8659-27F92763FA2C}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_902010406" ID="{F0E94AC7-5BF8-4779-B6C0-51FB92D14FC4}" ShortID="178809212" Type="SoundFX">
+											<Comment>902010406 114620735</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="114620735" ID="{35F3D766-072C-4296-BAAB-14FE064B3849}" ShortID="27722060">
+													<ConversionInfo>
+														<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+													</ConversionInfo>
+													<Language>SFX</Language>
+													<AudioFile>114620735.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<AttenuationInfo>
+													<AttenuationRef Name="_521610363" ID="{D6D3A455-E89C-43FF-91CF-79CEBD534E05}" Platform="Linked" />
+												</AttenuationInfo>
+											</PositioningInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="114620735" ID="{35F3D766-072C-4296-BAAB-14FE064B3849}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_925207465" ID="{2860D4E2-D82B-4008-B1F7-E50DFCA9F41B}" />
+										<ItemRef Name="_902010406" ID="{F0E94AC7-5BF8-4779-B6C0-51FB92D14FC4}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="_452833682" ID="{5BCC3BCB-FE4A-4DBE-9C59-D2CADCBF48CD}" ShortID="857937304">
+									<Comment>452833682</Comment>
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+										<Property Name="RandomOrSequence" Type="int16" Value="0" />
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="_72792014" ID="{19C3804A-E47F-49B9-919E-7D1BA8A483A1}" ShortID="463008857" Type="SoundFX">
+											<Comment>72792014</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{ACC9DEB7-A5EE-4294-8144-19362AB0C375}" ShortID="84648178" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="6" />
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{ACC9DEB7-A5EE-4294-8144-19362AB0C375}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="_385058474" ID="{5F91FE37-8929-490A-A594-A03E74E3D988}" ShortID="1072134360" Type="SoundFX">
+											<Comment>385058474 611625998</Comment>
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+												<Property Name="OverrideOutput" Type="bool" Value="True" />
+												<Property Name="OverridePositioning" Type="bool" Value="True" />
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+												<Property Name="PositioningType" Type="int16" Value="1" />
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="611625998" ID="{1A31C631-0F1B-4154-B8CB-08CF6C9A8A01}" ShortID="1011155337">
+													<Language>SFX</Language>
+													<AudioFile>611625998.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="611625998" ID="{1A31C631-0F1B-4154-B8CB-08CF6C9A8A01}" Platform="Linked" />
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<Playlist>
+										<ItemRef Name="_72792014" ID="{19C3804A-E47F-49B9-919E-7D1BA8A483A1}" />
+										<ItemRef Name="_385058474" ID="{5F91FE37-8929-490A-A594-A03E74E3D988}" />
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="_812826115" ID="{EC2DF457-F005-491D-A34C-AFF192AEF10A}" ShortID="786926963" Type="SoundFX">
+									<Comment>812826115</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{EF3CB1EA-E704-4E15-8292-E4ECC1E11BFE}" ShortID="1042135700" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="0.1" />
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{EF3CB1EA-E704-4E15-8292-E4ECC1E11BFE}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+							</ConversionInfo>
+						</ActorMixer>
+						<ActorMixer Name="_899740613" ID="{96B5F1DE-18D9-4F83-8BD6-ABEEA0885F2D}" ShortID="1007398978">
+							<Comment>899740613</Comment>
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>85</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{612C9D45-2DC5-450F-B0B1-A42FB419C599}" ShortID="473228753">
+											<GameParameterRef Name="ambient_volume" ID="{4DC75A30-2174-4AD4-A44B-D573E2162670}" />
+											<Curve Name="" ID="{9F079E02-61AF-4618-B6A7-3C0A4CE02B8E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.1</XPos>
+														<YPos>-50</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.9</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="_498876824" ID="{BC6A5322-4CA5-489D-9D4B-86FBDC87B8E6}" ShortID="654091014">
+									<Comment>498876824</Comment>
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1" />
+										<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverridePriority" Type="bool" Value="True" />
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{70F88E86-2C89-41EF-9B6E-21DF1CAC8A11}" ShortID="589126949">
+													<GameParameterRef Name="rain_volume" ID="{88BE1E64-C6C6-4492-9C67-A209701D08CF}" />
+													<Curve Name="" ID="{4DDC4B65-8CEF-4978-A68D-1AE0B018273F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.843</XPos>
+																<YPos>-4</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{BF7653B0-64D0-41F5-A4DF-E643706B810B}" ShortID="679106336">
+													<GameParameterRef Name="m4_0cb" ID="{05129052-B866-4C5F-91B7-C8218E29FE00}" />
+													<Curve Name="" ID="{E9FE2254-EF74-42AE-AAD1-E2CC5BB47339}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3" />
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="_459922237" ID="{4A540CCD-BB7C-4FA8-B4C8-6E8462BAB8AE}" ShortID="794849927">
+											<Comment>459922237</Comment>
+											<PropertyList>
+												<Property Name="OverridePriority" Type="bool" Value="True" />
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="m0p0zn" ID="{9F2C01F3-9108-44A7-B8D2-39160E0FAF1A}" />
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="a3si4wk" ID="{7C1C9C14-801A-453C-B0F1-8365796CF588}" />
+														<State Name="Custom State" ID="{DE6F3F3E-F229-4F89-8BE4-2E17FCCD115F}" ShortID="368755915">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="kyg_n5" ID="{8C057A1C-5254-4854-9E23-31D9727640BE}" />
+														<State Name="Custom State" ID="{100661A0-2F88-434C-B94D-AF1580B57604}" ShortID="217503939">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-12" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="bnmqzkw" ID="{03649F22-23E4-4B1C-9A2A-B76F8C3080CF}" />
+														<State Name="Custom State" ID="{25047892-9AC2-4D82-90C6-DFFFAC5ACE8A}" ShortID="101744801">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-9" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="a3si4wh" ID="{65E6D63F-4A18-43A2-8CD2-2441F794B68F}" />
+														<State Name="Custom State" ID="{380DFBB3-31B0-41C4-856A-F49B2D7F64C6}" ShortID="30801009">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="a3si4wi" ID="{0B1EAE43-C041-4DD5-BA62-26C117B17103}" />
+														<State Name="Custom State" ID="{A3C64F49-1602-4AF0-8D33-7EE05693281D}" ShortID="427102172">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-9" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="kyg_n4" ID="{9CEB9256-DB6D-4546-995F-18C827401D55}" />
+														<State Name="Custom State" ID="{27F31119-34E7-48F6-B62A-9B95913A5650}" ShortID="99958787">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-12" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="bnmqzkp" ID="{690F1681-4821-40A3-A392-2547E7C4019B}" />
+														<State Name="Custom State" ID="{EF28FE14-2443-4E29-9274-B4954A153721}" ShortID="564438836">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-10" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="a3si4wn" ID="{89313FCA-323A-48E8-A95F-BEF58B1073C4}" />
+														<State Name="Custom State" ID="{503B7431-2849-453A-81B6-FA4311BF522D}" ShortID="719464648">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-10" />
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="bnmqzkv" ID="{CBCFA7EC-49F6-4CEF-9EAA-C6401BD7DD3C}" />
+														<State Name="Custom State" ID="{9671B2B5-07BF-4326-B46C-A433D3D4464D}" ShortID="521871496">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6" />
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+										</ActorMixer>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="camera_fps" ID="{820BF039-4EE9-499B-A880-D4C415E4B5D9}" />
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="intrusion" ID="{FC6CAC9F-8DB6-4CC7-B5B1-194FF8F705E6}" />
+												<State Name="Custom State" ID="{447A3257-1F69-4489-B250-AF98B53B91E3}" ShortID="797737754">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5" />
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="fps" ID="{C716BFBC-491F-4A53-B4F7-3D0EC4EA0357}" />
+												<State Name="Custom State" ID="{BE70F1D6-B3B9-4B3A-BCE3-95E98CB71009}" ShortID="493636742">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5" />
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</ActorMixer>
+								<Sound Name="_654632875" ID="{524FF9E8-4439-49CD-ABF5-2CFE18B1E843}" ShortID="914472912" Type="SoundFX">
+									<Comment>654632875 850490368</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+										<Property Name="IsGlobalLimit" Type="int16" Value="1" />
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1" />
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True" />
+										<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True" />
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="OverridePriority" Type="bool" Value="True" />
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+										<Property Name="PositioningType" Type="int16" Value="1" />
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>91</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True" />
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="gen8_int_l" ID="{D54F5B5E-AF33-4E75-9887-2649D073FB68}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="850490368" ID="{8E8F7D5C-BC8B-45C6-BFB6-5BC40AE537C5}" ShortID="35901413">
+											<Language>SFX</Language>
+											<AudioFile>850490368.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<AttenuationInfo>
+											<AttenuationRef Name="_838356332" ID="{B8F031A3-F68A-4314-81CE-E64BAD0D3D23}" Platform="Linked" />
+										</AttenuationInfo>
+									</PositioningInfo>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="850490368" ID="{8E8F7D5C-BC8B-45C6-BFB6-5BC40AE537C5}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+							</ConversionInfo>
+						</ActorMixer>
+						<ActorMixer Name="_1874968" ID="{963D3E77-2509-4DDF-A2B7-CD2CD38296BF}" ShortID="1000228032">
+							<Comment>1874968</Comment>
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{64DF0827-7622-4868-96D7-EA3BC1751F5E}" ShortID="1050754239">
+											<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+											<Curve Name="" ID="{9CA731B9-D697-47B5-9CB6-5C78AF865E98}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>49.843</XPos>
+														<YPos>56</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>80</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{DA50C9F9-46EA-4432-9552-28A3A3B6F379}" ShortID="563344015">
+											<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+											<Curve Name="" ID="{E35B657B-E95D-46BC-8D6D-5ECED70BBFFF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>40</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D1256D5E-B0D3-4114-9A4E-5A198037CBD1}" ShortID="491448619">
+											<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+											<Curve Name="" ID="{A431FB48-3E48-4328-B2C1-8777B1DE7AB4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>3.486</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>3.486</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>11.11</XPos>
+														<YPos>3.486</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>16.67</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>66.67</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>-2</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{BBD5FDB8-43DF-48B6-AC43-81B1C9A9C2C2}" ShortID="448462360">
+											<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+											<Curve Name="" ID="{6C8B465D-8972-462A-82C6-4DB38A1F98EF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1.5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{8A5264AF-0716-4A48-82D2-1012412364BA}" ShortID="268666486">
+											<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+											<Curve Name="" ID="{33792C7F-1FE0-4756-9BA9-7BE016643C3D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{2F8DE2B6-E933-4871-93DE-022CC8086AFD}" ShortID="786350497">
+											<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+											<Curve Name="" ID="{29755C29-703B-4AF2-8F04-B32DA3A7AA6D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="_585309722" ID="{408DEF58-61AF-4326-B327-10082297515C}" ShortID="984195969">
+									<Comment>585309722</Comment>
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+										<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0" />
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+										<Property Name="PlayMechanismLoopCount" Type="int32" Value="5" />
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.75" />
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="_25610230" ID="{E399A3BC-E1EA-481E-9B61-51E5405451D1}" ShortID="426884398">
+											<Comment>25610230</Comment>
+											<PropertyList>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0" />
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True" />
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True" />
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3" />
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12" />
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="_846124964" ID="{CA37C6ED-87C8-40FD-A1E3-AC227D734B27}" ShortID="637233023" Type="SoundFX">
+													<Comment>846124964
+heli beep</Comment>
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{E4E3E03C-38CA-4EF4-B1F4-59AAB1D9B9F8}" ShortID="410647728">
+																	<GameParameterRef Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}" />
+																	<Curve Name="" ID="{9D8E87A9-EBC6-463C-9DEE-BB1FD6140E62}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3" />
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="java foundation photography bus" ID="{03258B1F-7BA9-4EC6-A26F-895FA3A7F47E}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="122519623" ID="{FD24B418-D297-480A-B425-4142157F2D79}" ShortID="483096185">
+															<Language>SFX</Language>
+															<AudioFile>122519623.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="122519623" ID="{FD24B418-D297-480A-B425-4142157F2D79}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+							</ConversionInfo>
+						</ActorMixer>
+						<ActorMixer Name="_372573631" ID="{8477F883-A5B9-42BD-A97E-D5A009B46A18}" ShortID="1049662043">
+							<Comment>372573631</Comment>
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>90</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="control nokia min bus" ID="{EAC814A8-82A7-408E-85FD-42483EF55276}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="_704817036" ID="{34C3706B-62C3-440A-BF7E-57335E70D163}" ShortID="984235156" Type="SoundFX">
+									<Comment>704817036 550556912</Comment>
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="550556912" ID="{1345345A-4D5E-4D42-8C66-E85B0214EEC5}" ShortID="99720673">
+											<Language>SFX</Language>
+											<AudioFile>550556912.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="550556912" ID="{1345345A-4D5E-4D42-8C66-E85B0214EEC5}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="_342082367" ID="{CDBEEA8C-ABA0-4D75-89E4-74A02073A728}" ShortID="414623729" Type="SoundFX">
+									<Comment>342082367 242754991</Comment>
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True" />
+										<Property Name="OverridePositioning" Type="bool" Value="True" />
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="linux worked_probably bus" ID="{42B17FDC-79F2-4A37-BD00-B05C5A983A57}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="242754991" ID="{6FE07736-7123-401A-8C4D-CD0742143B2A}" ShortID="318952683">
+											<Language>SFX</Language>
+											<AudioFile>242754991.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="242754991" ID="{6FE07736-7123-401A-8C4D-CD0742143B2A}" Platform="Linked" />
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+							</ConversionInfo>
+						</ActorMixer>
+						<ActorMixer Name="_244808061" ID="{A0E22086-FE39-4F3D-B094-374B3DC0DB61}" ShortID="386583139">
+							<Comment>244808061</Comment>
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="1" />
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{4C6F028C-F261-4462-AE8E-90DA2744FBD9}" ShortID="463792108">
+											<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+											<Curve Name="" ID="{DC7DA7F4-7405-44A7-9056-FF74709C6BF7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>80</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{4A9037F3-E0FA-4971-88E8-5E59F276B865}" ShortID="353422177">
+											<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+											<Curve Name="" ID="{8D24DD78-3E49-4324-921A-D60CF72CB14A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>40</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8DF3E427-050C-4B20-9B4E-2BC235F3117F}" ShortID="175249640">
+											<GameParameterRef Name="rear_rtpc" ID="{1623506B-C2B3-4A15-BDE5-0BF02C1208AB}" />
+											<Curve Name="" ID="{61364B3C-C00E-4AC6-BDFB-9120B33BD478}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>16.67</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>66.67</XPos>
+														<YPos>-5</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{92AF5BE5-178B-4096-BD1B-B44BDAC7DCF4}" ShortID="128760954">
+											<GameParameterRef Name="obstruction_rtpc" ID="{DFBE18EB-044B-4D5E-8CC8-87E37A6DF209}" />
+											<Curve Name="" ID="{86B23D67-B832-42B8-B3DC-9EA770507E04}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1.5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{70F6F3E9-037C-4BD3-BE5B-82E001E7CBAE}" ShortID="683613316">
+											<GameParameterRef Name="occlusion_rtpc" ID="{E7389D3E-1DE4-4571-87BB-10C5EF485348}" />
+											<Curve Name="" ID="{C901EB66-C56D-459F-8246-48C32D8A8551}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3" />
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="actually average_horse bus" ID="{5D8E2819-9453-4A31-A254-E8C036F1D3E6}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="_382554856" ID="{14B65BCF-A130-4E51-839D-A4FE621F9C53}" ShortID="320411361">
+									<Comment>382554856</Comment>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="_872799397" ID="{7244B81B-F250-4651-A254-C0ED305E4094}" ShortID="554234613">
+											<Comment>872799397</Comment>
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+												<Property Name="RandomOrSequence" Type="int16" Value="0" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="_49680414" ID="{063EB3F2-E276-4079-B8DB-7D6EA24E9887}" ShortID="70005682" Type="SoundFX">
+													<Comment>49680414</Comment>
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Wwise Silence" ID="{32ABA77F-1EAE-487B-8EA2-3302BF971537}" ShortID="123098007" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<PropertyList>
+																<Property Name="Length" Type="Real32" Value="53" />
+															</PropertyList>
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Wwise Silence" ID="{32ABA77F-1EAE-487B-8EA2-3302BF971537}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="_721661697" ID="{AE94818D-0B65-48C8-B6C9-0C93F7BF7222}" ShortID="178631661" Type="SoundFX">
+													<Comment>721661697 480008639</Comment>
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-200</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="480008639" ID="{9012BAF6-83C6-4B98-9C27-6FB2797CF164}" ShortID="104209956">
+															<Language>SFX</Language>
+															<AudioFile>480008639.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_62705163" ID="{5FB7F6EC-BCF8-4652-9AED-9D2A5DAB5053}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="480008639" ID="{9012BAF6-83C6-4B98-9C27-6FB2797CF164}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<Playlist>
+												<ItemRef Name="_49680414" ID="{063EB3F2-E276-4079-B8DB-7D6EA24E9887}" />
+												<ItemRef Name="_721661697" ID="{AE94818D-0B65-48C8-B6C9-0C93F7BF7222}" />
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="_147670357" ID="{C87B877E-4AE9-4805-A5AD-B87E875189CD}" ShortID="336007876">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0" />
+												<Property Name="RandomOrSequence" Type="int16" Value="0" />
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="_820818241" ID="{A020622F-61D0-49C8-ADA6-92E75ADF68A1}" ShortID="191930947" Type="SoundFX">
+													<Comment>820818241 480008639</Comment>
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2" />
+														<Property Name="OverridePositioning" Type="bool" Value="True" />
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True" />
+														<Property Name="PositioningType" Type="int16" Value="1" />
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EA89AA1-319C-4D02-9F09-FA6CAEBE7F9C}" />
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="480008639" ID="{57C8C788-D4BE-4A76-95A1-136755B6A8EF}" ShortID="19932959">
+															<Language>SFX</Language>
+															<AudioFile>480008639.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<AttenuationInfo>
+															<AttenuationRef Name="_62705163" ID="{5FB7F6EC-BCF8-4652-9AED-9D2A5DAB5053}" Platform="Linked" />
+														</AttenuationInfo>
+													</PositioningInfo>
+													<ConversionInfo>
+														<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+													</ConversionInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="480008639" ID="{57C8C788-D4BE-4A76-95A1-136755B6A8EF}" Platform="Linked" />
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ConversionInfo>
+												<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+											</ConversionInfo>
+											<Playlist>
+												<ItemRef Name="_820818241" ID="{A020622F-61D0-49C8-ADA6-92E75ADF68A1}" />
+											</Playlist>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ConversionInfo>
+										<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+									</ConversionInfo>
+								</ActorMixer>
+							</ChildrenList>
+							<ConversionInfo>
+								<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
+							</ConversionInfo>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
