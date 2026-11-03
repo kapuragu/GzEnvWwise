@@ -41,12 +41,17 @@
 										<Value Platform="VitaHW">0</Value>
 									</ValueList>
 								</Property>
+								<Property Name="RemoveDCOffset" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>3</Value>
 										<Value Platform="XboxOne">3</Value>
 										<Value Platform="VitaSW">3</Value>
-										<Value Platform="Windows">3</Value>
+										<Value Platform="Windows">0</Value>
 										<Value Platform="Wii">3</Value>
 										<Value Platform="WiiUSW">3</Value>
 										<Value Platform="Xbox360">3</Value>
@@ -59,11 +64,6 @@
 										<Value Platform="VitaHW">3</Value>
 									</ValueList>
 								</Property>
-								<Property Name="UseFilenameMarker" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="XboxOne">
@@ -73,7 +73,11 @@
 									<ConversionPlugin Name="" ID="{DED73626-0280-4581-8EA0-77F90F29F991}" PluginName="Vorbis" CompanyID="0" PluginID="4" />
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{581832D2-F6F5-4C18-93B7-97F8A7C9A0C5}" PluginName="Vorbis" CompanyID="0" PluginID="4" />
+									<ConversionPlugin Name="" ID="{581832D2-F6F5-4C18-93B7-97F8A7C9A0C5}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="SeekTableGranularity" Type="int32" Value="0" />
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Wii">
 									<ConversionPlugin Name="" ID="{DB8223E0-9E71-4589-A22E-FE324A83CE05}" PluginName="Vorbis" CompanyID="0" PluginID="4" />
