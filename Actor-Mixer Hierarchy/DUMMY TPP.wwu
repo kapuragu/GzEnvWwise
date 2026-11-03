@@ -20,7 +20,7 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ConversionInfo>
-						<ConversionRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+						<ConversionRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" />
 					</ConversionInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="425352632" ID="{AB134F18-182B-4D9C-AE0F-7094EA299A36}" Platform="Linked" />

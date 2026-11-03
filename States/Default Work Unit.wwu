@@ -3,87 +3,6 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{8E64769B-4689-4126-92A0-7300A0165C9B}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="chara" ID="{D037CF90-F975-4529-B182-DB5590A07677}">
-					<ChildrenList>
-						<State Name="None" ID="{64EB8E45-528D-46EB-8957-20AB68D6BE53}" />
-						<State Name="snak" ID="{251E4249-5466-4F25-9888-225DA909896D}" />
-						<State Name="ene_a" ID="{2FC67966-6EE0-4E93-ACBD-4EC770349153}" />
-						<State Name="ene_b" ID="{1C2D3D25-BCB9-4A9D-AEF1-BE32323B7AE6}" />
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="condition" ID="{395753E6-145D-499E-B0FA-12ACA2E8A804}">
-					<ChildrenList>
-						<State Name="None" ID="{85945B97-C617-4B5E-A76C-20BED69665CA}" />
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="bgm_phase_state" ID="{CA8ACFB1-A05C-4404-969A-75D20103654B}">
-					<Comment>1101300679</Comment>
-					<ChildrenList>
-						<State Name="None" ID="{63C0D961-55AE-4F12-90AA-E502689343A6}" />
-						<State Name="bgm_phase_al_es" ID="{C3F6D645-FF7C-4E00-8B7C-730D3A24DB58}">
-							<Comment>1540794026
-ADDED IN TPP</Comment>
-						</State>
-						<State Name="bgm_phase_ev" ID="{0486F56D-C120-4407-B773-0E99D4939AE8}">
-							<Comment>3493654009</Comment>
-						</State>
-						<State Name="bgm_phase_ct_nt" ID="{5A20CC75-9654-44D5-B352-68D62F29298F}">
-							<Comment>73465350</Comment>
-						</State>
-						<State Name="bgm_phase_ct" ID="{07535467-A940-422E-A7D5-F7CD87774510}">
-							<Comment>3460098589</Comment>
-						</State>
-						<State Name="bgm_phase_al_ct" ID="{C31652FF-EFC1-49A0-A864-62D6EADECBD9}">
-							<Comment>1574349195
-ADDED IN TPP</Comment>
-						</State>
-						<State Name="bgm_phase_lost_hd" ID="{83CA956C-2D84-428E-9A51-22D9474159AF}">
-							<Comment>415354157</Comment>
-						</State>
-						<State Name="bgm_phase_lost" ID="{E2B75498-77B7-4D32-A19C-DF8CC8F5FC60}">
-							<Comment>3147827810</Comment>
-						</State>
-						<State Name="bgm_phase_ev_btt" ID="{14AA44BF-E2F6-427D-98DA-5D37D0F4CA3C}">
-							<Comment>693458286</Comment>
-						</State>
-						<State Name="bgm_phase_ev_hd" ID="{9A7EC450-F091-413A-943E-643F590EF9B5}">
-							<Comment>3843907432</Comment>
-						</State>
-						<State Name="bgm_phase_ev_str" ID="{7836670E-68BA-457E-9D89-3F802BBA13C1}">
-							<Comment>662712969</Comment>
-						</State>
-						<State Name="bgm_phase_lost_btt" ID="{0B33093F-8C22-49A5-89D2-4B9E48DA4A0F}">
-							<Comment>975513513</Comment>
-						</State>
-						<State Name="bgm_phase_lost_str" ID="{EDD2FF03-41D1-49CE-883A-E3EB5F65FB1D}">
-							<Comment>872037654</Comment>
-						</State>
-						<State Name="bgm_phase_al_btt" ID="{FBB9892F-B8DF-414E-9ACF-8E4347401AC7}">
-							<Comment>1038785980
-ADDED IN TPP</Comment>
-						</State>
-						<State Name="bgm_phase_al_hd" ID="{B12235CD-7D22-46D4-BD1F-70799DEFF0B5}">
-							<Comment>1725347918
-ADDED IN TPP</Comment>
-						</State>
-						<State Name="bgm_phase_al_str" ID="{303D49D7-13C1-4F02-A73F-C609DCA17788}">
-							<Comment>1142261811
-ADDED IN TPP</Comment>
-						</State>
-						<State Name="bgm_phase_nt" ID="{63105FBF-72D7-41B6-A210-34B72A52D085}">
-							<Comment>3644652494</Comment>
-						</State>
-						<State Name="bgm_phase_neutral" ID="{4E763236-C07A-40BE-B620-F18C93F308A7}">
-							<Comment>261399653</Comment>
-						</State>
-						<State Name="gmo9zn" ID="{A87E4690-4B4A-4512-85C2-3028EE3C6FC6}">
-							<Comment>2657534093</Comment>
-						</State>
-						<State Name="bgm_phase_al_outr" ID="{DB38D651-D1F1-4D57-80BC-150FBE3B6E27}">
-							<Comment>1502108120</Comment>
-						</State>
-					</ChildrenList>
-				</StateGroup>
 				<StateGroup Name="tape_state" ID="{D14B2810-D579-4773-AF48-D4ED80E941BC}">
 					<Comment>1888532759</Comment>
 					<ChildrenList>
@@ -153,6 +72,12 @@ OLD: 575965534</Comment>
 						</State>
 						<State Name="listen" ID="{44217838-7F7B-463B-9DBE-A47345644B96}">
 							<Comment>3369760968</Comment>
+						</State>
+						<State Name="int" ID="{ED9AFBE0-852A-4A2F-9B9A-837B69F8169E}">
+							<Comment>529034928</Comment>
+						</State>
+						<State Name="normal" ID="{D812E215-F05D-4655-83F4-016AC68DDC81}">
+							<Comment>1160234136</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>
@@ -329,6 +254,33 @@ old: 257157618</Comment>
 						<State Name="aobjiju" ID="{AAE4B7D2-51FE-4943-B517-0A43DD71A536}">
 							<Comment>2251905301</Comment>
 						</State>
+						<State Name="vdvlwk" ID="{4D3ED6E6-6404-467C-99A2-B443D459E3B5}">
+							<Comment>2500763067</Comment>
+						</State>
+						<State Name="z0pooa" ID="{315C51C2-32D4-4D31-8A00-6E99DA012340}">
+							<Comment>2187006884</Comment>
+						</State>
+						<State Name="dp_3z" ID="{C4C39A12-E902-48EA-9379-D1FBC5043E9E}">
+							<Comment>4145399007</Comment>
+						</State>
+						<State Name="e06iboq" ID="{ECD4A904-35B5-481F-87FD-0411923EE95A}">
+							<Comment>3106175345</Comment>
+						</State>
+						<State Name="c6or4fl" ID="{D531BBAA-55FC-459F-9F0E-3DF591B201E0}">
+							<Comment>185761325</Comment>
+						</State>
+						<State Name="d465ra" ID="{8641939E-5413-474D-8773-09BBE1298193}">
+							<Comment>854388617</Comment>
+						</State>
+						<State Name="yias1" ID="{D91F3A94-D68E-4EC0-8D2F-447E9A019A35}">
+							<Comment>2822936056</Comment>
+						</State>
+						<State Name="fblaxn" ID="{EC482F84-B4E3-4C62-861F-5FE7EC177C66}">
+							<Comment>802243842</Comment>
+						</State>
+						<State Name="b34hzmz" ID="{C0194D15-C6B1-41E0-B149-BFCA0CF8E78F}">
+							<Comment>4273802003</Comment>
+						</State>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="mist" ID="{AC7E292D-BA29-4875-92C3-AD5F81746F76}">
@@ -346,6 +298,95 @@ old: 257157618</Comment>
 						</State>
 					</ChildrenList>
 				</StateGroup>
+				<Folder Name="dialogue" ID="{13E431A7-B390-438B-9BFE-F041A18ED981}" ShortID="733240191">
+					<ChildrenList>
+						<StateGroup Name="chara" ID="{D037CF90-F975-4529-B182-DB5590A07677}">
+							<ChildrenList>
+								<State Name="None" ID="{64EB8E45-528D-46EB-8957-20AB68D6BE53}" />
+								<State Name="snak" ID="{251E4249-5466-4F25-9888-225DA909896D}" />
+								<State Name="ene_a" ID="{2FC67966-6EE0-4E93-ACBD-4EC770349153}" />
+								<State Name="ene_b" ID="{1C2D3D25-BCB9-4A9D-AEF1-BE32323B7AE6}" />
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="condition" ID="{395753E6-145D-499E-B0FA-12ACA2E8A804}">
+							<ChildrenList>
+								<State Name="None" ID="{85945B97-C617-4B5E-A76C-20BED69665CA}" />
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="bgm" ID="{846638A1-4364-4BFF-A2BC-3C83F9030507}" ShortID="95651617">
+					<ChildrenList>
+						<StateGroup Name="bgm_phase_state" ID="{CA8ACFB1-A05C-4404-969A-75D20103654B}">
+							<Comment>1101300679</Comment>
+							<ChildrenList>
+								<State Name="None" ID="{63C0D961-55AE-4F12-90AA-E502689343A6}" />
+								<State Name="bgm_phase_al_es" ID="{C3F6D645-FF7C-4E00-8B7C-730D3A24DB58}">
+									<Comment>1540794026
+ADDED IN TPP</Comment>
+								</State>
+								<State Name="bgm_phase_ev" ID="{0486F56D-C120-4407-B773-0E99D4939AE8}">
+									<Comment>3493654009</Comment>
+								</State>
+								<State Name="bgm_phase_ct_nt" ID="{5A20CC75-9654-44D5-B352-68D62F29298F}">
+									<Comment>73465350</Comment>
+								</State>
+								<State Name="bgm_phase_ct" ID="{07535467-A940-422E-A7D5-F7CD87774510}">
+									<Comment>3460098589</Comment>
+								</State>
+								<State Name="bgm_phase_al_ct" ID="{C31652FF-EFC1-49A0-A864-62D6EADECBD9}">
+									<Comment>1574349195
+ADDED IN TPP</Comment>
+								</State>
+								<State Name="bgm_phase_lost_hd" ID="{83CA956C-2D84-428E-9A51-22D9474159AF}">
+									<Comment>415354157</Comment>
+								</State>
+								<State Name="bgm_phase_lost" ID="{E2B75498-77B7-4D32-A19C-DF8CC8F5FC60}">
+									<Comment>3147827810</Comment>
+								</State>
+								<State Name="bgm_phase_ev_btt" ID="{14AA44BF-E2F6-427D-98DA-5D37D0F4CA3C}">
+									<Comment>693458286</Comment>
+								</State>
+								<State Name="bgm_phase_ev_hd" ID="{9A7EC450-F091-413A-943E-643F590EF9B5}">
+									<Comment>3843907432</Comment>
+								</State>
+								<State Name="bgm_phase_ev_str" ID="{7836670E-68BA-457E-9D89-3F802BBA13C1}">
+									<Comment>662712969</Comment>
+								</State>
+								<State Name="bgm_phase_lost_btt" ID="{0B33093F-8C22-49A5-89D2-4B9E48DA4A0F}">
+									<Comment>975513513</Comment>
+								</State>
+								<State Name="bgm_phase_lost_str" ID="{EDD2FF03-41D1-49CE-883A-E3EB5F65FB1D}">
+									<Comment>872037654</Comment>
+								</State>
+								<State Name="bgm_phase_al_btt" ID="{FBB9892F-B8DF-414E-9ACF-8E4347401AC7}">
+									<Comment>1038785980
+ADDED IN TPP</Comment>
+								</State>
+								<State Name="bgm_phase_al_hd" ID="{B12235CD-7D22-46D4-BD1F-70799DEFF0B5}">
+									<Comment>1725347918
+ADDED IN TPP</Comment>
+								</State>
+								<State Name="bgm_phase_al_str" ID="{303D49D7-13C1-4F02-A73F-C609DCA17788}">
+									<Comment>1142261811
+ADDED IN TPP</Comment>
+								</State>
+								<State Name="bgm_phase_nt" ID="{63105FBF-72D7-41B6-A210-34B72A52D085}">
+									<Comment>3644652494</Comment>
+								</State>
+								<State Name="bgm_phase_neutral" ID="{4E763236-C07A-40BE-B620-F18C93F308A7}">
+									<Comment>261399653</Comment>
+								</State>
+								<State Name="gmo9zn" ID="{A87E4690-4B4A-4512-85C2-3028EE3C6FC6}">
+									<Comment>2657534093</Comment>
+								</State>
+								<State Name="bgm_phase_al_outr" ID="{DB38D651-D1F1-4D57-80BC-150FBE3B6E27}">
+									<Comment>1502108120</Comment>
+								</State>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

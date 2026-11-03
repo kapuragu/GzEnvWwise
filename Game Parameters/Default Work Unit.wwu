@@ -45,7 +45,10 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="a3jzd1t" ID="{49B0B21C-D919-4589-B0B0-437B3856FD2D}">
-					<Comment>1114599152</Comment>
+					<Comment>1114599152
+0 - no helicopter
+50 - near helicopter
+100 - inside helicopter</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0" />
 					</PropertyList>
@@ -63,7 +66,8 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="m4_0cb" ID="{05129052-B866-4C5F-91B7-C8218E29FE00}">
-					<Comment>3501347796</Comment>
+					<Comment>3501347796
+alarm volume</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1" />
 						<Property Name="Max" Type="Real64" Value="1" />
@@ -117,6 +121,20 @@
 						<Property Name="InitialValue" Type="Real64" Value="10" />
 						<Property Name="Max" Type="Real64" Value="1000" />
 						<Property Name="Min" Type="Real64" Value="-1000" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="aeca2d" ID="{341B5FB1-8ABF-42B7-BF61-79DA938D9628}">
+					<Comment>2521859037</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1" />
+						<Property Name="Max" Type="Real64" Value="1" />
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="augc9zn" ID="{8D10FA1D-58EF-4E28-B832-C8DF28CAA8F9}">
+					<Comment>84696446</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1" />
+						<Property Name="Max" Type="Real64" Value="1" />
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
