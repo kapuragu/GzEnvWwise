@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FCE59366-6391-46E2-9B36-5CB2189089A9}" SchemaVersion="62">
+	<SoundBanks>
+		<WorkUnit Name="gekkou" ID="{FCE59366-6391-46E2-9B36-5CB2189089A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="sfx_gekkou" ID="{9A759592-7194-41F1-9D2F-39214FAFB57F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="gekkou" ID="{486124F3-7ECD-4067-AACF-B43592175E1E}" WorkUnitID="{486124F3-7ECD-4067-AACF-B43592175E1E}" Filter="0" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{486124F3-7ECD-4067-AACF-B43592175E1E}" SchemaVersion="62">
+	<Events>
+		<WorkUnit Name="gekkou" ID="{486124F3-7ECD-4067-AACF-B43592175E1E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="m7ye2h" ID="{8AF2D256-EBBC-4FAB-A32B-8610706DCD68}">
+					<Comment>2088658945
+crinke</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{3E74A8F5-F8CC-4A0E-98A7-078F1522DC63}" ShortID="807452951" Type="Play" Scope="One" Global="false">
+							<Comment>642133538</Comment>
+							<ElementList>
+								<Element ID="{D81447A5-0E7F-4EBD-AD28-A5F0E764011B}" Global="false">
+									<ObjectRef Name="_642133538_396200019" ID="{A4E32DBE-B4BC-4346-A761-C1C8D20A165F}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="m7ye2v" ID="{461C9BC6-3D3E-41E8-B268-D441FF7369CE}">
+					<Comment>2088658975
+crinkle 2</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{DDC0C5C5-0797-449B-9EE2-A3C221622EA5}" ShortID="566046567" Type="Play" Scope="One" Global="false">
+							<Comment>22252967</Comment>
+							<ElementList>
+								<Element ID="{A9B27155-47A4-40B9-84A7-964DBD5DE703}" Global="false">
+									<ObjectRef Name="_22252967_235123934" ID="{484408B7-8B11-4194-BC1C-E07087989CB2}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="d2yyf09" ID="{F4A6BDA1-CE80-40E6-BC8D-F3304FE13380}">
+					<Comment>942015612
+mechanical move, crinkle</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{61C7A711-70DA-4F79-8010-AD66F915849D}" ShortID="764440103" Type="Play" Scope="One" Global="false">
+							<Comment>476052265</Comment>
+							<ElementList>
+								<Element ID="{D0BEF7F2-AC4F-4660-9A1B-00BA7418FF3E}" Global="false">
+									<ObjectRef Name="_476052265" ID="{004AE7B3-82F4-45B4-B87F-0BC5448051F0}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="aqovm5_" ID="{754E3E54-BF72-43DA-80C3-FCE4E0660FD0}">
+					<Comment>1914685669
+footstep crash</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{56DB4EC2-A5D7-47F2-BCE1-B61197B3A1DE}" ShortID="63773709" Type="Play" Scope="One" Global="false">
+							<Comment>761784843</Comment>
+							<ElementList>
+								<Element ID="{ECF2421D-1F8C-40C8-AF92-74AE3BEDDAB5}" Global="false">
+									<ObjectRef Name="_761784843_120998143" ID="{678D5959-DE34-41C7-B7ED-D0807EB33B2F}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="jhnngj" ID="{DC9ADF46-C145-4ACF-AF60-86C403DB72EF}">
+					<Comment>2379474996
+machine creak</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{94012632-EF83-49B1-A5E6-46D464915972}" ShortID="281791314" Type="Play" Scope="One" Global="false">
+							<Comment>494997959</Comment>
+							<ElementList>
+								<Element ID="{1E44ABD8-E6AA-4EEC-968E-C98176483FC2}" Global="false">
+									<ObjectRef Name="_494997959" ID="{ACE70F13-7C1F-41A9-BC2A-8975564E86C6}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ae1ka57" ID="{ABC2FE8D-F2F9-45A7-9CA4-1229BC8E96D2}">
+					<Comment>4093194420
+whoosh</Comment>
+					<ChildrenList>
+						<Action Name="Set Voice Pitch" ID="{6B291E53-DF71-4EDA-B6E8-8D4FCB7934C5}" ShortID="249109333" Type="ChangePitch" Scope="One" Global="false">
+							<Comment>833250794</Comment>
+							<ElementList>
+								<Element ID="{2FE341D6-8C66-4853-9928-64159199F57D}" Global="false">
+									<ObjectRef Name="_1054059529_447884804" ID="{1EE0F031-B784-4755-8B16-5B2E3900AC1D}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{E1A94825-19BD-42AA-B823-C3DF41AE202A}" ShortID="972802330" Type="Play" Scope="One" Global="false">
+							<Comment>833250794</Comment>
+							<ElementList>
+								<Element ID="{B9F45719-75D5-43D1-9CC0-28D8E5546B1A}" Global="false">
+									<ObjectRef Name="_1054059529_447884804" ID="{1EE0F031-B784-4755-8B16-5B2E3900AC1D}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="byg9r57" ID="{BFAA2DC4-A9DA-4321-AA08-30F92FFEF0A6}">
+					<Comment>1594540032
+crash</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{B7C437AE-ACA4-41C8-A12C-C8B2888D3C61}" ShortID="492928741" Type="Play" Scope="One" Global="false">
+							<Comment>544068943</Comment>
+							<ElementList>
+								<Element ID="{E0EF466D-B5E2-4BD6-B3F2-9558FDFD7EFB}" Global="false">
+									<ObjectRef Name="_544068943" ID="{A3010B29-4A32-44AC-AF62-EAC2186C9CB1}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="anxezl7" ID="{63378542-2221-4D53-8736-B4E1AF7B1FEE}">
+					<Comment>2463249866
+whoosh</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{AC24AFAB-1D13-43B4-BC09-1E1C20CCEE21}" ShortID="148672153" Type="Play" Scope="One" Global="false">
+							<Comment>833250794</Comment>
+							<ElementList>
+								<Element ID="{42E1AFAE-3AF9-4091-9D36-51C009D22465}" Global="false">
+									<ObjectRef Name="_833250794" ID="{99A98B0E-AB78-464A-9FD5-CBD9EB4A79D1}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ukhwb2" ID="{D67325FA-7E7A-45C6-A565-70494FF761DD}">
+					<Comment>2595758542
+crinkle3</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{1CF3EDEE-33D6-44D1-B622-3CDCF3A33C28}" ShortID="1066776816" Type="Play" Scope="One" Global="false">
+							<Comment>511739924</Comment>
+							<ElementList>
+								<Element ID="{B269CDEE-A2BE-4AF0-8478-5EE33DCD6075}" Global="false">
+									<ObjectRef Name="_511739924_235123934" ID="{1B636A5A-3D1E-4C01-94CD-8A7A3455CE67}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="abb5bx3" ID="{194654B6-5AC7-4C5F-A08D-2D7BF7D65FC0}">
+					<Comment>2595758544
+crinkle, twice</Comment>
+					<ChildrenList>
+						<Action Name="Play" ID="{CF94F9A6-162A-4C30-A782-E9D2E499FDA8}" ShortID="347741782" Type="Play" Scope="One" Global="false">
+							<Comment>1068924827</Comment>
+							<ElementList>
+								<Element ID="{7E37A910-F6EF-4804-BF0C-E3B16DEBC6DD}" Global="false">
+									<ObjectRef Name="_1068924827_396200019" ID="{9881EF98-CA4E-4F18-AC59-C4AC8CB9F268}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ecjveza" ID="{6909A74E-E06F-4830-A9AA-B97F723F3790}">
+					<Comment>49404473
+mech whirring</Comment>
+					<ChildrenList>
+						<Action Name="Set Voice Pitch" ID="{1764EEB5-D966-4447-81BA-CADCC184584B}" ShortID="791848064" Type="ChangePitch" Scope="One" Global="false">
+							<Comment>86715929</Comment>
+							<PropertyList>
+								<Property Name="Pitch" Type="int32" Value="900" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B7178AD6-A53C-41FC-98CF-912DA619B591}" Global="false">
+									<ObjectRef Name="_86715929_784403528" ID="{4E50DC8C-56F1-492F-8D1C-B27866F9C380}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{9A6A707A-4F9C-400E-8917-91D79CD39AEB}" ShortID="503815177" Type="Play" Scope="One" Global="false">
+							<Comment>86715929</Comment>
+							<ElementList>
+								<Element ID="{792E3154-49FA-4525-A14D-8CE1B895DD43}" Global="false">
+									<ObjectRef Name="_86715929_784403528" ID="{4E50DC8C-56F1-492F-8D1C-B27866F9C380}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Seek" ID="{8CE1EF3F-D7C7-4D81-A6D9-CAAFDE505236}" ShortID="1002863733" Type="Seek" Scope="One" Global="false">
+							<Comment>86715929</Comment>
+							<PropertyList>
+								<Property Name="SeekPercent" Type="Real64" Value="0.2" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{76B04B29-7024-4D96-BA19-9CDBB836CDB3}" Global="false">
+									<ObjectRef Name="_86715929_784403528" ID="{4E50DC8C-56F1-492F-8D1C-B27866F9C380}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{744B15BB-07A1-4EFD-B516-4720A58BFCDC}" ShortID="1019653440" Type="Stop" Scope="One" Global="false">
+							<Comment>86715929 probability=100</Comment>
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{67C4D0CB-009E-45B6-B550-790750C4F9EA}" />
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeTime" Type="Real64" Value="0.35">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{873ACC56-80B0-4978-977E-6E7C28F2349A}" />
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2D1BC856-1E66-4CED-BD59-50180B7AAFE5}" Global="false">
+									<ObjectRef Name="_86715929_784403528" ID="{4E50DC8C-56F1-492F-8D1C-B27866F9C380}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{05DD7F6B-8D1F-406C-875A-E965A466A308}" ShortID="236021068" Type="Play" Scope="One" Global="false">
+							<Comment>137791507</Comment>
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.4" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C6A85876-8DDC-4D16-8AF1-C6AA2B10A5C3}" Global="false">
+									<ObjectRef Name="_137791507_346552983" ID="{0678B03B-1B32-42E5-9748-37DEC2AABDF8}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Pitch" ID="{7F9EFD0D-8A89-4656-9E63-1F575A15E2FA}" ShortID="116425903" Type="ChangePitch" Scope="One" Global="false">
+							<Comment>137791507</Comment>
+							<PropertyList>
+								<Property Name="Pitch" Type="int32" Value="-1800" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8C70E9C5-2B0A-4472-90E4-3CEDFD4569DD}" Global="false">
+									<ObjectRef Name="_137791507_346552983" ID="{0678B03B-1B32-42E5-9748-37DEC2AABDF8}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Pitch" ID="{D93DC1A2-35F3-4FDE-8781-BC8E6B9503A2}" ShortID="457104750" Type="ChangePitch" Scope="One" Global="false">
+							<Comment>137791507 probability=600</Comment>
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.45" />
+								<Property Name="Pitch" Type="int32" Value="200" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{943CE326-0A0F-459F-87E1-E7482F3EFAF4}" Global="false">
+									<ObjectRef Name="_137791507_346552983" ID="{0678B03B-1B32-42E5-9748-37DEC2AABDF8}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{E14D7F24-B718-43B4-8DF9-304EFFC85701}" ShortID="590135140" Type="Stop" Scope="One" Global="false">
+							<Comment>137791507</Comment>
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1" />
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A4059549-919A-4F8D-BE21-A9DA84AD57B3}" Global="false">
+									<ObjectRef Name="_86715929_784403528" ID="{4E50DC8C-56F1-492F-8D1C-B27866F9C380}" WorkUnitID="{2E9E7B09-2F6E-42D5-A4D6-2DDF3F7C9DFC}" />
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
