@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27ECE268-F92D-40E0-AD33-96F7155932AC}" SchemaVersion="62">
+	<Attenuations>
+		<WorkUnit Name="mgo" ID="{27ECE268-F92D-40E0-AD33-96F7155932AC}" PersistMode="Standalone" />
+	</Attenuations>
+</WwiseDocument>

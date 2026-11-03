@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{43608E70-0C11-46A7-B803-3D72F714CAF1}" SchemaVersion="62">
+	<SoundBanks>
+		<WorkUnit Name="mgo" ID="{43608E70-0C11-46A7-B803-3D72F714CAF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="env_afc1_common" ID="{B6D3F842-911F-4BE7-A483-1BFAE1DE93EC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="mgo_sfx_f_torch" ID="{2484E920-2F31-4D66-B433-D14579EFF363}" WorkUnitID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="sfx_indoor_drips" ID="{40945455-3F46-4456-81C9-B6988356499C}" WorkUnitID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="sfx_sparks" ID="{D3D04656-9B24-4FD8-A84B-67390D7ACEE4}" WorkUnitID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" Filter="7" Origin="Manual" />
+						<ObjectRef Name="afc1" ID="{8993BDE1-69A3-4C5F-9E14-70FCA8501C57}" WorkUnitID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" Filter="7" Origin="Manual" />
+					</ObjectInclusionList>
+					<ObjectExclusionList />
+					<GameSyncExclusionList />
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

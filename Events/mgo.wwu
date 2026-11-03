@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" SchemaVersion="62">
+	<Events>
+		<WorkUnit Name="mgo" ID="{5E758F60-C025-4C20-B044-D420EFAE45AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="afc1" ID="{8993BDE1-69A3-4C5F-9E14-70FCA8501C57}" ShortID="128172352">
+					<ChildrenList>
+						<Folder Name="env" ID="{44994EF5-78BF-4D1B-991B-ED7F0F8DE54F}" ShortID="659008807">
+							<ChildrenList>
+								<Event Name="env_afc1_global" ID="{A31811D1-5F78-4ECA-A610-4060AD48518D}">
+									<Comment>4277348542</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{3873D406-9737-4CAB-80EA-C080136C0B0B}" ShortID="267116926" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{2940A134-4303-47C9-9127-95EE31CF73D4}" Global="false">
+													<ObjectRef Name="_424276289" ID="{4B783217-3254-4B59-996D-06E516E283F5}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="env_afc1_situation" ID="{210A0528-F79A-4E16-8A8C-9C641AC58814}">
+									<Comment>681897801</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{A6743AC2-D146-4262-A48D-7BB31BAAF837}" ShortID="962922710" Type="Play" Scope="One" Global="false">
+											<Comment>RAIN</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{F0306417-CC09-49B5-A5CB-32747B12AEB0}" Global="false">
+													<ObjectRef Name="_311034683" ID="{7F6765E4-31B1-4DC0-B45D-52F74F70FFC4}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{BC34F7B7-2D87-464E-B406-EBCCFEB2946F}" ShortID="186290476" Type="Play" Scope="One" Global="false">
+											<Comment>NIGHT</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{6036203F-4CCE-499C-AB52-90B352F999E9}" Global="false">
+													<ObjectRef Name="_534041946" ID="{09488716-9DB3-441A-9A9C-FF6F0535AD47}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{ECD84BFB-45F8-42D5-922B-F5626FDC64CD}" ShortID="37643673" Type="Play" Scope="One" Global="false">
+											<Comment>PASSAGE WIND</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{0816CD8D-1C24-46DB-A979-B1646652B99A}" Global="false">
+													<ObjectRef Name="_271839864" ID="{F701AE73-9420-4FF2-B2C4-0AF9C2517825}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{FF8D7A46-9E08-4E62-A68D-539E45709CDA}" ShortID="1041413066" Type="Play" Scope="One" Global="false">
+											<Comment>RAIN INDOORS LEFT</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{6AC6638C-B4B1-409D-A6D7-D9D007C1AE9E}" Global="false">
+													<ObjectRef Name="_25861978" ID="{3B27A1F4-4AF1-4818-9003-BA081AAE3049}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{FCAE941B-6A9D-4E76-81E0-2D3B13768F7A}" ShortID="638919444" Type="Play" Scope="One" Global="false">
+											<Comment>RAIN INDOORS RIGHT</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{4076F47A-EFD7-4468-AA8D-03B4531E19C7}" Global="false">
+													<ObjectRef Name="_983854328" ID="{8166E74A-486D-4CF2-A6D2-79E1C3DC24FE}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{8DD03451-371B-49AC-BBFF-3E3E82641A3C}" ShortID="284831780" Type="Play" Scope="One" Global="false">
+											<Comment>WIND DIRECTIONAL</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{DCF7218D-8205-49FC-B930-FAE2944A3CAB}" Global="false">
+													<ObjectRef Name="_1060800036" ID="{B2DA0AFC-D245-4B8B-89D6-7CEF79C004C3}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{30753603-AB8D-4966-ADE1-6425D80FA65A}" ShortID="511956168" Type="Play" Scope="One" Global="false">
+											<Comment>DAY</Comment>
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{80074428-C19C-4CD7-BB1F-2D475B88C134}" Global="false">
+													<ObjectRef Name="_923888848" ID="{43B05C81-0409-4CEE-A585-57CED531730A}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="env_afc1_ug" ID="{7BF44AF7-38A4-4E61-A70F-1DF2B37B8587}">
+									<ChildrenList>
+										<Action Name="Play" ID="{05B0D1C5-686E-4B4B-8952-1694CDF21B39}" ShortID="657954103" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{E9E19EC0-5F9D-41A9-89B2-62FD8E6BB9AD}" Global="false">
+													<ObjectRef Name="_781858942" ID="{06B78A71-0119-4A2F-A9CE-0B67304B4CAE}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="sfx_m_afc1_sea" ID="{319BBA91-E233-4AC3-8E72-8100FC34F7E5}">
+									<Comment>4088172332</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{2AF24E25-8BDC-45F7-92C6-B6E94BD92374}" ShortID="450805064" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{F1AABEF8-8D53-4E5F-B0D0-740CC7CFD72E}" Global="false">
+													<ObjectRef Name="_392411235" ID="{68BA51A4-7194-427B-A4CD-6077D6DEA282}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="vfx" ID="{EBD4D8CC-CB56-4D90-A549-F83107731554}" ShortID="144353452">
+							<ChildrenList>
+								<Event Name="sfx_f_firdrw02_s5" ID="{6010E189-A4AE-45E8-97B6-55BC1FC000AE}">
+									<Comment>1592401977</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{0238F0EF-023E-4636-A2C0-276640B0C68E}" ShortID="752183832" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{F37A454B-BD3D-455B-8EF5-7DCD940AE800}" Global="false">
+													<ObjectRef Name="_883392733" ID="{F7653964-37D5-4B18-A2FC-BA78629766C2}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{C9D9E0C6-D048-4C3A-BE6E-4B480A4C66B3}" ShortID="270840064" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{27867CB0-31DC-4176-BDF4-3E04BC9680D6}" Global="false">
+													<ObjectRef Name="_766120067" ID="{51CC3A4F-4C81-475F-983E-C0E54B0182BF}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{43173C87-C23E-4E21-B9AE-18C393C00395}" ShortID="966344905" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{9AE562A1-B6E8-42B6-A167-5D21DF078CC7}" Global="false">
+													<ObjectRef Name="_273218962" ID="{EBE9FE24-D0F2-431D-B4D1-D86B11ACA67B}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="sfx_f_smkmchbrk02_m2" ID="{E6F5BF78-A919-4219-8069-F23B70C5853A}">
+									<Comment>2840421124</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{C97A7BD5-B30C-4906-B083-F7E301CA7C20}" ShortID="437107853" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{CB9AA896-B356-4DCD-8E35-EFD19BC2407D}" Global="false">
+													<ObjectRef Name="_642787164" ID="{DD00E54F-C900-403A-AAC4-77446E4E587F}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{B0DF12CE-BDCA-4E90-9CC0-496ED6F7AF84}" ShortID="142569651" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.1" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{B05CFD77-B982-4972-ACD8-D817EBDE921B}" Global="false">
+													<ObjectRef Name="_616710768" ID="{364EBBE3-FE9C-4D07-B6CA-B831B1154AAA}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="sfx_f_smkrolanm03_s1" ID="{6E3853D8-A834-4976-AB3C-ABBB0876466D}">
+									<Comment>2535754466</Comment>
+									<ChildrenList>
+										<Action Name="Play" ID="{CA8F4F83-867D-4066-8778-74BD56478749}" ShortID="995161541" Type="Play" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.3" />
+											</PropertyList>
+											<ElementList>
+												<Element ID="{3CD119D9-0767-4A16-87D8-E2C5289124F1}" Global="false">
+													<ObjectRef Name="_1073399435" ID="{9CC55A8C-8B89-4855-A38C-42CF9FBBAC1D}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="common" ID="{FE598A91-9E7D-4BEE-B952-0002363F30A1}" ShortID="563128840">
+					<ChildrenList>
+						<Event Name="mgo_sfx_f_torch" ID="{2484E920-2F31-4D66-B433-D14579EFF363}">
+							<Comment>1110662060</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{E2C030DC-3FE4-4EAB-B4E9-5D65805E1B58}" ShortID="727176671" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.1" />
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BEFE8B19-4D92-41ED-BAD4-34DF49340564}" Global="false">
+											<ObjectRef Name="_500140167" ID="{FE3EFA0A-FAD8-4F25-9E14-211FDFB8E999}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_sparks" ID="{D3D04656-9B24-4FD8-A84B-67390D7ACEE4}">
+							<Comment>1587360575</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{6DD25572-DC25-4CC6-AC3A-EC037222ABAF}" ShortID="519075980" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C6AF6381-D6B8-4D82-B892-0B03DBDA5818}" Global="false">
+											<ObjectRef Name="_270096162" ID="{834FCBBA-A602-443E-8CDD-C2D50FBAE3CC}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{C3D04B96-4F4E-444D-A912-9B892431C543}" ShortID="695855188" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{A6192477-DB97-4762-8CCF-290EC382136D}" Global="false">
+											<ObjectRef Name="_178215751" ID="{4B21A252-18BB-4C37-905E-BE48BC56B54F}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_indoor_drips" ID="{40945455-3F46-4456-81C9-B6988356499C}">
+							<Comment>2670800645</Comment>
+							<ChildrenList>
+								<Action Name="Play" ID="{F12B1614-FD50-4F46-A9BE-F9F47ADAFD49}" ShortID="1062211916" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{73CA0C88-9782-4732-9D3C-F347A43849C7}" Global="false">
+											<ObjectRef Name="_87504634" ID="{C0CEE32A-9584-4A87-8F39-2311121D8023}" WorkUnitID="{D404E245-1033-42E5-825C-B80E52DB741B}" />
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
